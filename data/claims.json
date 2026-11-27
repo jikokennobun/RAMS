@@ -1,0 +1,7 @@
+[
+  {"id":"RAMS-C001","statement":"全基本演算がmax非拡大的な距離は、Mal'cev項がある場合に超距離となる。RAMSへの適用条件を確定する。","assumptions":["Mal'cev項の存在","全基本演算のmax非拡大性","分離的距離"],"status":"pending","scope":"general_theorem","source_ids":["S002"],"evidence":[],"audit":[],"novelty":"unchecked"},
+  {"id":"RAMS-C002","statement":"適合完備縮小超距離と、分離的合同塔・逆極限実現・様相の一段深化との対応。正確な同値条件を確定する。","assumptions":["非様相還元の合同塔","可算降鎖","様相の一段深化","完備性と分離性の正確な規約"],"status":"pending","scope":"general_theorem","source_ids":["S001","S002"],"evidence":[],"audit":[],"novelty":"unchecked"},
+  {"id":"RAMS-C003","statement":"局所的な像吸収条件の下でSC解とFLöbを関係づける。両方向に必要な仮定を再構成する。","assumptions":["有界整可換剰余束","様相条件は原稿と照合","像吸収の局所条件を確定"],"status":"pending","scope":"general_theorem","source_ids":["S001"],"evidence":[],"audit":[],"novelty":"unchecked"},
+  {"id":"RAMS-C004","statement":"標準MV代数のbox_r(x)=1-r+rxによる縮小性・一意性・項定義可能性の分離。","assumptions":["0<r<1","標準MV言語と定数0,1","gTFPP反例のrは既約有理数"],"status":"pending","scope":"infinite_model_family","source_ids":["S001"],"evidence":[],"audit":[],"novelty":"unchecked"},
+  {"id":"RAMS-C005","statement":"NK4下のgTFPPからgUが従うか。","assumptions":["NK4","対象クラスと言語の確定が必要"],"status":"pending","scope":"open_question","source_ids":["S002","S003"],"evidence":[],"audit":[],"novelty":"unchecked"}
+]

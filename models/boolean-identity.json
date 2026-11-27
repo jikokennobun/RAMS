@@ -1,0 +1,6 @@
+{
+  "id":"boolean-identity", "description":"検証器用: Boolean二元代数、box=id。新規研究結果ではない。",
+  "elements":["0","1"], "bottom":0, "top":1,
+  "meet":[[0,0],[0,1]], "join":[[0,1],[1,1]],
+  "product":[[0,0],[0,1]], "residual":[[1,1],[0,1]], "box":[0,1]
+}

@@ -1,0 +1,7 @@
+[
+  {"id":"RAMS-Q001","title":"研究資料と正式定義を集約する","priority":1,"status":"ready","depends_on":[],"claim_ids":[],"source_ids":["S001","S002","S003"],"objective":"references/originals内の原稿を照合し、正確な署名・原理の量化順序・版間の訂正を整理する。原本がなければ欠落資料を明示し、チャットからの推測で埋めない。","deliverables":["research/reports/RAMS-Q001-discovery.md"]},
+  {"id":"RAMS-Q002","title":"Mal'cev項と超距離性を検証する","priority":2,"status":"queued","depends_on":["RAMS-Q001"],"claim_ids":["RAMS-C001"],"source_ids":["S002"],"objective":"明示的なMal'cev項を構成し、全ての恒等式とmax非拡大性からの超三角不等式を証明する。RAMSへの適用で必要な仮定と距離の有界性の別問題を整理する。","deliverables":["research/reports/RAMS-Q002-discovery.md"]},
+  {"id":"RAMS-Q003","title":"合同塔と縮小超距離の対応を監査する","priority":3,"status":"queued","depends_on":["RAMS-Q001","RAMS-Q002"],"claim_ids":["RAMS-C002"],"source_ids":["S001","S002"],"objective":"距離の定義の添字、合同商の逆系、標準写像の単射/全射、boxの段階移動を明示する。有限商を仮定していないか点検する。","deliverables":["research/reports/RAMS-Q003-discovery.md"]},
+  {"id":"RAMS-Q004","title":"SCと局所吸収の必要仮定を確定する","priority":4,"status":"queued","depends_on":["RAMS-Q001"],"claim_ids":["RAMS-C003"],"source_ids":["S001"],"objective":"SCからFLöbと逆方向を別々に証明し、単調性だけで十分かN/K等が必要かを精査する。","deliverables":["research/reports/RAMS-Q004-discovery.md"]},
+  {"id":"RAMS-Q005","title":"MV反例族を有理数で再検算する","priority":5,"status":"queued","depends_on":["RAMS-Q001"],"claim_ids":["RAMS-C004"],"source_ids":["S001"],"objective":"剰余律・N/K/4・全区間での解の存在/非一意性と閉項の算術障害を証明する。有限サンプルと全区間証明を区別する。","deliverables":["research/reports/RAMS-Q005-discovery.md","scripts/verify-mv-rational.mjs"]}
+]

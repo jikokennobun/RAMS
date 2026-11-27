@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+.venv/
+research/runs/
+*.aux
+*.fdb_latexmk
+*.fls
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
