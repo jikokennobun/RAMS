@@ -51,7 +51,7 @@ export function separations(result) {
 export function saveExperiments(result,out) {
   mkdirSync(resolve(out,'certificates'),{recursive:true});
   for(const r of result.results)writeFileSync(resolve(out,'certificates',`${r.model_id}.json`),JSON.stringify(r.certificate,null,2)+'\n');
-  const summary={...result,results:result.results.map(({certificate,...r})=>({...r,certificate_path:`certificates/${r.model_id}.json` })),separations:separations(result),unsupported:['gTFPP','gUTFPP','MC','uMC','AMC','uAMC','Mix','sLob']};
+  const summary={...result,results:result.results.map(({certificate,...r})=>({...r,certificate_path:`certificates/${r.model_id}.json` })),separations:separations(result),unsupported:['gTFPP','gUTFPP','MC','uMC','AMC','uAMC','PhiSep','PhiComp','UF_all']};
   writeFileSync(resolve(out,'summary.json'),JSON.stringify(summary,null,2)+'\n');
   return summary;
 }

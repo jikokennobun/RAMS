@@ -1,37 +1,633 @@
 {
   "profile": "working-bicrl-v1",
-  "description": "research/definitions.mdの作業用署名。正式なRAMS定義との照合は未完了。",
+  "description": "S005 v11 §1.1–1.2との定義照合済み。同じ署名・量化規約を保持。sourceの証明状態と独立監査状態は別管理。",
   "principles": [
-    {"id":"N","definition":"box(1)=1","kind":"axiom"},
-    {"id":"K","definition":"box(a -> b) <= (box(a) -> box(b))","kind":"axiom"},
-    {"id":"4","definition":"box(a) <= box(box(a))","kind":"axiom"},
-    {"id":"gFPP","definition":"全元パラメータを許す各ガード付き一変数項に解が存在する","kind":"fixed_point"},
-    {"id":"gU","definition":"全元パラメータを許す各ガード付き一変数項の解は高々一つ","kind":"fixed_point"},
-    {"id":"gUFPP","definition":"全元パラメータを許す各ガード付き一変数項の解はちょうど一つ","kind":"fixed_point"},
-    {"id":"gTFPP","definition":"有限パラメータ列に対する一様な解項。クラス・言語・量化順序は原本照合待ち","kind":"provisional"},
-    {"id":"gUTFPP","definition":"一様項解構成の強化。原本照合待ち","kind":"provisional"},
-    {"id":"Lob","definition":"全aについて box(a)<=a なら a=1（準等式）","kind":"provisional"},
-    {"id":"FLob","definition":"全aについて box(box(a)->a)<=box(a)","kind":"provisional"},
-    {"id":"sLob","definition":"強いLöb原理。原本照合待ち","kind":"provisional"},
-    {"id":"SC","definition":"全aについて存在p: p=(box(p)->a)","kind":"provisional"},
-    {"id":"Mix","definition":"原本照合待ち。検証器で推測して実装しない","kind":"provisional"},
-    {"id":"IA_box","definition":"全xについて box(x product box(x))=box(x)（作業用定式化）","kind":"provisional"},
-    {"id":"MC","definition":"様相縮小距離。距離条件・量化順序は原本照合待ち","kind":"provisional"},
-    {"id":"uMC","definition":"超距離版MC。原本照合待ち","kind":"provisional"},
-    {"id":"AMC","definition":"適合完備縮小距離。非様相演算のmax非拡大性など原本照合待ち","kind":"provisional"},
-    {"id":"uAMC","definition":"適合完備縮小超距離。原本照合待ち","kind":"provisional"},
-    {"id":"CongruenceTower","definition":"分離的合同降鎖・逆極限実現・boxの一段深化。正確な添字は未監査","kind":"provisional"},
-    {"id":"UniformApproximation","definition":"不動点操作の有限項による一様近似。仮定未監査","kind":"provisional"}
+    {
+      "id": "N",
+      "definition": "box(1)=1",
+      "kind": "axiom"
+    },
+    {
+      "id": "K",
+      "definition": "box(a -> b) <= (box(a) -> box(b))",
+      "kind": "axiom"
+    },
+    {
+      "id": "4",
+      "definition": "box(a) <= box(box(a))",
+      "kind": "axiom"
+    },
+    {
+      "id": "gFPP",
+      "definition": "全元パラメータを許す各ガード付き一変数項に解が存在する",
+      "kind": "fixed_point"
+    },
+    {
+      "id": "gU",
+      "definition": "全元パラメータを許す各ガード付き一変数項の解は高々一つ",
+      "kind": "fixed_point"
+    },
+    {
+      "id": "gUFPP",
+      "definition": "全元パラメータを許す各ガード付き一変数項の解はちょうど一つ",
+      "kind": "fixed_point"
+    },
+    {
+      "id": "gTFPP",
+      "definition": "単一代数Aでforall guarded t(p,a) exists p-free original-language term s_t(a) forall a: s_t(a)=t(s_t(a),a)。任意元の新規定数を選択項へ追加しない。",
+      "kind": "fixed_point",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "gUTFPP",
+      "definition": "gTFPP and gU",
+      "kind": "fixed_point",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "Lob",
+      "definition": "forall a: box(a)<=a implies a=1",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "FLob",
+      "definition": "forall a: box(box(a)->a)<=box(a)",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "sLob",
+      "definition": "forall a: (box(a)->a)<=a",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "SC",
+      "definition": "forall a exists p: p=(box(p)->a)",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "Mix",
+      "definition": "forall x: box(x)<=box(x) product box(box(x))",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "IA_box",
+      "definition": "forall x: box(x product box(x))=box(x)",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "MC",
+      "definition": "A上に完備分離的距離dと一様0<=q<1が存在しboxがq縮小",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "uMC",
+      "definition": "MCの超距離版",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "AMC",
+      "definition": "MCかつ全ての非様相基本演算がmax積距離について非拡大",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "uAMC",
+      "definition": "AMCの超距離版",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "CongruenceTower",
+      "definition": "A^-上に分離的合同降鎖theta_0=nablaとbox-shiftと全単射A->lim A^-/theta_nを満たすある塔が存在。正準Phi塔とは区別。",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "UniformApproximation",
+      "definition": "有限ガード系の解操作が元言語の反復項のパラメータ一様極限となる",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "M",
+      "definition": "boxは単調",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "C",
+      "definition": "box(x) product box(y)<=box(x product y)",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "Abs",
+      "definition": "x<=x product box(x)",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "CP",
+      "definition": "x<=box(x)",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "Ctr",
+      "definition": "x<=x product x",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "Ctr_box",
+      "definition": "box(x)<=box(x) product box(x)",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "bAMC",
+      "definition": "AMCの有界距離版",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "buAMC",
+      "definition": "uAMCの有界距離版",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "PhiSep",
+      "definition": "正準Phi反復合同塔の交わりがDelta",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "PhiComp",
+      "definition": "正準Phi塔の全整合剰余類列がAで実現される",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "ImgSep",
+      "definition": "intersection_n box^n[A]={1}",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "TermUniformClosed",
+      "definition": "各有限パラメータarityの項関数集合が上限距離の下一様閉",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "UF_all",
+      "definition": "全濃度kappaで有限支持fully guarded連立系が唯一解を持つ",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "id": "LipFix",
+      "definition": "ガード付き項の不動点選択がパラメータ方向で1-Lipschitz",
+      "kind": "source_defined",
+      "source_ids": [
+        "S005"
+      ]
+    }
   ],
   "rules": [
-    {"id":"DEF-001","premises":["gUFPP"],"conclusion":"gFPP","assumptions":[],"status":"definition","evidence":["research/definitions.md"],"audit":[]},
-    {"id":"DEF-002","premises":["gUFPP"],"conclusion":"gU","assumptions":[],"status":"definition","evidence":["research/definitions.md"],"audit":[]},
-    {"id":"DEF-003","premises":["gFPP","gU"],"conclusion":"gUFPP","assumptions":[],"status":"definition","evidence":["research/definitions.md"],"audit":[]},
-    {"id":"LEAD-001","premises":["SC"],"conclusion":"FLob","assumptions":["N","K","4","IA_box"],"status":"pending","source_ids":["S001"],"evidence":[],"audit":[]},
-    {"id":"LEAD-002","premises":["AMC"],"conclusion":"uAMC","assumptions":[],"status":"pending","source_ids":["S002"],"evidence":[],"audit":[]},
-    {"id":"LEAD-003","premises":["uAMC"],"conclusion":"CongruenceTower","assumptions":[],"status":"pending","source_ids":["S002"],"evidence":[],"audit":[]},
-    {"id":"LEAD-004","premises":["CongruenceTower"],"conclusion":"uAMC","assumptions":[],"status":"pending","source_ids":["S001","S002"],"evidence":[],"audit":[]},
-    {"id":"LEAD-005","premises":["AMC"],"conclusion":"UniformApproximation","assumptions":[],"status":"pending","source_ids":["S002"],"evidence":[],"audit":[]},
-    {"id":"LEAD-006","premises":["gTFPP"],"conclusion":"gU","assumptions":["N","K","4"],"status":"open","source_ids":["S002","S003"],"evidence":[],"audit":[]}
+    {
+      "id": "DEF-001",
+      "premises": [
+        "gUFPP"
+      ],
+      "conclusion": "gFPP",
+      "assumptions": [],
+      "status": "definition",
+      "evidence": [
+        "research/definitions.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "DEF-002",
+      "premises": [
+        "gUFPP"
+      ],
+      "conclusion": "gU",
+      "assumptions": [],
+      "status": "definition",
+      "evidence": [
+        "research/definitions.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "DEF-003",
+      "premises": [
+        "gFPP",
+        "gU"
+      ],
+      "conclusion": "gUFPP",
+      "assumptions": [],
+      "status": "definition",
+      "evidence": [
+        "research/definitions.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "LEAD-001",
+      "premises": [
+        "SC"
+      ],
+      "conclusion": "FLob",
+      "assumptions": [
+        "M",
+        "IA_box"
+      ],
+      "status": "pending",
+      "source_ids": [
+        "S001",
+        "S005"
+      ],
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": [],
+      "source_status": "proved-in-note"
+    },
+    {
+      "id": "LEAD-002",
+      "premises": [
+        "AMC"
+      ],
+      "conclusion": "uAMC",
+      "assumptions": [],
+      "status": "pending",
+      "source_ids": [
+        "S002",
+        "S005"
+      ],
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": [],
+      "source_status": "proved-in-note"
+    },
+    {
+      "id": "LEAD-003",
+      "premises": [
+        "uAMC"
+      ],
+      "conclusion": "CongruenceTower",
+      "assumptions": [
+        "N"
+      ],
+      "status": "pending",
+      "source_ids": [
+        "S002",
+        "S005"
+      ],
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": [],
+      "source_status": "proved-in-note"
+    },
+    {
+      "id": "LEAD-004",
+      "premises": [
+        "CongruenceTower"
+      ],
+      "conclusion": "uAMC",
+      "assumptions": [
+        "N"
+      ],
+      "status": "pending",
+      "source_ids": [
+        "S001",
+        "S002",
+        "S005"
+      ],
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": [],
+      "source_status": "proved-in-note"
+    },
+    {
+      "id": "LEAD-005",
+      "premises": [
+        "AMC"
+      ],
+      "conclusion": "UniformApproximation",
+      "assumptions": [],
+      "status": "pending",
+      "source_ids": [
+        "S002",
+        "S005"
+      ],
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": [],
+      "source_status": "proved-in-note"
+    },
+    {
+      "id": "LEAD-006",
+      "premises": [
+        "gTFPP"
+      ],
+      "conclusion": "gU",
+      "assumptions": [
+        "N",
+        "K",
+        "4"
+      ],
+      "status": "open",
+      "source_ids": [
+        "S002",
+        "S003",
+        "S005"
+      ],
+      "evidence": [],
+      "audit": []
+    },
+    {
+      "id": "DEF-004",
+      "premises": [
+        "gUTFPP"
+      ],
+      "conclusion": "gTFPP",
+      "assumptions": [],
+      "status": "definition",
+      "source_ids": [
+        "S005"
+      ],
+      "evidence": [
+        "research/definitions.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "DEF-005",
+      "premises": [
+        "gUTFPP"
+      ],
+      "conclusion": "gU",
+      "assumptions": [],
+      "status": "definition",
+      "source_ids": [
+        "S005"
+      ],
+      "evidence": [
+        "research/definitions.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "DEF-006",
+      "premises": [
+        "gTFPP",
+        "gU"
+      ],
+      "conclusion": "gUTFPP",
+      "assumptions": [],
+      "status": "definition",
+      "source_ids": [
+        "S005"
+      ],
+      "evidence": [
+        "research/definitions.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "DEF-007",
+      "premises": [
+        "gTFPP"
+      ],
+      "conclusion": "gFPP",
+      "assumptions": [],
+      "status": "definition",
+      "source_ids": [
+        "S005"
+      ],
+      "evidence": [
+        "research/definitions.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "V11-001",
+      "premises": [
+        "AMC"
+      ],
+      "conclusion": "bAMC",
+      "assumptions": [],
+      "status": "pending",
+      "source_ids": [
+        "S005"
+      ],
+      "source_section": "N11-01",
+      "source_status": "proved-in-note",
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "V11-002",
+      "premises": [
+        "AMC"
+      ],
+      "conclusion": "buAMC",
+      "assumptions": [],
+      "status": "pending",
+      "source_ids": [
+        "S005"
+      ],
+      "source_section": "N11-01",
+      "source_status": "proved-in-note",
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "V11-003",
+      "premises": [
+        "AMC"
+      ],
+      "conclusion": "UF_all",
+      "assumptions": [],
+      "status": "pending",
+      "source_ids": [
+        "S005"
+      ],
+      "source_section": "N11-03",
+      "source_status": "proved-in-note",
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "V11-004",
+      "premises": [
+        "AMC"
+      ],
+      "conclusion": "LipFix",
+      "assumptions": [],
+      "status": "pending",
+      "source_ids": [
+        "S005"
+      ],
+      "source_section": "N11-03",
+      "source_status": "proved-in-note",
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "V11-005",
+      "premises": [
+        "PhiSep",
+        "PhiComp"
+      ],
+      "conclusion": "AMC",
+      "assumptions": [
+        "N"
+      ],
+      "status": "pending",
+      "source_ids": [
+        "S005"
+      ],
+      "source_section": "N11-02/N11-06",
+      "source_status": "proved-in-note",
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "V11-006",
+      "premises": [
+        "PhiSep"
+      ],
+      "conclusion": "ImgSep",
+      "assumptions": [
+        "N"
+      ],
+      "status": "pending",
+      "source_ids": [
+        "S005"
+      ],
+      "source_section": "N11-06",
+      "source_status": "proved-in-note",
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "V11-007",
+      "premises": [
+        "AMC",
+        "TermUniformClosed"
+      ],
+      "conclusion": "gTFPP",
+      "assumptions": [],
+      "status": "pending",
+      "source_ids": [
+        "S005"
+      ],
+      "source_section": "N11-04",
+      "source_status": "proved-in-note",
+      "evidence": [
+        "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+      ],
+      "audit": []
+    },
+    {
+      "id": "V11-008",
+      "premises": [
+        "AMC"
+      ],
+      "conclusion": "PhiComp",
+      "assumptions": [],
+      "status": "open",
+      "source_ids": [
+        "S005"
+      ],
+      "source_section": "N11-06",
+      "source_status": "open",
+      "evidence": [],
+      "audit": []
+    }
   ]
 }

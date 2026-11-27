@@ -1,0 +1,3781 @@
+{
+  "format": "rams-source-registry-v1",
+  "source_id": "S005",
+  "source_path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+  "source_sha256": "1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951",
+  "part": 5,
+  "columns": [
+    "id",
+    "label",
+    "family",
+    "formula",
+    "grade",
+    "detail",
+    "level",
+    "review",
+    "source"
+  ],
+  "count": 235,
+  "records": [
+    {
+      "key": "S005:principles:sLob",
+      "source_line": 1447,
+      "raw": {
+        "id": "sLob",
+        "label": "sLöb ≡ Top",
+        "family": "core",
+        "formula": "(□x→x) ≤ x",
+        "grade": "draft",
+        "detail": "強 Löb 公理 (□x→x)≤x。Top は全ガード付き項の t(t(1))=t(1)。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FLob",
+      "source_line": 1448,
+      "raw": {
+        "id": "FLob",
+        "label": "FLöb ≡ BTop",
+        "family": "core",
+        "formula": "□(□x→x) ≤ □x",
+        "grade": "draft",
+        "detail": "形式化 Löb：□(□x→x)≤□x。草稿主定理によりガード付き有限系の唯一解・一様な項解を導く。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:gUTFPP",
+      "source_line": 1449,
+      "raw": {
+        "id": "gUTFPP",
+        "label": "gTFPP ∧ gU",
+        "family": "core",
+        "formula": "gTFPP ∧ gU",
+        "grade": "draft",
+        "detail": "項による一様解が存在し、全ガード付き方程式の解が高々一つ。gUFPP と gTFPP を同時に満たす。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:gTFPP",
+      "source_line": 1450,
+      "raw": {
+        "id": "gTFPP",
+        "label": "gTFPP",
+        "family": "core",
+        "formula": "∀ guarded t(p,a⃗), ∃ term s_t(a⃗), A ⊨ s_t=t(s_t,a⃗)",
+        "grade": "draft",
+        "detail": "各ガード付き項 t(p,a) ごとに、すべてのパラメータで通用する p-free 項 s_t(a) が存在する。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:gUFPP",
+      "source_line": 1451,
+      "raw": {
+        "id": "gUFPP",
+        "label": "gUFPP",
+        "family": "core",
+        "formula": "gFPP ∧ gU",
+        "grade": "draft",
+        "detail": "全ガード付き項が唯一の不動点を持つ。gFPP∧gU と定義上同値。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:gFPP",
+      "source_line": 1452,
+      "raw": {
+        "id": "gFPP",
+        "label": "gFPP",
+        "family": "core",
+        "formula": "∀ guarded t, ∀a⃗, ∃p (p=t(p,a⃗))",
+        "grade": "draft",
+        "detail": "全ガード付き一変数項が、すべてのパラメータ値で不動点を持つ。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:gU",
+      "source_line": 1453,
+      "raw": {
+        "id": "gU",
+        "label": "gU ≡ ∧ₙ Lₙ",
+        "family": "core",
+        "formula": "∀ guarded t, ∀a⃗, ∀p,q ((p=t(p,a⃗) ∧ q=t(q,a⃗)) ⇒ p=q)",
+        "grade": "draft",
+        "detail": "全ガード付き項の不動点が高々一つ。N,K,4 上で、全ての有限べき Löb 規則 Lₙ と同値。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SC",
+      "source_line": 1454,
+      "raw": {
+        "id": "SC",
+        "label": "SC ≡ SC! ≡ J ≡ J!",
+        "family": "core",
+        "formula": "∀a ∃p (p=□p→a)",
+        "grade": "draft",
+        "detail": "p=□p→a の存在。Γ 上では高々一意性が自動的であり、Jeroslow 型と解集合が全単射。 ／注意: SC⇒Löb は N+K+4 上では偽（□=id の標準MV反例）。Γでの「⇒Löb」は公理による自明なもの。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Lob",
+      "source_line": 1455,
+      "raw": {
+        "id": "Lob",
+        "label": "L₁ = Löb ≡ H!",
+        "family": "core",
+        "formula": "□x ≤ x ⇒ x=1",
+        "grade": "draft",
+        "detail": "L₁: □x≤x⇒x=1。Γでは基礎仮定なので真。SCとのN+K+4上の比較にはΓ0へ弱めなければならない。 N,K,4上で完備距離・完備超距離の存在（□のみ縮小）と同値。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FAll",
+      "source_line": 1456,
+      "raw": {
+        "id": "FAll",
+        "label": "∧ₖ,ₕ Fₖ,ₕ",
+        "family": "exist",
+        "formula": "⋀_{k≥1,h≥1}F_{k,h}",
+        "grade": "draft",
+        "detail": "全有限出現回数・全有限ガード深度のガード付き不動点存在。gFPP と同値。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:E3",
+      "source_line": 1457,
+      "raw": {
+        "id": "E3",
+        "label": "E₃ = ∧ₕ F₃,ₕ",
+        "family": "exist",
+        "formula": "⋀_{h≥1}F_{3,h}",
+        "grade": "draft",
+        "detail": "未知変数出現回数高々3・深度任意。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:E2",
+      "source_line": 1458,
+      "raw": {
+        "id": "E2",
+        "label": "E₂ = ∧ₕ F₂,ₕ",
+        "family": "exist",
+        "formula": "⋀_{h≥1}F_{2,h}",
+        "grade": "draft",
+        "detail": "未知変数出現回数高々2・深度任意。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:E1",
+      "source_line": 1459,
+      "raw": {
+        "id": "E1",
+        "label": "E₁ = ∧ₕ F₁,ₕ",
+        "family": "exist",
+        "formula": "⋀_{h≥1}F_{1,h}",
+        "grade": "draft",
+        "detail": "未知変数出現回数高々1・深度任意。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F31",
+      "source_line": 1460,
+      "raw": {
+        "id": "F31",
+        "label": "F₃,₁",
+        "family": "exist",
+        "formula": "F_{3,1}: ∀t∈Guard(occ_p≤3,depth_p≤1), ∀a⃗∃p[p=t(p,a⃗)]",
+        "grade": "draft",
+        "detail": "未知変数が高々3回、各出現のガード深度高々1の方程式の存在。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F22",
+      "source_line": 1461,
+      "raw": {
+        "id": "F22",
+        "label": "F₂,₂",
+        "family": "exist",
+        "formula": "F_{2,2}: ∀t∈Guard(occ_p≤2,depth_p≤2), ∀a⃗∃p[p=t(p,a⃗)]",
+        "grade": "draft",
+        "detail": "未知変数が高々2回、ガード深度高々2。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F21",
+      "source_line": 1462,
+      "raw": {
+        "id": "F21",
+        "label": "F₂,₁",
+        "family": "exist",
+        "formula": "F_{2,1}: ∀t∈Guard(occ_p≤2,depth_p≤1), ∀a⃗∃p[p=t(p,a⃗)]",
+        "grade": "draft",
+        "detail": "未知変数が高々2回、ガード深度高々1。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F13",
+      "source_line": 1463,
+      "raw": {
+        "id": "F13",
+        "label": "F₁,₃",
+        "family": "exist",
+        "formula": "F_{1,3}: ∀t∈Guard(occ_p≤1,depth_p≤3), ∀a⃗∃p[p=t(p,a⃗)]",
+        "grade": "draft",
+        "detail": "未知変数が高々1回、ガード深度高々3。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F12",
+      "source_line": 1464,
+      "raw": {
+        "id": "F12",
+        "label": "F₁,₂",
+        "family": "exist",
+        "formula": "F_{1,2}: ∀t∈Guard(occ_p≤1,depth_p≤2), ∀a⃗∃p[p=t(p,a⃗)]",
+        "grade": "draft",
+        "detail": "未知変数が高々1回、ガード深度高々2。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F11",
+      "source_line": 1465,
+      "raw": {
+        "id": "F11",
+        "label": "F₁,₁",
+        "family": "exist",
+        "formula": "∀ guarded t with occ_p(t)≤1, modal cover depth≤1, ∃p p=t(p,a⃗)",
+        "grade": "draft",
+        "detail": "未知変数が高々1回、ガード深度高々1。SC を含む。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SCiter",
+      "source_line": 1466,
+      "raw": {
+        "id": "SCiter",
+        "label": "SC<ω = ∧d SCd",
+        "family": "exist",
+        "formula": "⋀_{d≥1}SC_d",
+        "grade": "draft",
+        "detail": "すべての d≥1 の p=□^d p→a に解がある。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SCd",
+      "source_line": 1467,
+      "raw": {
+        "id": "SCd",
+        "label": "SCd",
+        "family": "exist",
+        "formula": "∀a,∃p [p=□^d p→a]",
+        "grade": "draft",
+        "detail": "p=□^d p→a の存在 (d≥1)。d=1 が SC。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SCpow",
+      "source_line": 1468,
+      "raw": {
+        "id": "SCpow",
+        "label": "SCpow(n,d)",
+        "family": "exist",
+        "formula": "∀a,∃p [p=(□^d p)^n→a]",
+        "grade": "draft",
+        "detail": "p=(□^d p)^n→a の存在。積冪と様相反復は別の指標。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SCplus",
+      "source_line": 1469,
+      "raw": {
+        "id": "SCplus",
+        "label": "SC⁺",
+        "family": "exist",
+        "formula": "SC⁺ : ∀a∈A ∃p∈A [p=a·□p]",
+        "grade": "draft",
+        "detail": "SC の正極性版。未知変数について単調な p=a·□p の全パラメータ可解性。SC⁻（p=□p→a）と相互非含意（草稿 Prop.5.6）。",
+        "level": "all",
+        "review": "indexed",
+        "source": "fixed_points_mix.pdf, draft v0.10 Proposition 5.6"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:J",
+      "source_line": 1470,
+      "raw": {
+        "id": "J",
+        "label": "J",
+        "family": "exist",
+        "formula": "∀a,∃j [j=□(j→a)]",
+        "grade": "draft",
+        "detail": "j=□(j→a) の存在。SC とパラメータごとに全単射。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:G0",
+      "source_line": 1471,
+      "raw": {
+        "id": "G0",
+        "label": "G₀ ≡ J₀",
+        "family": "exist",
+        "formula": "∃p (p=¬□p)",
+        "grade": "draft",
+        "detail": "p=¬□p の存在。J₀ 版と同値。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SCterm",
+      "source_line": 1472,
+      "raw": {
+        "id": "SCterm",
+        "label": "SCterm ≡ Jterm",
+        "family": "exist",
+        "formula": "∃pを含まない項 s(a) ∀a∈A [s(a)=□s(a)→a]",
+        "grade": "draft",
+        "detail": "SC/Jeroslow 方程式の全パラメータを項で一様解選択。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ESC",
+      "source_line": 1473,
+      "raw": {
+        "id": "ESC",
+        "label": "ESC",
+        "family": "exist",
+        "formula": "□a→a = □(□a→a)→a",
+        "grade": "draft",
+        "detail": "特定の項 □a→a が Santa Claus 方程式を解くという指定解原理。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Lall",
+      "source_line": 1474,
+      "raw": {
+        "id": "Lall",
+        "label": "∧ₙ Lₙ",
+        "family": "uniq",
+        "formula": "⋀_{n≥1}L_n",
+        "grade": "draft",
+        "detail": "全有限べき Löb 規則。N,K,4 上で gU と同値。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:L4",
+      "source_line": 1475,
+      "raw": {
+        "id": "L4",
+        "label": "L₄",
+        "family": "uniq",
+        "formula": "(□x)⁴≤x ⇒ x=1",
+        "grade": "draft",
+        "detail": "(□x)^4≤x ⇒ x=1。",
+        "level": "all",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:L3",
+      "source_line": 1476,
+      "raw": {
+        "id": "L3",
+        "label": "L₃",
+        "family": "uniq",
+        "formula": "(□x)³≤x ⇒ x=1",
+        "grade": "draft",
+        "detail": "(□x)^3≤x ⇒ x=1。",
+        "level": "all",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:L2",
+      "source_line": 1477,
+      "raw": {
+        "id": "L2",
+        "label": "L₂",
+        "family": "uniq",
+        "formula": "(□x)²≤x ⇒ x=1",
+        "grade": "draft",
+        "detail": "(□x)^2≤x ⇒ x=1。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Ubounded",
+      "source_line": 1478,
+      "raw": {
+        "id": "Ubounded",
+        "label": "U≤n ≡ Lₙ",
+        "family": "uniq",
+        "formula": "∀guarded t(occ_p≤n) ∀a⃗∀p,q: p=t(p,a⃗)∧q=t(q,a⃗)⇒p=q",
+        "grade": "draft",
+        "detail": "未知変数出現回数高々 n のガード付き項の高々一意性。深度上限に依存しない。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Pall",
+      "source_line": 1479,
+      "raw": {
+        "id": "Pall",
+        "label": "∧ₙ Pₙ ≡ gUFPP",
+        "family": "uniq",
+        "formula": "∧_{n≥1}(gFPP ∧ L_n)",
+        "grade": "draft",
+        "detail": "Pₙ=gFPP∧Lₙ の全てを要求することは gUFPP と同値。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:P4",
+      "source_line": 1480,
+      "raw": {
+        "id": "P4",
+        "label": "P₄",
+        "family": "uniq",
+        "formula": "gFPP∧L₄",
+        "grade": "draft",
+        "detail": "gFPP∧L₄。存在+4回までの出現についての一意性。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:P3",
+      "source_line": 1481,
+      "raw": {
+        "id": "P3",
+        "label": "P₃",
+        "family": "uniq",
+        "formula": "gFPP∧L₃",
+        "grade": "draft",
+        "detail": "gFPP∧L₃。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:P2",
+      "source_line": 1482,
+      "raw": {
+        "id": "P2",
+        "label": "P₂",
+        "family": "uniq",
+        "formula": "gFPP∧L₂",
+        "grade": "draft",
+        "detail": "gFPP∧L₂。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:P1",
+      "source_line": 1483,
+      "raw": {
+        "id": "P1",
+        "label": "P₁ ≡ gFPP (Γ)",
+        "family": "uniq",
+        "formula": "gFPP ∧ L₁",
+        "grade": "draft",
+        "detail": "gFPP∧L₁。Γ では Löb=L₁ を既に仮定しているため gFPP と一致。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:gUFbounded",
+      "source_line": 1484,
+      "raw": {
+        "id": "gUFbounded",
+        "label": "gUFPP≤n",
+        "family": "uniq",
+        "formula": "∀guarded t(occ_p≤n) ∀a⃗∃!p[p=t(p,a⃗)]",
+        "grade": "draft",
+        "detail": "出現回数高々 n の全ガード付き項の唯一存在。Eₙ と Lₙ の共同原理。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Lomega",
+      "source_line": 1485,
+      "raw": {
+        "id": "Lomega",
+        "label": "Lω_n",
+        "family": "uniq",
+        "formula": "∀可算ガード付き系(各行の出現回数≤n) : 解は高々1つ",
+        "grade": "draft",
+        "detail": "可算系で各右辺の総出現回数を n 以下に制限した高々一意性。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SCunique",
+      "source_line": 1486,
+      "raw": {
+        "id": "SCunique",
+        "label": "SCpow!",
+        "family": "uniq",
+        "formula": "∀a∃!p[p=(□^d p)^n→a] (n,dを固定)",
+        "grade": "draft",
+        "detail": "p=(□^d p)^n→a の唯一存在。Lₙ と存在を組み合わせる。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:D2",
+      "source_line": 1487,
+      "raw": {
+        "id": "D2",
+        "label": "D₂",
+        "family": "modal",
+        "formula": "□²(□x→x)≤□²x",
+        "grade": "draft",
+        "detail": "□²(□x→x)≤□²x。D₁=FLöb からの様相反復階層。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:D3",
+      "source_line": 1488,
+      "raw": {
+        "id": "D3",
+        "label": "D₃",
+        "family": "modal",
+        "formula": "□³(□x→x)≤□³x",
+        "grade": "draft",
+        "detail": "□³(□x→x)≤□³x。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Dall",
+      "source_line": 1489,
+      "raw": {
+        "id": "Dall",
+        "label": "D_d (d≥1)",
+        "family": "modal",
+        "formula": "族 {D_n : □ⁿ(□x→x)=□ⁿx, n≥1}",
+        "grade": "draft",
+        "detail": "D₁=FLöb、D₁⇒D₂⇒… の階層。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:WFL2",
+      "source_line": 1490,
+      "raw": {
+        "id": "WFL2",
+        "label": "WFL₂",
+        "family": "modal",
+        "formula": "□(□²x→x)≤□x",
+        "grade": "draft",
+        "detail": "□(□²x→x)≤□x。弱形式化 Löb の様相反復版。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:WFL3",
+      "source_line": 1491,
+      "raw": {
+        "id": "WFL3",
+        "label": "WFL₃",
+        "family": "modal",
+        "formula": "□(□³x→x)≤□x",
+        "grade": "draft",
+        "detail": "□(□³x→x)≤□x。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:sLn",
+      "source_line": 1492,
+      "raw": {
+        "id": "sLn",
+        "label": "sLₙ",
+        "family": "modal",
+        "formula": "sL_n : (□x→x)^n ≤ x",
+        "grade": "draft",
+        "detail": "(□x→x)^n ≤x。sL₁=sLöb。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CP",
+      "source_line": 1493,
+      "raw": {
+        "id": "CP",
+        "label": "CP: x≤□x",
+        "family": "modal",
+        "formula": "x≤□x",
+        "grade": "draft",
+        "detail": "strength または CP。追加仮定。単独では基礎図の全面的崩壊は導けない。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Ctr",
+      "source_line": 1494,
+      "raw": {
+        "id": "Ctr",
+        "label": "Ctr: x≤x²",
+        "family": "modal",
+        "formula": "x≤x²",
+        "grade": "draft",
+        "detail": "全元への積縮約。追加仮定。Heyting/Boolean に近い効果。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CtrBox",
+      "source_line": 1495,
+      "raw": {
+        "id": "CtrBox",
+        "label": "Ctr□: □x≤(□x)²",
+        "family": "modal",
+        "formula": "□x≤(□x)²",
+        "grade": "draft",
+        "detail": "様相像上の積縮約。4 と組み合わせると Mix□ を導く。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Mix",
+      "source_line": 1496,
+      "raw": {
+        "id": "Mix",
+        "label": "Mix□",
+        "family": "modal",
+        "formula": "□x≤□x·□□x",
+        "grade": "draft",
+        "detail": "□x≤□x·□□x。追加仮定。Γ 上で FLöb などの原理群が同値化する。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:MixIndexed",
+      "source_line": 1497,
+      "raw": {
+        "id": "MixIndexed",
+        "label": "Mix□(r,s)",
+        "family": "modal",
+        "formula": "Mix^(r,s): □^r x ≤ □^r x · □^s x",
+        "grade": "draft",
+        "detail": "□^r x≤□^r x·□^s x。Mix(1,1)=Ctr□、Mix(1,2)=Mix□。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Abs",
+      "source_line": 1498,
+      "raw": {
+        "id": "Abs",
+        "label": "Abs: x□x=x",
+        "family": "modal",
+        "formula": "x·□x=x",
+        "grade": "draft",
+        "detail": "吸収条件。sLöb≡Abs+FLöb。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Hbox",
+      "source_line": 1499,
+      "raw": {
+        "id": "Hbox",
+        "label": "H□",
+        "family": "modal",
+        "formula": "H_□ : □(x·□y)≤□x·□²y",
+        "grade": "draft",
+        "detail": "□(x□y)=□x□□y に関わる二項演算と様相の適合性。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Jvee",
+      "source_line": 1500,
+      "raw": {
+        "id": "Jvee",
+        "label": "J∨_k",
+        "family": "modal",
+        "formula": "J∨_k: □(∨_{i=1}^k x_i)≤∨_{i=1}^k □(∨_{j≠i}x_j)",
+        "grade": "draft",
+        "detail": "有限結びの特殊保存原理。強Löb領域で真の階層を作る。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Verum",
+      "source_line": 1501,
+      "raw": {
+        "id": "Verum",
+        "label": "Verum ≡ FC₁",
+        "family": "finite",
+        "formula": "□0=1 (equivalently □x=1)",
+        "grade": "draft",
+        "detail": "□0=1、すなわち □≡1。有限停止最強段。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FC2",
+      "source_line": 1502,
+      "raw": {
+        "id": "FC2",
+        "label": "FC₂",
+        "family": "finite",
+        "formula": "□²0=1",
+        "grade": "draft",
+        "detail": "□²0=1。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FC3",
+      "source_line": 1503,
+      "raw": {
+        "id": "FC3",
+        "label": "FC₃",
+        "family": "finite",
+        "formula": "□³0=1",
+        "grade": "draft",
+        "detail": "□³0=1。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FCsome",
+      "source_line": 1504,
+      "raw": {
+        "id": "FCsome",
+        "label": "FC<ω = ∃n FCₙ",
+        "family": "finite",
+        "formula": "∃n∈N, □ⁿ0=1",
+        "grade": "draft",
+        "detail": "□^n0=1 がある有限 n で成立。ガード付き有限系の反復は有限回で定数になる。",
+        "level": "core",
+        "review": "indexed",
+        "source": "draft v0.10, §§2–5; atlas pp.1–2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Romega",
+      "source_line": 1505,
+      "raw": {
+        "id": "Romega",
+        "label": "Rω",
+        "family": "finite",
+        "formula": "定義式未登録 — 様相軌道に沿う残余分離の原理（詳細は既存アトラス第3・7面）。",
+        "grade": "draft",
+        "detail": "様相軌道に沿う残余分離の原理（詳細は既存アトラス第3・7面）。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:RSomega",
+      "source_line": 1506,
+      "raw": {
+        "id": "RSomega",
+        "label": "RSω",
+        "family": "finite",
+        "formula": "RS_ω : ⋂_{n≥0} θ_n = Δ_A",
+        "grade": "draft",
+        "detail": "有限段階合同 θ_n による分離。∩θ_n=Δ。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:RPomega",
+      "source_line": 1507,
+      "raw": {
+        "id": "RPomega",
+        "label": "RPω",
+        "family": "finite",
+        "formula": "RP_ω : A → lim←_n(A/θ_n) が全射",
+        "grade": "draft",
+        "detail": "残余合同系の逆極限点の実現（Cauchy 完備性）。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:RComega",
+      "source_line": 1508,
+      "raw": {
+        "id": "RComega",
+        "label": "RCω ≡ RSω∧RPω",
+        "family": "finite",
+        "formula": "RSω ∧ RPω",
+        "grade": "draft",
+        "detail": "分離と実現の両方。標準合同超距離で完備性を持つ。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ACont",
+      "source_line": 1509,
+      "raw": {
+        "id": "ACont",
+        "label": "ACont_h",
+        "family": "finite",
+        "formula": "定義式未登録 — □^h0=1 と (□0)²=□0 に関係する有限回代数的連続性。",
+        "grade": "draft",
+        "detail": "□^h0=1 と (□0)²=□0 に関係する有限回代数的連続性。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:OComega",
+      "source_line": 1510,
+      "raw": {
+        "id": "OComega",
+        "label": "OCω",
+        "family": "finite",
+        "formula": "定義式未登録 — 様相軌道の可算上限における順序連続性。Löb と併用して Rω を導く。",
+        "grade": "draft",
+        "detail": "様相軌道の可算上限における順序連続性。Löb と併用して Rω を導く。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ACC",
+      "source_line": 1511,
+      "raw": {
+        "id": "ACC",
+        "label": "ACC",
+        "family": "finite",
+        "formula": "任意の上昇鎖は有限段階で停止する",
+        "grade": "draft",
+        "detail": "昇鎖条件。Γ の下で FC<ω への崩壊を与える。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Ffin",
+      "source_line": 1512,
+      "raw": {
+        "id": "Ffin",
+        "label": "F<ω",
+        "family": "systems",
+        "formula": "∀n∈N⁺ ∀ガード付き n元連立方程式 ∃解",
+        "grade": "draft",
+        "detail": "全有限個のガード付き未知変数の連立系に解がある。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:UFfin",
+      "source_line": 1513,
+      "raw": {
+        "id": "UFfin",
+        "label": "UF<ω",
+        "family": "systems",
+        "formula": "∀n∈N⁺ ∀ガード付き n元連立方程式 ∃!解",
+        "grade": "draft",
+        "detail": "全有限ガード付き連立系に唯一解。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Ufin",
+      "source_line": 1514,
+      "raw": {
+        "id": "Ufin",
+        "label": "U<ω",
+        "family": "systems",
+        "formula": "∀n∈N⁺ ∀ガード付き n元連立方程式 解は高々一つ",
+        "grade": "draft",
+        "detail": "全有限連立系の解は高々一つ。gU と同値。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:TFfin",
+      "source_line": 1515,
+      "raw": {
+        "id": "TFfin",
+        "label": "TF<ω ≡ gTFPP",
+        "family": "systems",
+        "formula": "∀n∈N⁺ ∀ガード付きn元連立式 ∃パラメータ項ベクトルの解",
+        "grade": "draft",
+        "detail": "全有限ガード付き連立系にパラメータの項で一様解を与える。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:UTFfin",
+      "source_line": 1516,
+      "raw": {
+        "id": "UTFfin",
+        "label": "UTF<ω",
+        "family": "systems",
+        "formula": "TFfin ∧ Ufin",
+        "grade": "draft",
+        "detail": "全有限連立系に一意な項解。gTFPP∧gU と同値。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Fomega",
+      "source_line": 1517,
+      "raw": {
+        "id": "Fomega",
+        "label": "Fω",
+        "family": "systems",
+        "formula": "∀行有限・可算個のガード付き連立方程式 ∃解",
+        "grade": "draft",
+        "detail": "可算個のガード付き連立系が可解。",
+        "level": "core",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:UFomega",
+      "source_line": 1518,
+      "raw": {
+        "id": "UFomega",
+        "label": "UFω",
+        "family": "systems",
+        "formula": "∀行有限・可算個のガード付き連立方程式 ∃!解",
+        "grade": "draft",
+        "detail": "全可算ガード付き連立系が唯一可解。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Uomega",
+      "source_line": 1519,
+      "raw": {
+        "id": "Uomega",
+        "label": "Uω",
+        "family": "systems",
+        "formula": "∀行有限・可算個のガード付き連立方程式 解は高々1つ",
+        "grade": "draft",
+        "detail": "可算ガード付き連立系の高々一意性。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:TFomega",
+      "source_line": 1520,
+      "raw": {
+        "id": "TFomega",
+        "label": "TFω",
+        "family": "systems",
+        "formula": "可算ガード付き連立系について項解を要求（項のパラメータ依存範囲は要仕様確定）",
+        "grade": "draft",
+        "detail": "全可算ガード付き連立系に項解。仕様におけるパラメータ依存性に注意。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:UTFomega",
+      "source_line": 1521,
+      "raw": {
+        "id": "UTFomega",
+        "label": "UTFω",
+        "family": "systems",
+        "formula": "TFω ∧ Uω（可算系の項選択の意味は要監査）",
+        "grade": "draft",
+        "detail": "全可算ガード付き連立系に一意な項解。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Fkap",
+      "source_line": 1522,
+      "raw": {
+        "id": "Fkap",
+        "label": "Fκ, UFκ, Uκ",
+        "family": "systems",
+        "formula": "F^κ : ∀\\|I\\|=κ の行有限ガード付き系に解が存在",
+        "grade": "draft",
+        "detail": "任意基数 κ の連立版。κ≥ω に関する崩壊は既存アトラスの記録。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SCsys",
+      "source_line": 1523,
+      "raw": {
+        "id": "SCsys",
+        "label": "SCsys_{R,D}",
+        "family": "systems",
+        "formula": "∀a⃗ ∃p⃗ ∧_{i∈I}[p_i=(∏_{j∈I}(□^{d_ij}p_j)^{r_ij})→a_i]",
+        "grade": "draft",
+        "detail": "複数未知数の Santa Claus 型連立系。行列 R が積指数、D が様相反復深度。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Fcyc",
+      "source_line": 1524,
+      "raw": {
+        "id": "Fcyc",
+        "label": "Fcyc<ω",
+        "family": "systems",
+        "formula": "∀有限連立系(非ガード依存グラフが非巡回) ∃解",
+        "grade": "draft",
+        "detail": "非ガード依存辺が有向非巡回になる有限連立系の存在。通常のガード付き有限版と比較。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:TFcyc",
+      "source_line": 1525,
+      "raw": {
+        "id": "TFcyc",
+        "label": "TFcyc<ω",
+        "family": "systems",
+        "formula": "∀有限連立系(非ガード依存グラフが非巡回) ∃項解",
+        "grade": "draft",
+        "detail": "非ガード依存が非巡回な有限連立系に項解。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Cgomega",
+      "source_line": 1526,
+      "raw": {
+        "id": "Cgomega",
+        "label": "Cgω",
+        "family": "systems",
+        "formula": "定義式未登録 — 可算連立の有限部分系からの整合的延長・可解性条件。Fω ↔ F<ω+Cgω は草稿アトラスに記載。",
+        "grade": "draft",
+        "detail": "可算連立の有限部分系からの整合的延長・可解性条件。Fω ↔ F<ω+Cgω は草稿アトラスに記載。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SolPar",
+      "source_line": 1527,
+      "raw": {
+        "id": "SolPar",
+        "label": "SolPar + Bekič",
+        "family": "systems",
+        "formula": "定義式未登録 — パラメータ置換に自然な選択作用素と Bekič の逐次消去整合性。",
+        "grade": "draft",
+        "detail": "パラメータ置換に自然な選択作用素と Bekič の逐次消去整合性。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:uAMC",
+      "source_line": 1528,
+      "raw": {
+        "id": "uAMC",
+        "label": "uAMC",
+        "family": "metric",
+        "formula": "∃ complete ultrametric d, □ contractive and other primitives max-nonexpansive",
+        "grade": "proved-in-note",
+        "detail": "完備超距離で □ を一様縮約、非様相原始演算を max-非拡大的にする距離の存在。",
+        "level": "core",
+        "review": "2026-11-27 theorem N11-01: all four equivalent; original distance itself ultrametric; see UPDATE_v11_PROOFS.md",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:AMC",
+      "source_line": 1529,
+      "raw": {
+        "id": "AMC",
+        "label": "AMC",
+        "family": "metric",
+        "formula": "∃ complete metric d, □ contractive and other primitives max-nonexpansive",
+        "grade": "proved-in-note",
+        "detail": "完備距離で □ を一様縮約、非様相原始演算を max-非拡大的にする距離の存在。",
+        "level": "core",
+        "review": "2026-11-27 theorem N11-01: all four equivalent; original distance itself ultrametric; see UPDATE_v11_PROOFS.md",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:uMC",
+      "source_line": 1530,
+      "raw": {
+        "id": "uMC",
+        "label": "uMC",
+        "family": "metric",
+        "formula": "∃ complete ultrametric d, □ contractive",
+        "grade": "draft",
+        "detail": "□ のみ一様縮約となる完備超距離の存在。非様相演算の非拡大性は不要。 完備距離での□-縮小から距離を放射状超距離に取り替えられる。N,K,4上ではLöbと同値。",
+        "level": "all",
+        "review": "indexed",
+        "source": "radial ultrametric construction + Bessaga theorem"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:MC",
+      "source_line": 1531,
+      "raw": {
+        "id": "MC",
+        "label": "MC",
+        "family": "metric",
+        "formula": "∃ complete metric d, □ contractive",
+        "grade": "draft",
+        "detail": "□ のみ一様縮約となる完備距離の存在。 追加定理：Bessagaの逆定理によりN,K,4上でLöb⇔MC⇔uMC。非様相演算の非拡大性は要求されない。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Bessaga 1959 + Löb,4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CompleteLat",
+      "source_line": 1532,
+      "raw": {
+        "id": "CompleteLat",
+        "label": "完備束+単調 T",
+        "family": "metric",
+        "formula": "(A,≤) が完備束：任意S⊆Aに ∧S,∨S が存在",
+        "grade": "draft",
+        "detail": "各単調自己写像が Tarski の定理により不動点をもつ。全ガード付き項は自動的には単調でない。",
+        "level": "all",
+        "review": "indexed",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CompactConvex",
+      "source_line": 1533,
+      "raw": {
+        "id": "CompactConvex",
+        "label": "コンパクト凸+連続",
+        "family": "metric",
+        "formula": "A⊂E 非空コンパクト凸, E Hausdorff 局所凸空間, 全基本演算は連続",
+        "grade": "draft",
+        "detail": "基礎台集合Aが Hausdorff 局所凸空間Eの非空コンパクト凸部分集合であり、全基本演算が（直積位相で）連続であるというモデル条件。Schauder–Tychonoff型の存在定理へ接続。",
+        "level": "all",
+        "review": "indexed",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ScUp",
+      "source_line": 1534,
+      "raw": {
+        "id": "ScUp",
+        "label": "Sc↑",
+        "family": "metric",
+        "formula": "□(∨D)=∨_{d∈D}□d （有向Dとその上限が存在する場合）",
+        "grade": "draft",
+        "detail": "上向き Scott 型連続性。",
+        "level": "all",
+        "review": "indexed",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ScDown",
+      "source_line": 1535,
+      "raw": {
+        "id": "ScDown",
+        "label": "Sc↓",
+        "family": "metric",
+        "formula": "□(∧C)=∧_{c∈C}□c （下向き有向Cについて）",
+        "grade": "draft",
+        "detail": "下向き順序連続性。",
+        "level": "all",
+        "review": "indexed",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ContBox",
+      "source_line": 1536,
+      "raw": {
+        "id": "ContBox",
+        "label": "Cont(□) MV",
+        "family": "metric",
+        "formula": "□ : [0,1]MV→[0,1]MV が通常の位相で連続",
+        "grade": "draft",
+        "detail": "標準 MV 区間上で □ の連続性。全項が連続となる。",
+        "level": "all",
+        "review": "indexed",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:agFPP",
+      "source_line": 1537,
+      "raw": {
+        "id": "agFPP",
+        "label": "agFPP_d",
+        "family": "metric",
+        "formula": "∀guarded t ∀a⃗, inf_{x∈A} d(x,t(x,a⃗))=0",
+        "grade": "draft",
+        "detail": "任意のガード付き項 t に対し inf_x d(x,t(x))=0。存在より弱い近似原理。",
+        "level": "all",
+        "review": "indexed",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:StrongCon",
+      "source_line": 1538,
+      "raw": {
+        "id": "StrongCon",
+        "label": "Banach 型縮約",
+        "family": "metric",
+        "formula": "∃完備d,q<1 : 全guarded項 t が q-縮小（適用範囲の監査が必要）",
+        "grade": "draft",
+        "detail": "演算の非拡大性+様相の縮約から、全ガード付き項（有限系）が縮約になる。",
+        "level": "all",
+        "review": "indexed",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SCCbounded",
+      "source_line": 1539,
+      "raw": {
+        "id": "SCCbounded",
+        "label": "guarded 有界SCC連立存在",
+        "family": "metric",
+        "formula": "∀I,∀T [T は各行有限・全出現guardedかつ各SCCサイズ≤n ⇒ ∃p⃗(p⃗=T(p⃗))]（nを固定）",
+        "grade": "draft",
+        "detail": "全未知変数がガードされた連立系のうち、依存グラフのSCCのサイズが一様な有限上限を持つものの可解性。非ガード項を許す一般の有界SCC原理とは別。",
+        "level": "all",
+        "review": "indexed",
+        "source": "working atlas pp.3,7; needs theorem-level audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FPP",
+      "source_line": 1540,
+      "raw": {
+        "id": "FPP",
+        "label": "FPP",
+        "family": "unguarded",
+        "formula": "∀ terms t(p,a⃗),∀a⃗,∃p (p=t(p,a⃗))",
+        "grade": "draft",
+        "detail": "ガード条件なしの全一変数項の不動点存在。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:bFPP",
+      "source_line": 1541,
+      "raw": {
+        "id": "bFPP",
+        "label": "bFPP",
+        "family": "unguarded",
+        "formula": "∀ □-free terms t(p,a⃗),∀a⃗,∃p (p=t(p,a⃗))",
+        "grade": "draft",
+        "detail": "様相記号 □ を使わない項についての不動点存在。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FPPub",
+      "source_line": 1542,
+      "raw": {
+        "id": "FPPub",
+        "label": "FPPu≤n",
+        "family": "unguarded",
+        "formula": "∀t(非ガードp出現回数≤n) ∀a⃗∃p[p=t(p,a⃗)]",
+        "grade": "draft",
+        "detail": "非ガード出現回数を n 以下に制限した存在原理。n=0 は gFPP。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:GI",
+      "source_line": 1543,
+      "raw": {
+        "id": "GI",
+        "label": "GI",
+        "family": "unguarded",
+        "formula": "∃guarded項 e(p) で A⊨e(p)=p",
+        "grade": "draft",
+        "detail": "ガード付き多項式として恒等関数が実現されること。gU を破壊し得る。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:DG",
+      "source_line": 1544,
+      "raw": {
+        "id": "DG",
+        "label": "DGₙ",
+        "family": "unguarded",
+        "formula": "DG_n : (□x)^n=x （nを固定）",
+        "grade": "draft",
+        "detail": "(□x)^n=x の恒等式を課す変種。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:AIr",
+      "source_line": 1545,
+      "raw": {
+        "id": "AIr",
+        "label": "AI_r / SR",
+        "family": "unguarded",
+        "formula": "A=B×Γ(G,u); □(b,x)=(1,((r−1)u+x)/r), r≥2",
+        "grade": "draft",
+        "detail": "MV 鎖のアフィン内挿モデル群。Lₙ や gFPP の反例構築用。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PI",
+      "source_line": 1546,
+      "raw": {
+        "id": "PI",
+        "label": "PI",
+        "family": "unguarded",
+        "formula": "A=B×Γ(G,u); □(b,x)=(1,x)",
+        "grade": "draft",
+        "detail": "射影成分を持つ補間モデル群。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:TFung",
+      "source_line": 1547,
+      "raw": {
+        "id": "TFung",
+        "label": "TFPPung",
+        "family": "unguarded",
+        "formula": "∀項t(p,a⃗)∃p-free項 s(a⃗) A⊨s=t(s,a⃗)",
+        "grade": "draft",
+        "detail": "非ガード全項の一様項選択原理。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SPgFPP",
+      "source_line": 1548,
+      "raw": {
+        "id": "SPgFPP",
+        "label": "SPgFPP",
+        "family": "unguarded",
+        "formula": "∀I ∀B≤A^I B⊨gFPP",
+        "grade": "proof v9",
+        "detail": "すべての添字集合Iとすべての部分代数 B≤A^I がgFPPを満たす。単なる部分代数保存より強い。gTFPP(A)と同値。",
+        "level": "all",
+        "review": "proved-in-note",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SgFPP",
+      "source_line": 1549,
+      "raw": {
+        "id": "SgFPP",
+        "label": "SgFPP",
+        "family": "unguarded",
+        "formula": "全ての指定部分代数でガード付き方程式が解を持つ",
+        "grade": "draft",
+        "detail": "部分代数についての相対存在原理。",
+        "level": "all",
+        "review": "indexed",
+        "source": "Project atlas and draft v0.10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Fany",
+      "source_line": 1550,
+      "raw": {
+        "id": "Fany",
+        "label": "∀κ F^κ",
+        "family": "systems",
+        "formula": "∀I, ∀ guarded (p_i=t_i(⃗p,⃗a))_{i∈I}, ∃⃗p solution",
+        "grade": "draft",
+        "detail": "任意の集合Iを未知変数集合とする（各右辺は有限項の）ガード付き連立系の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas pp.1–3; product fixed point arguments"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Uany",
+      "source_line": 1551,
+      "raw": {
+        "id": "Uany",
+        "label": "∀κ U^κ",
+        "family": "systems",
+        "formula": "∀I, every guarded I-system has at most one solution",
+        "grade": "draft",
+        "detail": "任意基数のガード付き連立系で解が存在すれば高々一つ。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas p.1"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:UFany",
+      "source_line": 1552,
+      "raw": {
+        "id": "UFany",
+        "label": "∀κ UF^κ",
+        "family": "systems",
+        "formula": "∀I, every guarded I-system has exactly one solution",
+        "grade": "draft",
+        "detail": "任意基数のガード付き連立系が一意可解。完備超距離の直積にBanach原理を適用すると得られる。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas pp.1,3,7"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:AbsPlusFLob",
+      "source_line": 1553,
+      "raw": {
+        "id": "AbsPlusFLob",
+        "label": "Abs ∧ FLöb",
+        "family": "modal",
+        "formula": "(∀x x·□x=x) ∧ FLöb",
+        "grade": "draft",
+        "detail": "吸収 x·□x=x と FLöb の連言。草稿の強Löb特徴づけでsLöbと同値。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "draft v0.10, Theorem 4.2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CtrCP",
+      "source_line": 1554,
+      "raw": {
+        "id": "CtrCP",
+        "label": "Ctr ∧ CP",
+        "family": "modal",
+        "formula": "Ctr ∧ CP",
+        "grade": "draft",
+        "detail": "縮約とstrengthを同時仮定する場合。吸収を導く。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "working atlas p.5"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F14",
+      "source_line": 1555,
+      "raw": {
+        "id": "F14",
+        "label": "F1,4",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤1, modal_depth_p(t)≤4 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々1回、各出現の様相ガード深度が高々4である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F23",
+      "source_line": 1556,
+      "raw": {
+        "id": "F23",
+        "label": "F2,3",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤2, modal_depth_p(t)≤3 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々2回、各出現の様相ガード深度が高々3である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F24",
+      "source_line": 1557,
+      "raw": {
+        "id": "F24",
+        "label": "F2,4",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤2, modal_depth_p(t)≤4 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々2回、各出現の様相ガード深度が高々4である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F32",
+      "source_line": 1558,
+      "raw": {
+        "id": "F32",
+        "label": "F3,2",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤3, modal_depth_p(t)≤2 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々3回、各出現の様相ガード深度が高々2である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F33",
+      "source_line": 1559,
+      "raw": {
+        "id": "F33",
+        "label": "F3,3",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤3, modal_depth_p(t)≤3 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々3回、各出現の様相ガード深度が高々3である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F34",
+      "source_line": 1560,
+      "raw": {
+        "id": "F34",
+        "label": "F3,4",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤3, modal_depth_p(t)≤4 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々3回、各出現の様相ガード深度が高々4である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F41",
+      "source_line": 1561,
+      "raw": {
+        "id": "F41",
+        "label": "F4,1",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤4, modal_depth_p(t)≤1 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々4回、各出現の様相ガード深度が高々1である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F42",
+      "source_line": 1562,
+      "raw": {
+        "id": "F42",
+        "label": "F4,2",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤4, modal_depth_p(t)≤2 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々4回、各出現の様相ガード深度が高々2である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F43",
+      "source_line": 1563,
+      "raw": {
+        "id": "F43",
+        "label": "F4,3",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤4, modal_depth_p(t)≤3 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々4回、各出現の様相ガード深度が高々3である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:F44",
+      "source_line": 1564,
+      "raw": {
+        "id": "F44",
+        "label": "F4,4",
+        "family": "exist",
+        "formula": "∀t[occ_p(t)≤4, modal_depth_p(t)≤4 ⇒ ∀⃗a ∃p p=t(p,⃗a)]",
+        "grade": "",
+        "detail": "未知変数出現が高々4回、各出現の様相ガード深度が高々4である有限項の可解性。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:E4",
+      "source_line": 1565,
+      "raw": {
+        "id": "E4",
+        "label": "E4 = ∧ₕ F4,h",
+        "family": "exist",
+        "formula": "⋀_(h≥1) F_{4,h}",
+        "grade": "",
+        "detail": "出現回数の上限4、様相深度は任意の有限値。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:L5",
+      "source_line": 1566,
+      "raw": {
+        "id": "L5",
+        "label": "L5",
+        "family": "uniq",
+        "formula": "(□x)^5 ≤ x ⇒ x=1",
+        "grade": "",
+        "detail": "L_5: (□x)^5≤x ⇒ x=1。出現回数上限nに対応する高々一意性原理。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:P5",
+      "source_line": 1567,
+      "raw": {
+        "id": "P5",
+        "label": "P5 = gFPP ∧ L5",
+        "family": "uniq",
+        "formula": "gFPP ∧ L_5",
+        "grade": "",
+        "detail": "gFPP と L5 の連言。Γ上でP_nは有限階の厳密な上昇列をなす。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:L6",
+      "source_line": 1568,
+      "raw": {
+        "id": "L6",
+        "label": "L6",
+        "family": "uniq",
+        "formula": "(□x)^6 ≤ x ⇒ x=1",
+        "grade": "",
+        "detail": "L_6: (□x)^6≤x ⇒ x=1。出現回数上限nに対応する高々一意性原理。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:P6",
+      "source_line": 1569,
+      "raw": {
+        "id": "P6",
+        "label": "P6 = gFPP ∧ L6",
+        "family": "uniq",
+        "formula": "gFPP ∧ L_6",
+        "grade": "",
+        "detail": "gFPP と L6 の連言。Γ上でP_nは有限階の厳密な上昇列をなす。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FC4",
+      "source_line": 1570,
+      "raw": {
+        "id": "FC4",
+        "label": "FC4",
+        "family": "finite",
+        "formula": "□^40=1",
+        "grade": "",
+        "detail": "□^4(0)=1。有限反復による全ガード連立系の解の定数化への十分条件。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FC5",
+      "source_line": 1571,
+      "raw": {
+        "id": "FC5",
+        "label": "FC5",
+        "family": "finite",
+        "formula": "□^50=1",
+        "grade": "",
+        "detail": "□^5(0)=1。有限反復による全ガード連立系の解の定数化への十分条件。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:D4",
+      "source_line": 1572,
+      "raw": {
+        "id": "D4",
+        "label": "D4",
+        "family": "modal",
+        "formula": "□^4(□x→x)≤□^4x",
+        "grade": "",
+        "detail": "□^4(□x→x)≤□^4x。D₁=FLöb、nの増大で弱くなる系列。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:D5",
+      "source_line": 1573,
+      "raw": {
+        "id": "D5",
+        "label": "D5",
+        "family": "modal",
+        "formula": "□^5(□x→x)≤□^5x",
+        "grade": "",
+        "detail": "□^5(□x→x)≤□^5x。D₁=FLöb、nの増大で弱くなる系列。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SC2",
+      "source_line": 1574,
+      "raw": {
+        "id": "SC2",
+        "label": "SC2",
+        "family": "modal",
+        "formula": "∀a ∃p p=(□^2p→a)",
+        "grade": "",
+        "detail": "Santa Claus の様相深度2版：p=□^2p→a の全パラメータ可解性。深度1のSCと無条件同一視しない。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SC3",
+      "source_line": 1575,
+      "raw": {
+        "id": "SC3",
+        "label": "SC3",
+        "family": "modal",
+        "formula": "∀a ∃p p=(□^3p→a)",
+        "grade": "",
+        "detail": "Santa Claus の様相深度3版：p=□^3p→a の全パラメータ可解性。深度1のSCと無条件同一視しない。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SC4",
+      "source_line": 1576,
+      "raw": {
+        "id": "SC4",
+        "label": "SC4",
+        "family": "modal",
+        "formula": "∀a ∃p p=(□^4p→a)",
+        "grade": "",
+        "detail": "Santa Claus の様相深度4版：p=□^4p→a の全パラメータ可解性。深度1のSCと無条件同一視しない。",
+        "level": "detail",
+        "review": "indexed",
+        "source": "fixed_point_atlas.pdf pp.1–2; parameterized definition"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Mix13",
+      "source_line": 1577,
+      "raw": {
+        "id": "Mix13",
+        "label": "Mix(1,3)",
+        "family": "modal",
+        "formula": "□x ≤ □x · □^3x",
+        "grade": "checked",
+        "detail": "Mix(1,3)。4 の下で Mix(1,2) より弱い候補。4 だけへの逆含意は自明ではなく、隣接の厳密性は未検証。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Mix14",
+      "source_line": 1578,
+      "raw": {
+        "id": "Mix14",
+        "label": "Mix(1,4)",
+        "family": "modal",
+        "formula": "□x ≤ □x · □^4x",
+        "grade": "checked",
+        "detail": "Mix(1,4)。4 の下で Mix(1,3) より弱い候補。4 だけへの逆含意は自明ではなく、隣接の厳密性は未検証。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Mix15",
+      "source_line": 1579,
+      "raw": {
+        "id": "Mix15",
+        "label": "Mix(1,5)",
+        "family": "modal",
+        "formula": "□x ≤ □x · □^5x",
+        "grade": "checked",
+        "detail": "Mix(1,5)。4 の下で Mix(1,4) より弱い候補。4 だけへの逆含意は自明ではなく、隣接の厳密性は未検証。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Mix23",
+      "source_line": 1580,
+      "raw": {
+        "id": "Mix23",
+        "label": "Mix(2,3)",
+        "family": "modal",
+        "formula": "□²x ≤ □²x · □³x",
+        "grade": "checked",
+        "detail": "Mix(1,2)からKとCにより派生する反復混合縮約。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Mix24",
+      "source_line": 1581,
+      "raw": {
+        "id": "Mix24",
+        "label": "Mix(2,4)",
+        "family": "modal",
+        "formula": "□²x ≤ □²x · □⁴x",
+        "grade": "checked",
+        "detail": "反復混合縮約の弱化。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:EMix",
+      "source_line": 1582,
+      "raw": {
+        "id": "EMix",
+        "label": "eventual Mix",
+        "family": "modal",
+        "formula": "∀x∃n≥2, □x ≤ □x · □ⁿx",
+        "grade": "open",
+        "detail": "点ごとに混合吸収の成り立つ反復次数を許す条件。Mixより弱いが、LöbからFLöbを導く十分性は未証明。",
+        "level": "all",
+        "review": "new v4",
+        "source": "new proposal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Jv2",
+      "source_line": 1583,
+      "raw": {
+        "id": "Jv2",
+        "label": "J∨_2",
+        "family": "modal",
+        "formula": "□(∨_{i=1}^2 xᵢ) ≤ ∨_{i=1}^2 □(∨_{j≠i} xⱼ)",
+        "grade": "draft",
+        "detail": "2分岐の有限結び原理。J∨₂は□の有限結び保存に同値。J∨₂⇒J∨₃⇒…；sLöbと連言して厳密な強化階層をなす（厳密性の元モデルは草稿アトラスに記録）。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf p8"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SJ2",
+      "source_line": 1584,
+      "raw": {
+        "id": "SJ2",
+        "label": "sLöb ∧ J∨_2",
+        "family": "modal",
+        "formula": "sLöb ∧ J∨_2",
+        "grade": "logical",
+        "detail": "sLöb より上にある結び保存による強化。kが小さいほど強い。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Jv3",
+      "source_line": 1585,
+      "raw": {
+        "id": "Jv3",
+        "label": "J∨_3",
+        "family": "modal",
+        "formula": "□(∨_{i=1}^3 xᵢ) ≤ ∨_{i=1}^3 □(∨_{j≠i} xⱼ)",
+        "grade": "draft",
+        "detail": "3分岐の有限結び原理。J∨₂は□の有限結び保存に同値。J∨₂⇒J∨₃⇒…；sLöbと連言して厳密な強化階層をなす（厳密性の元モデルは草稿アトラスに記録）。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf p8"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SJ3",
+      "source_line": 1586,
+      "raw": {
+        "id": "SJ3",
+        "label": "sLöb ∧ J∨_3",
+        "family": "modal",
+        "formula": "sLöb ∧ J∨_3",
+        "grade": "logical",
+        "detail": "sLöb より上にある結び保存による強化。kが小さいほど強い。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Jv4",
+      "source_line": 1587,
+      "raw": {
+        "id": "Jv4",
+        "label": "J∨_4",
+        "family": "modal",
+        "formula": "□(∨_{i=1}^4 xᵢ) ≤ ∨_{i=1}^4 □(∨_{j≠i} xⱼ)",
+        "grade": "draft",
+        "detail": "4分岐の有限結び原理。J∨₂は□の有限結び保存に同値。J∨₂⇒J∨₃⇒…；sLöbと連言して厳密な強化階層をなす（厳密性の元モデルは草稿アトラスに記録）。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf p8"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SJ4",
+      "source_line": 1588,
+      "raw": {
+        "id": "SJ4",
+        "label": "sLöb ∧ J∨_4",
+        "family": "modal",
+        "formula": "sLöb ∧ J∨_4",
+        "grade": "logical",
+        "detail": "sLöb より上にある結び保存による強化。kが小さいほど強い。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Jv5",
+      "source_line": 1589,
+      "raw": {
+        "id": "Jv5",
+        "label": "J∨_5",
+        "family": "modal",
+        "formula": "□(∨_{i=1}^5 xᵢ) ≤ ∨_{i=1}^5 □(∨_{j≠i} xⱼ)",
+        "grade": "draft",
+        "detail": "5分岐の有限結び原理。J∨₂は□の有限結び保存に同値。J∨₂⇒J∨₃⇒…；sLöbと連言して厳密な強化階層をなす（厳密性の元モデルは草稿アトラスに記録）。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf p8"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SJ5",
+      "source_line": 1590,
+      "raw": {
+        "id": "SJ5",
+        "label": "sLöb ∧ J∨_5",
+        "family": "modal",
+        "formula": "sLöb ∧ J∨_5",
+        "grade": "logical",
+        "detail": "sLöb より上にある結び保存による強化。kが小さいほど強い。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Jv6",
+      "source_line": 1591,
+      "raw": {
+        "id": "Jv6",
+        "label": "J∨_6",
+        "family": "modal",
+        "formula": "□(∨_{i=1}^6 xᵢ) ≤ ∨_{i=1}^6 □(∨_{j≠i} xⱼ)",
+        "grade": "draft",
+        "detail": "6分岐の有限結び原理。J∨₂は□の有限結び保存に同値。J∨₂⇒J∨₃⇒…；sLöbと連言して厳密な強化階層をなす（厳密性の元モデルは草稿アトラスに記録）。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf p8"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SJ6",
+      "source_line": 1592,
+      "raw": {
+        "id": "SJ6",
+        "label": "sLöb ∧ J∨_6",
+        "family": "modal",
+        "formula": "sLöb ∧ J∨_6",
+        "grade": "logical",
+        "detail": "sLöb より上にある結び保存による強化。kが小さいほど強い。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SFC2",
+      "source_line": 1593,
+      "raw": {
+        "id": "SFC2",
+        "label": "sLöb ∧ FC2",
+        "family": "modal",
+        "formula": "sLöb ∧ □^20=1",
+        "grade": "logical",
+        "detail": "sLöbに有限段階停止を追加した原理。FC2とsLöbの単独比較には注意。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SFC3",
+      "source_line": 1594,
+      "raw": {
+        "id": "SFC3",
+        "label": "sLöb ∧ FC3",
+        "family": "modal",
+        "formula": "sLöb ∧ □^30=1",
+        "grade": "logical",
+        "detail": "sLöbに有限段階停止を追加した原理。FC3とsLöbの単独比較には注意。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SFC4",
+      "source_line": 1595,
+      "raw": {
+        "id": "SFC4",
+        "label": "sLöb ∧ FC4",
+        "family": "modal",
+        "formula": "sLöb ∧ □^40=1",
+        "grade": "logical",
+        "detail": "sLöbに有限段階停止を追加した原理。FC4とsLöbの単独比較には注意。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SFC5",
+      "source_line": 1596,
+      "raw": {
+        "id": "SFC5",
+        "label": "sLöb ∧ FC5",
+        "family": "modal",
+        "formula": "sLöb ∧ □^50=1",
+        "grade": "logical",
+        "detail": "sLöbに有限段階停止を追加した原理。FC5とsLöbの単独比較には注意。",
+        "level": "all",
+        "review": "new v4",
+        "source": "v4 conjunction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:bAMC",
+      "source_line": 1597,
+      "raw": {
+        "id": "bAMC",
+        "label": "bAMC",
+        "family": "metric",
+        "formula": "∃ bounded complete d, nonmodal ops max-1-Lipschitz, Lip(□)≤q<1",
+        "grade": "proved-in-note",
+        "detail": "有界完備距離で非様相原始演算が最大距離に関して非拡大、□は一様q縮小。任意直積へのBanach適用が可能。",
+        "level": "all",
+        "review": "2026-11-27 theorem N11-01: all four equivalent; original distance itself ultrametric; see UPDATE_v11_PROOFS.md",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:buAMC",
+      "source_line": 1598,
+      "raw": {
+        "id": "buAMC",
+        "label": "buAMC",
+        "family": "metric",
+        "formula": "∃ bounded complete ultrametric d, nonmodal ops max-1-Lipschitz, Lip(□)≤q<1",
+        "grade": "proved-in-note",
+        "detail": "bAMC の超距離版。非様相演算が非拡大なため、ガード付き写像は全て一様q縮小。",
+        "level": "all",
+        "review": "2026-11-27 theorem N11-01: all four equivalent; original distance itself ultrametric; see UPDATE_v11_PROOFS.md",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PFZ",
+      "source_line": 1599,
+      "raw": {
+        "id": "PFZ",
+        "label": "PFℤ: 完備合同フィルトレーション",
+        "family": "metric",
+        "formula": "(θ_n)_{n∈ℤ}: ∪θ_n=A², ∩θ_n=Δ, □θ_n⊆θ_{n+1}, A≅lim A/θ_n",
+        "grade": "checked",
+        "detail": "非様相縮約がmax非拡大である完備超距離の純代数的特徴づけ。θ_nは非様相演算の合同。整数全域のフィルトレーションは非有界距離に対応。逆極限条件は「任意の整合的剰余類族がAに実現する」こと。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PFN",
+      "source_line": 1600,
+      "raw": {
+        "id": "PFN",
+        "label": "PFℕ: 有界完備合同塔",
+        "family": "metric",
+        "formula": "θ₀=A², θ_{n+1}⊆θ_n, ∩θ_n=Δ, □θ_n⊆θ_{n+1}, A≅lim A/θ_n",
+        "grade": "checked",
+        "detail": "自然数添字の分離的完備合同塔。対応する非拡大超距離d(x,y)=q^sup{n:xθ_n y}は有界。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:LipFix",
+      "source_line": 1601,
+      "raw": {
+        "id": "LipFix",
+        "label": "LipFix: 解作用素非拡大",
+        "family": "metric",
+        "formula": "∃ complete d,q<1 : ∀guarded t, fix_t uniquely exists and Lip_d(fix_t)≤1 (same d)",
+        "grade": "checked",
+        "detail": "距離dは解とパラメータに共通。全ガード付き項の唯一解写像がパラメータのsup距離に対して1-Lipschitz。通常のAMCからは一般に1/(1−q)の評価しか直接得られない。",
+        "level": "all",
+        "review": "definition sharpened v12",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ULipAny",
+      "source_line": 1602,
+      "raw": {
+        "id": "ULipAny",
+        "label": "ULip^κ: 任意直積の一様安定性",
+        "family": "metric",
+        "formula": "bounded metric ⇒ all cardinal systems uniquely solvable with 1-Lipschitz solution operator",
+        "grade": "checked",
+        "detail": "有界距離を用いる任意基数直積のsup距離で、ガード付き連立写像がq-縮小。パラメータに対する解の依存も非拡大。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:StrongMix",
+      "source_line": 1603,
+      "raw": {
+        "id": "StrongMix",
+        "label": "CP ∧ Ctr",
+        "family": "modal",
+        "formula": "CP ∧ Ctr",
+        "grade": "logical",
+        "detail": "CPと全元での縮約の連言はAbsを導き、LöbがあればsLöbへ到達する。",
+        "level": "all",
+        "review": "new v4",
+        "source": "RAMS-1 v4: direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CP2",
+      "source_line": 1604,
+      "raw": {
+        "id": "CP2",
+        "label": "CP2",
+        "family": "modal",
+        "formula": "x^2 ≤ □x",
+        "grade": "draft",
+        "detail": "冪的strengthの弱化。CP₁=CP。CP_n⇒CP_{n+1}。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:sL2",
+      "source_line": 1605,
+      "raw": {
+        "id": "sL2",
+        "label": "sL2",
+        "family": "modal",
+        "formula": "(□x→x)^2 ≤ x",
+        "grade": "draft",
+        "detail": "強Löbの冪的弱化。sL₁=sLöb。sLₙはLöb規則を導く。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CP3",
+      "source_line": 1606,
+      "raw": {
+        "id": "CP3",
+        "label": "CP3",
+        "family": "modal",
+        "formula": "x^3 ≤ □x",
+        "grade": "draft",
+        "detail": "冪的strengthの弱化。CP₁=CP。CP_n⇒CP_{n+1}。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:sL3",
+      "source_line": 1607,
+      "raw": {
+        "id": "sL3",
+        "label": "sL3",
+        "family": "modal",
+        "formula": "(□x→x)^3 ≤ x",
+        "grade": "draft",
+        "detail": "強Löbの冪的弱化。sL₁=sLöb。sLₙはLöb規則を導く。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CP4",
+      "source_line": 1608,
+      "raw": {
+        "id": "CP4",
+        "label": "CP4",
+        "family": "modal",
+        "formula": "x^4 ≤ □x",
+        "grade": "draft",
+        "detail": "冪的strengthの弱化。CP₁=CP。CP_n⇒CP_{n+1}。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:sL4",
+      "source_line": 1609,
+      "raw": {
+        "id": "sL4",
+        "label": "sL4",
+        "family": "modal",
+        "formula": "(□x→x)^4 ≤ x",
+        "grade": "draft",
+        "detail": "強Löbの冪的弱化。sL₁=sLöb。sLₙはLöb規則を導く。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FCP2",
+      "source_line": 1610,
+      "raw": {
+        "id": "FCP2",
+        "label": "FLöb ∧ CP2",
+        "family": "modal",
+        "formula": "FLöb ∧ CP2",
+        "grade": "draft",
+        "detail": "FLöbと冪的strengthの連言。草稿の FLöb+CP_n⇒sL_(n+1) を利用できる。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FCP3",
+      "source_line": 1611,
+      "raw": {
+        "id": "FCP3",
+        "label": "FLöb ∧ CP3",
+        "family": "modal",
+        "formula": "FLöb ∧ CP3",
+        "grade": "draft",
+        "detail": "FLöbと冪的strengthの連言。草稿の FLöb+CP_n⇒sL_(n+1) を利用できる。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FLCP",
+      "source_line": 1612,
+      "raw": {
+        "id": "FLCP",
+        "label": "FLöb ∧ CP",
+        "family": "modal",
+        "formula": "FLöb ∧ CP",
+        "grade": "draft",
+        "detail": "従来のFLöbとCPの積。sL₂まで上がるがsL₁への上昇は一般には出ない。",
+        "level": "all",
+        "review": "new v4",
+        "source": "fixed_point_atlas.pdf, p.5 + v4 check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:bMC",
+      "source_line": 1613,
+      "raw": {
+        "id": "bMC",
+        "label": "bMC",
+        "family": "metric",
+        "formula": "∃ bounded complete metric d, Lip_d(□)<1",
+        "grade": "proved",
+        "detail": "有界な完備距離 d が存在し □ が一様 q-縮小。非様相演算の連続性を要求しない。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:buMC",
+      "source_line": 1614,
+      "raw": {
+        "id": "buMC",
+        "label": "buMC",
+        "family": "metric",
+        "formula": "∃ bounded complete ultrametric d, Lip_d(□)<1",
+        "grade": "proved",
+        "detail": "有界な完備超距離 d が存在し □ が一様 q-縮小。非様相演算の非拡大性は要求しない。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ImgSep",
+      "source_line": 1615,
+      "raw": {
+        "id": "ImgSep",
+        "label": "像列の交叉が {1}",
+        "family": "metric",
+        "formula": "⋂_{n≥0} □ⁿ[A] = {1}",
+        "grade": "proved",
+        "detail": "集合の像 □^n[A] の交叉が {1}。□^n0の軌道が1へ近づくという条件とは異なる。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:OrbitZero",
+      "source_line": 1616,
+      "raw": {
+        "id": "OrbitZero",
+        "label": "bottom軌道の停止 FC<ω",
+        "family": "metric",
+        "formula": "∃n≥1 □ⁿ0=1",
+        "grade": "logical",
+        "detail": "単一点 0 の有限段階軌道が1に達する。ImgSepよりも強くなりうる。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:MContWitness",
+      "source_line": 1617,
+      "raw": {
+        "id": "MContWitness",
+        "label": "MC + □ の d-連続性",
+        "family": "metric",
+        "formula": "∃d complete: Lip_d(□)<1 and Cont_d(□)",
+        "grade": "logical",
+        "detail": "完備縮小距離の証人となる d に関して □ が連続。MCの定義から自動。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:GContMC",
+      "source_line": 1618,
+      "raw": {
+        "id": "GContMC",
+        "label": "GCont_MC",
+        "family": "metric",
+        "formula": "∃d: complete ∧ Lip_d(□)<1 ∧ ∀guarded t Cont_d(t)",
+        "grade": "proved",
+        "detail": "ある完備 □-縮小距離 d に関して、すべてのガード付き項写像が連続。任意の外部位相 τ での連続性とは異なる。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:TermContMC",
+      "source_line": 1619,
+      "raw": {
+        "id": "TermContMC",
+        "label": "TermCont_MC",
+        "family": "metric",
+        "formula": "∃d: complete ∧ Lip_d(□)<1 ∧ all primitives jointly continuous",
+        "grade": "proved",
+        "detail": "ある完備 □-縮小距離 d に関して全ての基本演算（すなわち全項）が積位相で連続。非拡大性より弱い。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:GuardLipMC",
+      "source_line": 1620,
+      "raw": {
+        "id": "GuardLipMC",
+        "label": "G-Lip(q)",
+        "family": "metric",
+        "formula": "∃d complete, 0<q<1: ∀guarded t, Lip_p(t)≤q",
+        "grade": "proved",
+        "detail": "ある完備 □-縮小距離 d で、全てのガード付き項が未知変数について同じ q<1 の縮小。非様相演算の全入力非拡大性は必須とは限らない。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:NonmodalNonexp",
+      "source_line": 1621,
+      "raw": {
+        "id": "NonmodalNonexp",
+        "label": "∃d Alg-Nonexp(d)",
+        "family": "metric",
+        "formula": "∃距離d ∀基本非様相演算f: Lip_{d∞}(f)≤1",
+        "grade": "definition",
+        "detail": "ある距離dについて非様相演算がmax-非拡大。dの完備性・□の縮小は要求しない。指定距離dごとの命題とは区別。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:StrictModal",
+      "source_line": 1622,
+      "raw": {
+        "id": "StrictModal",
+        "label": "strictMC",
+        "family": "metric",
+        "formula": "∃complete d: x≠y ⇒ d(□x,□y)<d(x,y)",
+        "grade": "proved",
+        "detail": "ある完備距離の下、□が各異なる二点の距離を真に減少させるが、一様な q<1 を要求しない。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:GuardStrict",
+      "source_line": 1623,
+      "raw": {
+        "id": "GuardStrict",
+        "label": "guarded-strict",
+        "family": "metric",
+        "formula": "∃complete d ∀guarded t ∀x≠y: d(t(x),t(y))<d(x,y)",
+        "grade": "proved",
+        "detail": "ある完備距離 d で全ガード付き項写像が距離を真に減少させる。通常のBanach収縮より弱い。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:GuardContTau",
+      "source_line": 1624,
+      "raw": {
+        "id": "GuardContTau",
+        "label": "GCont(τ)",
+        "family": "metric",
+        "formula": "∀guarded t: Cont_τ(t)",
+        "grade": "definition",
+        "detail": "指定した位相 τ の下で全てのガード付き項写像が連続。距離の存在主張とは切り離す。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:TermContTau",
+      "source_line": 1625,
+      "raw": {
+        "id": "TermContTau",
+        "label": "TermCont(τ)",
+        "family": "metric",
+        "formula": "∀primitive f: Cont_{τ^arity→τ}(f)",
+        "grade": "definition",
+        "detail": "指定した位相 τ の下で全ての基本演算（従って全項）が連続。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:IVTguard",
+      "source_line": 1626,
+      "raw": {
+        "id": "IVTguard",
+        "label": "IVT_guard(≤,τ)",
+        "family": "metric",
+        "formula": "∀guarded t ∀[a,b]: t([a,b]) is order-convex",
+        "grade": "definition",
+        "detail": "指定された線型順序・位相に関し、ガード付き項写像の順序区間上の値域が順序凸。対象区間の連結性が必要。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:IVTall",
+      "source_line": 1627,
+      "raw": {
+        "id": "IVTall",
+        "label": "IVT_all(≤,τ)",
+        "family": "metric",
+        "formula": "∀term t ∀[a,b]: t([a,b]) is order-convex",
+        "grade": "definition",
+        "detail": "指定された線型順序・位相に関し、全項写像の順序区間上の値域が順序凸。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:OrdConnected",
+      "source_line": 1628,
+      "raw": {
+        "id": "OrdConnected",
+        "label": "linear-continuum τ",
+        "family": "metric",
+        "formula": "(A,≤) linear continuum; τ=order topology",
+        "grade": "definition",
+        "detail": "(A,≤)が順序位相で連結な線型連続体。IVTの含意に必要な位相幾何条件。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:OrdTermCont",
+      "source_line": 1629,
+      "raw": {
+        "id": "OrdTermCont",
+        "label": "linear-continuum + TermCont(τ)",
+        "family": "metric",
+        "formula": "OrdConnected ∧ TermCont(τ_order)",
+        "grade": "proved",
+        "detail": "順序位相で連結な線型連続体であり全原始演算が順序位相連続。IVT_allを導く自然な連言原理。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:TopoFixed",
+      "source_line": 1630,
+      "raw": {
+        "id": "TopoFixed",
+        "label": "compact convex + Cont",
+        "family": "metric",
+        "formula": "compact convex A; all term maps continuous",
+        "grade": "conditional",
+        "detail": "適切な局所凸線形位相空間のコンパクト凸集合を台集合とし全項写像が連続。Schauder/Tychonoffの適用範囲を明示。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CompleteOrder",
+      "source_line": 1631,
+      "raw": {
+        "id": "CompleteOrder",
+        "label": "order-complete lattice",
+        "family": "metric",
+        "formula": "(A,≤) complete lattice",
+        "grade": "definition",
+        "detail": "完備束としての順序完備性。単独では残余演算を含む全ガード項写像の単調性を与えない。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:GuardIterContr",
+      "source_line": 1632,
+      "raw": {
+        "id": "GuardIterContr",
+        "label": "iterative guard contraction",
+        "family": "metric",
+        "formula": "∃complete d ∀guarded t ∃k,q<1: Lip_d(tᵏ)≤q",
+        "grade": "proved",
+        "detail": "ある完備距離の下、各ガード付き項 t に対し t の適当な有限反復が一様収縮。反復回数と係数は項に依存してよい。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:U",
+      "source_line": 1633,
+      "raw": {
+        "id": "U",
+        "label": "𝕌 ≡ uAMC",
+        "family": "metric",
+        "formula": "𝕌 := uAMC",
+        "grade": "definition",
+        "detail": "最近の議論で用いた𝕌：完備超距離の存在、□一様縮小、非様相演算max-非拡大。既存のuAMCと完全に同じ条件の別名。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:GUCtheta",
+      "source_line": 1634,
+      "raw": {
+        "id": "GUCtheta",
+        "label": "GUC_θ",
+        "family": "metric",
+        "formula": "∀guarded t ∀n ∃m: x θ_m y ⇒ t(x) θ_n t(y)",
+        "grade": "exploratory",
+        "detail": "分離・逆極限完備なシフト合同／同値列θ_nに対し全ガード項が一様連続：∀n ∃m、入力θ_m近接なら出力θ_n近接。非拡大性・一段収縮とは区別。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Loc",
+      "source_line": 1635,
+      "raw": {
+        "id": "Loc",
+        "label": "Loc_⊥",
+        "family": "metric",
+        "formula": "p_n=□ⁿ0; θ_n: a∧p_n=b∧p_n; θ_n∈Con(A_non□); □θ_n⊆θ_{n+1}",
+        "grade": "exploratory",
+        "detail": "p_n=□ⁿ0 に対する a≡ₙb ⇔ a∧p_n=b∧p_n が非様相代数の合同となり、□が一段シフトさせる局所性条件。分離・完備性は別途必要。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:LocSepComp",
+      "source_line": 1636,
+      "raw": {
+        "id": "LocSepComp",
+        "label": "Loc + Sep + Comp",
+        "family": "metric",
+        "formula": "Loc_⊥ ∧ ⋂θ_n=Δ ∧ A≅lim←A/θ_n",
+        "grade": "conditional",
+        "detail": "上の標準的なmeet-local合同列が分離し、逆極限実現が可能であること。PFℕへの十分条件（個別のLocによる特徴づけではない）。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:DepthLip",
+      "source_line": 1637,
+      "raw": {
+        "id": "DepthLip",
+        "label": "guard depth ⇒ Lip qᵈ",
+        "family": "metric",
+        "formula": "Lip_p(t)≤q^{min modal depth_p(t)}",
+        "grade": "proved",
+        "detail": "ある完備□-縮小距離 d で非様相演算max非拡大、項 t の未知変数最小ガード深度h≥1なら Lip_p(t)≤qʰ。出現回数は係数に現れない。",
+        "level": "core",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:MetricTauCompat",
+      "source_line": 1638,
+      "raw": {
+        "id": "MetricTauCompat",
+        "label": "d ≈ order topology",
+        "family": "metric",
+        "formula": "τ_d=τ_order",
+        "grade": "definition",
+        "detail": "指定距離dが順序位相τ_ordを生成する性質。任意の与えられた位相τへの適合性TopoMCからは、τ=τ_ordを追加しない限り導けない。",
+        "level": "all",
+        "review": "audit-required",
+        "source": "RAMS-1 recent distance/IVT research, Oct 28 2026; derived elementary metric lemmas"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PhiSep",
+      "source_line": 1639,
+      "raw": {
+        "id": "PhiSep",
+        "label": "ΦSep：生成合同塔の分離",
+        "family": "metric",
+        "formula": "(Φⁿ(∇))_{n≥0} の共通部分が Δ",
+        "grade": "checked",
+        "detail": "Φ(θ)=Cg_{A_{¬□}}{(□x,□y):x θ y} と置き、θ₀=∇、θₙ₊₁=Φ(θₙ) と反復する。ΦSep : ⋂ₙ θₙ=Δ。",
+        "level": "core",
+        "review": "2026-11-27: canonical Phi tower distinct from arbitrary compatible congruence filtration; never infer PhiComp from metric completeness without checking closed classes",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PhiComp",
+      "source_line": 1640,
+      "raw": {
+        "id": "PhiComp",
+        "label": "ΦComp：生成合同塔の完備性",
+        "family": "metric",
+        "formula": "A→lim←ₙ A/Φⁿ(∇) が全射",
+        "grade": "checked",
+        "detail": "非様相演算（∧,∨,·,→,0,1）の合同 θₙ=Φⁿ(∇) に関し、整合する剰余類列は A の元で実現される。分離性は含まない。",
+        "level": "all",
+        "review": "2026-11-27: canonical Phi tower distinct from arbitrary compatible congruence filtration; never infer PhiComp from metric completeness without checking closed classes",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PhiSepComp",
+      "source_line": 1641,
+      "raw": {
+        "id": "PhiSepComp",
+        "label": "ΦSep ∧ ΦComp",
+        "family": "metric",
+        "formula": "(⋂ₙΦⁿ(∇)=Δ) ∧ (A≅lim←ₙA/Φⁿ(∇))",
+        "grade": "checked",
+        "detail": "生成合同塔に分離性と逆極限完備性を同時に要求する十分条件。一般の適合完備超距離と自動的に同値とは主張しない。",
+        "level": "core",
+        "review": "2026-11-27: canonical Phi tower distinct from arbitrary compatible congruence filtration; never infer PhiComp from metric completeness without checking closed classes",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PhiNil",
+      "source_line": 1642,
+      "raw": {
+        "id": "PhiNil",
+        "label": "ΦNil<ω：合同作用素の有限停止",
+        "family": "finite",
+        "formula": "∃N≥1 : Φᴺ(∇)=Δ",
+        "grade": "checked",
+        "detail": "有限反復で最小合同が対角合同に到達する条件。N と□1=1の下で□ᴺ[A]={1}、従ってFC<ω を導く。",
+        "level": "all",
+        "review": "new v10; original shared page inaccessible",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:IndBox",
+      "source_line": 1643,
+      "raw": {
+        "id": "IndBox",
+        "label": "Ind□：様相的帰納",
+        "family": "modal",
+        "formula": "∀a (□a≤a ⇒ a=1)",
+        "grade": "checked",
+        "detail": "Löb規則の順序的な名前。N,K,4 上では別の強い原理でなく Löb と同値である。",
+        "level": "all",
+        "review": "new v10; original shared page inaccessible",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:OmegaContBox",
+      "source_line": 1644,
+      "raw": {
+        "id": "OmegaContBox",
+        "label": "ωCont□：増大列の上限保存",
+        "family": "metric",
+        "formula": "□(∨ₙ aₙ)=∨ₙ□aₙ （増大列の上限が存在）",
+        "grade": "logical",
+        "detail": "順序ω連続。Scott連続性 Sc↑ より弱い設定で使える。順序位相での通常の連続性とは区別する。",
+        "level": "all",
+        "review": "new v10; original shared page inaccessible",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:OmegaExh",
+      "source_line": 1645,
+      "raw": {
+        "id": "OmegaExh",
+        "label": "ωExh□：底元反復の尽くし",
+        "family": "finite",
+        "formula": "∨ₙ□ⁿ0=1 （上限が存在）",
+        "grade": "checked",
+        "detail": "底元の上昇様相軌道の上限がトップ。単調性の下でLöb規則を含意する。単なる有界縮小距離のImgSepとは別。",
+        "level": "core",
+        "review": "new v10; original shared page inaccessible",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Frame",
+      "source_line": 1646,
+      "raw": {
+        "id": "Frame",
+        "label": "Frame：完備Heyting代数",
+        "family": "metric",
+        "formula": "(A,∧,∨,→,0,1) は frame ; ·=∧",
+        "grade": "logical",
+        "detail": "任意の結びが存在し、有限meetが任意joinを保存する完備Heyting代数上での特別な状況。一般の非冪等剰余積ではない。",
+        "level": "all",
+        "review": "new v10; original shared page inaccessible",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FrameLoc",
+      "source_line": 1647,
+      "raw": {
+        "id": "FrameLoc",
+        "label": "Frame ∧ Loc⊥",
+        "family": "metric",
+        "formula": "Frame ∧ Loc⊥",
+        "grade": "logical",
+        "detail": "frameのもとで pₙ=□ⁿ0 から θₙ={(x,y):x∧pₙ=y∧pₙ} を定義し、これらが非様相合同かつ□-shiftを満たす。",
+        "level": "all",
+        "review": "new v10; original shared page inaccessible",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FrameLocOmega",
+      "source_line": 1648,
+      "raw": {
+        "id": "FrameLocOmega",
+        "label": "Frame ∧ Loc⊥ ∧ ωCont□",
+        "family": "metric",
+        "formula": "Frame ∧ Loc⊥ ∧ ωCont□",
+        "grade": "logical",
+        "detail": "frame・局所合同・□の増大列上限保存を組み合わせた原理。帰納原理を追加すれば底元軌道が1を尽くす。",
+        "level": "all",
+        "review": "new v10; original shared page inaccessible",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FrameLocIndOmega",
+      "source_line": 1649,
+      "raw": {
+        "id": "FrameLocIndOmega",
+        "label": "Frame+Loc+ωCont+Ind□",
+        "family": "metric",
+        "formula": "Frame ∧ Loc⊥ ∧ ωCont□ ∧ Ind□",
+        "grade": "checked",
+        "detail": "十分条件：p∞=∨ₙ□ⁿ0 は□固定点となりInd□で1。frame上のpₙ投影から分離性・逆極限への全射が従い、buAMCへ。",
+        "level": "core",
+        "review": "new v10; original shared page inaccessible",
+        "source": "Retrieved RAMS-1 research notes and converse ultrametric discussion; see v10 audit"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ConDCC",
+      "source_line": 1650,
+      "raw": {
+        "id": "ConDCC",
+        "label": "Con-DCC：非様相合同束の下降鎖条件",
+        "family": "finite",
+        "formula": "Con(A_{¬□}) は DCC（任意の下降列が停止）",
+        "grade": "proved",
+        "detail": "非様相還元の合同束に真の無限下降鎖が存在しない。Φ生成塔の有限停止を導くための純代数的な追加仮定。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SIred",
+      "source_line": 1651,
+      "raw": {
+        "id": "SIred",
+        "label": "SI(A¬□)：非様相還元の劣直既約性",
+        "family": "finite",
+        "formula": "∃ μ>Δ : ∀θ>Δ, μ≤θ",
+        "grade": "proved",
+        "detail": "非様相還元の非自明な任意合同に共通して含まれる最小非自明合同 μ が存在する。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SimpleRed",
+      "source_line": 1652,
+      "raw": {
+        "id": "SimpleRed",
+        "label": "Simple(A¬□)：非様相還元が単純",
+        "family": "finite",
+        "formula": "Con(A_{¬□})={Δ,∇}",
+        "grade": "proved",
+        "detail": "非様相演算による合同が対角合同と普遍合同に限られる。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:DCCPhiSep",
+      "source_line": 1653,
+      "raw": {
+        "id": "DCCPhiSep",
+        "label": "Con-DCC ∧ ΦSep",
+        "family": "metric",
+        "formula": "ConDCC ∧ ΦSep",
+        "grade": "proved",
+        "detail": "合同塔が分離的であり、その合同束は下降鎖条件を満たす。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SIPhiSep",
+      "source_line": 1654,
+      "raw": {
+        "id": "SIPhiSep",
+        "label": "SI(A¬□) ∧ ΦSep",
+        "family": "metric",
+        "formula": "SIred ∧ ΦSep",
+        "grade": "proved",
+        "detail": "劣直既約非様相還元で、正準Φ塔が分離的。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SimplePhiSep",
+      "source_line": 1655,
+      "raw": {
+        "id": "SimplePhiSep",
+        "label": "Simple(A¬□) ∧ ΦSep",
+        "family": "metric",
+        "formula": "SimpleRed ∧ ΦSep",
+        "grade": "proved",
+        "detail": "単純な非様相還元における正準合同塔の分離性。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SimpleUAMC",
+      "source_line": 1656,
+      "raw": {
+        "id": "SimpleUAMC",
+        "label": "Simple(A¬□) ∧ uAMC",
+        "family": "metric",
+        "formula": "SimpleRed ∧ uAMC",
+        "grade": "proved",
+        "detail": "単純な非様相還元上で、すべての非様相演算が非拡大・□が一様縮小となる完備超距離が存在。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SIuAMC",
+      "source_line": 1657,
+      "raw": {
+        "id": "SIuAMC",
+        "label": "SI(A¬□) ∧ uAMC",
+        "family": "metric",
+        "formula": "SIred ∧ uAMC",
+        "grade": "proved",
+        "detail": "劣直既約な非様相還元で適合完備超距離が存在。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:LocalFC",
+      "source_line": 1658,
+      "raw": {
+        "id": "LocalFC",
+        "label": "局所有限停止 LocalFC",
+        "family": "finite",
+        "formula": "∀a∈A ∃n≥0: □ⁿa=1",
+        "grade": "proved",
+        "detail": "各元ごとに様相反復が有限段で1に到達する。共通の停止時刻FC_{<ω}とは区別する。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:UFcyc",
+      "source_line": 1659,
+      "raw": {
+        "id": "UFcyc",
+        "label": "UF_cyc^{<ω}：有限cycle-guarded唯一解",
+        "family": "systems",
+        "formula": "任意の有限連立系で「無ガードの依存辺」の有向グラフが非循環なら ∃! 解",
+        "grade": "proved",
+        "detail": "全出現のガードは要求しない。各閉路が少なくとも一回□を通過する有限連立系の唯一可解性。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:SubdirFinite",
+      "source_line": 1660,
+      "raw": {
+        "id": "SubdirFinite",
+        "label": "有限ガード依存閉路収縮",
+        "family": "metric",
+        "formula": "有限依存グラフの各有向閉路 C で ∏_{e∈C} Lip(e)<1",
+        "grade": "proved",
+        "detail": "特定の有限連立系Tに対する局所条件。各有向閉路上のLipschitz係数の積が1未満。全てのTの可解性をそれだけで意味しない。適合完備距離の仮定と合わせるとそのTにBanachを適用できる。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:AMCCyc",
+      "source_line": 1661,
+      "raw": {
+        "id": "AMCCyc",
+        "label": "AMC ∧ cycle-guarded有限系",
+        "family": "systems",
+        "formula": "AMC ∧ 対象の有限連立系の無ガード依存グラフがDAG",
+        "grade": "proved",
+        "detail": "AMCという代数条件と、特定の有限方程式系Tの依存グラフがcycle-guardedであるという構文条件の組。代数単独の原理ではないので全称原理への矢印はAMCを経由させる。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CycleIterContr",
+      "source_line": 1662,
+      "raw": {
+        "id": "CycleIterContr",
+        "label": "有限cycle-guarded系のm段収縮",
+        "family": "metric",
+        "formula": "任意の m-変数 cycle-guarded 系Tに対し Lip_{d∞}(T^m)≤q<1",
+        "grade": "proved",
+        "detail": "各依存パス長mは頂点重複を含み、無ガード辺だけで閉路を作れないから少なくとも一度□を通過する。各行は有限項。距離dはAMCの証人を共有する。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PhiCompact",
+      "source_line": 1663,
+      "raw": {
+        "id": "PhiCompact",
+        "label": "Φ-コンパクト閉合同",
+        "family": "metric",
+        "formula": "A はコンパクト位相空間で、全nとa∈Aについて [a]_{Φⁿ(∇)} が閉集合",
+        "grade": "proved",
+        "detail": "正準Φ塔の各合同類が非空閉集合となるコンパクト位相を A に指定する。位相と□の連続性はこの定理自体には不要。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:PhiCompactSep",
+      "source_line": 1664,
+      "raw": {
+        "id": "PhiCompactSep",
+        "label": "ΦCompact ∧ ΦSep",
+        "family": "metric",
+        "formula": "PhiCompact ∧ PhiSep",
+        "grade": "proved",
+        "detail": "コンパクト空間上の閉合同類と正準合同塔の分離性。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CompactIsolatedOne",
+      "source_line": 1665,
+      "raw": {
+        "id": "CompactIsolatedOne",
+        "label": "コンパクト・連続□・1孤立",
+        "family": "finite",
+        "formula": "A はコンパクト位相空間, □ は連続, {1} は開集合",
+        "grade": "proved",
+        "detail": "各逆像 (□ⁿ)^{-1}({1}) が開集合で、局所有限停止から有限部分被覆を抽出できる。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CompactLocalFC",
+      "source_line": 1666,
+      "raw": {
+        "id": "CompactLocalFC",
+        "label": "CompactIso1 ∧ LocalFC",
+        "family": "finite",
+        "formula": "CompactIsolatedOne ∧ LocalFC",
+        "grade": "proved",
+        "detail": "局所有限停止と、1を孤立点とするコンパクト位相・連続様相の組。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "新補題：2026-10-29（本応答中に証明案）"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:TopoMC",
+      "source_line": 1667,
+      "raw": {
+        "id": "TopoMC",
+        "label": "元の位相と両立する完備縮小距離",
+        "family": "metric",
+        "formula": "ある有界完備距離 d が元の位相τを誘導し、Lip_d(□)<1",
+        "grade": "literature",
+        "detail": "単なるMCと異なり、すでに与えられた位相τを変更しない。コンパクト距離空間でのJanoš–Meyers逆縮小定理に関係。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "Janoš, Proc. AMS 18 (1967), 287–289; Meyers, J. Res. NBS 71B (1967), 73–77"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CompactImgSep",
+      "source_line": 1668,
+      "raw": {
+        "id": "CompactImgSep",
+        "label": "コンパクト距離・連続□・ImgSep",
+        "family": "metric",
+        "formula": "(A,τ) はコンパクト距離化可能, □:A→A は連続, ∩ₙ□ⁿ[A]={1}",
+        "grade": "literature",
+        "detail": "固定されたコンパクト可距離位相の上で□が連続であり、全像の共通部分が一点である。",
+        "level": "all",
+        "review": "author-proof-to-audit",
+        "source": "Janoš (1967), Meyers (1967)"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:NilAll",
+      "source_line": 1669,
+      "raw": {
+        "id": "NilAll",
+        "label": "Nil<1：非1元の冪零性",
+        "family": "modal",
+        "formula": "∀a≠1 ∃n≥1 (a^n=0)",
+        "grade": "checked",
+        "detail": "全ての1未満の元は積について冪零。標準Łukasiewicz MV代数が例。",
+        "level": "all",
+        "review": "proof given in audit",
+        "source": "2026-10-29 algebraic/metric audit; direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:BoxAvoidNil",
+      "source_line": 1670,
+      "raw": {
+        "id": "BoxAvoidNil",
+        "label": "BoxNilAvoid：様相像の冪零元回避",
+        "family": "metric",
+        "formula": "∀x∀n≥1 [ (□x)^n=0 ⇒ □x=1 ]",
+        "grade": "checked",
+        "detail": "非様相の元a<1で冪零のものを□の像が含まない。N+AMCから導ける必要条件。",
+        "level": "core",
+        "review": "proof given in audit",
+        "source": "2026-10-29 algebraic/metric audit; direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:NilAMC",
+      "source_line": 1671,
+      "raw": {
+        "id": "NilAMC",
+        "label": "Nil<1 ∧ AMC",
+        "family": "metric",
+        "formula": "NilAll ∧ AMC",
+        "grade": "checked",
+        "detail": "冪零性を持つ還元と適合完備縮小距離を同時に要求。Verumを導く。",
+        "level": "all",
+        "review": "proof given in audit",
+        "source": "2026-10-29 algebraic/metric audit; direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:ConstBox",
+      "source_line": 1672,
+      "raw": {
+        "id": "ConstBox",
+        "label": "ConstBox：□が定値",
+        "family": "modal",
+        "formula": "∀x,y, □x=□y",
+        "grade": "checked",
+        "detail": "Nを加えるとVerum（□≡1）に一致。",
+        "level": "all",
+        "review": "proof given in audit",
+        "source": "2026-10-29 algebraic/metric audit; direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:KappaUF",
+      "source_line": 1673,
+      "raw": {
+        "id": "KappaUF",
+        "label": "任意基数ガード付き連立唯一解（別名）",
+        "family": "systems",
+        "formula": "∀I, finite-row guarded systems T:A^I→A^I have a unique fixed point",
+        "grade": "checked",
+        "detail": "UFany の厳密な量化仕様を確認するための同義ノード。必要な行有限性を明記。",
+        "level": "all",
+        "review": "proof given in audit",
+        "source": "2026-10-29 algebraic/metric audit; direct proof"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Var_gFPP",
+      "source_line": 1674,
+      "raw": {
+        "id": "Var_gFPP",
+        "label": "Var(A)⊨gFPP",
+        "family": "refinements",
+        "formula": "∀B∈HSP(A) B⊨gFPP",
+        "grade": "proof v9",
+        "detail": "Aが生成する多様体HSP(A)の全ての代数でガード付きFPPが成立する。gTFPP(A)と同値。",
+        "level": "all",
+        "review": "proved-in-note",
+        "source": "v9 free algebra theorem T-II.5"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:IABox",
+      "source_line": 1675,
+      "raw": {
+        "id": "IABox",
+        "label": "IA□（局所吸収）",
+        "family": "modal",
+        "formula": "∀x □(x·□x)=□x",
+        "grade": "proved-in-note",
+        "detail": "Mix□より弱い；M+IA□の下でSC⇔FLöb。",
+        "level": "core",
+        "review": "R10-1,R10-2",
+        "source": "2026-10-31 v10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:IA_SC",
+      "source_line": 1676,
+      "raw": {
+        "id": "IA_SC",
+        "label": "IA_SC（SC解上での局所吸収）",
+        "family": "modal",
+        "formula": "∀a ∃p (p=□p→a and □(p·□p)=□p)",
+        "grade": "proved-in-note",
+        "detail": "点別のSC解に対する吸収の要請；MでFLöb(a)が従う。",
+        "level": "all",
+        "review": "R10-1",
+        "source": "2026-10-31 v10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Con_L",
+      "source_line": 1677,
+      "raw": {
+        "id": "Con_L",
+        "label": "Con_L（□0=0）",
+        "family": "modal",
+        "formula": "□0≤0",
+        "grade": "proved-in-note",
+        "detail": "外的底元無矛盾性条件。Nを加えると非自明モデルで¬gTFPP,¬gU。",
+        "level": "all",
+        "review": "R10-3",
+        "source": "2026-10-31 v10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:Con_S",
+      "source_line": 1678,
+      "raw": {
+        "id": "Con_S",
+        "label": "Con_S（schematic consistency）",
+        "family": "modal",
+        "formula": "∀x(□x≤¬□¬x)",
+        "grade": "proved-in-note",
+        "detail": "N,Kの下でCon_Lと同値（外部全称）。",
+        "level": "all",
+        "review": "R10-3",
+        "source": "2026-10-31 v10"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:MalcevNonexp",
+      "source_line": 1679,
+      "raw": {
+        "id": "MalcevNonexp",
+        "label": "Malcev max-nonexp ⇒ ultrametric",
+        "family": "metric",
+        "formula": "m(x,y,z)=x(y→z)∨z(y→x); d(x,z)≤max(d(x,y),d(y,z))",
+        "grade": "proved-in-note",
+        "detail": "適合する任意の距離が超距離となる。",
+        "level": "core",
+        "review": "N11-01",
+        "source": "2026-11-27 v11"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:CongFiltExists",
+      "source_line": 1680,
+      "raw": {
+        "id": "CongFiltExists",
+        "label": "存在する分離完備合同フィルトレーション",
+        "family": "metric",
+        "formula": "∃(θn): θ0=∇,∩θn=Δ,Box θn⊆θn+1,A≅lim A/θn",
+        "grade": "proved-in-note",
+        "detail": "AMC/uAMCの純代数的特徴づけ。正準Φ塔ではない。",
+        "level": "core",
+        "review": "N11-02",
+        "source": "2026-11-27 v11"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:principles:FinCofUFany",
+      "source_line": 1681,
+      "raw": {
+        "id": "FinCofUFany",
+        "label": "FinCof strict-prefix 内の全濃度 UF^κ",
+        "family": "systems",
+        "formula": "∀κ every finitely supported fully guarded system has a unique solution in FinCof(N)",
+        "grade": "proved-in-note",
+        "detail": "FLöb,ΦSep,¬ΦComp,¬AMC同時成立の強い分離証人。",
+        "level": "core",
+        "review": "N11-05",
+        "source": "2026-11-27 v11"
+      },
+      "repository_status": "pending"
+    }
+  ]
+}

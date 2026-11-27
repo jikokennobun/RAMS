@@ -1,0 +1,111 @@
+flowchart LR
+  N["N"]
+  K["K"]
+  4["4"]
+  gFPP["gFPP"]
+  gU["gU"]
+  gUFPP["gUFPP"]
+  gTFPP["gTFPP"]
+  gUTFPP["gUTFPP"]
+  Lob["Lob"]
+  FLob["FLob"]
+  sLob["sLob"]
+  SC["SC"]
+  Mix["Mix"]
+  IA_box["IA_box"]
+  MC["MC"]
+  uMC["uMC"]
+  AMC["AMC"]
+  uAMC["uAMC"]
+  CongruenceTower["CongruenceTower"]
+  UniformApproximation["UniformApproximation"]
+  M["M"]
+  C["C"]
+  Abs["Abs"]
+  CP["CP"]
+  Ctr["Ctr"]
+  Ctr_box["Ctr_box"]
+  bAMC["bAMC"]
+  buAMC["buAMC"]
+  PhiSep["PhiSep"]
+  PhiComp["PhiComp"]
+  ImgSep["ImgSep"]
+  TermUniformClosed["TermUniformClosed"]
+  UF_all["UF_all"]
+  LipFix["LipFix"]
+  DEF_001{"DEF-001: AND (definition)"}
+  gUFPP --> DEF_001
+  DEF_001 --> gFPP
+  DEF_002{"DEF-002: AND (definition)"}
+  gUFPP --> DEF_002
+  DEF_002 --> gU
+  DEF_003{"DEF-003: AND (definition)"}
+  gFPP --> DEF_003
+  gU --> DEF_003
+  DEF_003 --> gUFPP
+  LEAD_001{"LEAD-001: AND (pending)"}
+  SC -.-> LEAD_001
+  M -.-> LEAD_001
+  IA_box -.-> LEAD_001
+  LEAD_001 -.-> FLob
+  LEAD_002{"LEAD-002: AND (pending)"}
+  AMC -.-> LEAD_002
+  LEAD_002 -.-> uAMC
+  LEAD_003{"LEAD-003: AND (pending)"}
+  uAMC -.-> LEAD_003
+  N -.-> LEAD_003
+  LEAD_003 -.-> CongruenceTower
+  LEAD_004{"LEAD-004: AND (pending)"}
+  CongruenceTower -.-> LEAD_004
+  N -.-> LEAD_004
+  LEAD_004 -.-> uAMC
+  LEAD_005{"LEAD-005: AND (pending)"}
+  AMC -.-> LEAD_005
+  LEAD_005 -.-> UniformApproximation
+  LEAD_006{"LEAD-006: AND (open)"}
+  gTFPP -.-> LEAD_006
+  N -.-> LEAD_006
+  K -.-> LEAD_006
+  4 -.-> LEAD_006
+  LEAD_006 -.-> gU
+  DEF_004{"DEF-004: AND (definition)"}
+  gUTFPP --> DEF_004
+  DEF_004 --> gTFPP
+  DEF_005{"DEF-005: AND (definition)"}
+  gUTFPP --> DEF_005
+  DEF_005 --> gU
+  DEF_006{"DEF-006: AND (definition)"}
+  gTFPP --> DEF_006
+  gU --> DEF_006
+  DEF_006 --> gUTFPP
+  DEF_007{"DEF-007: AND (definition)"}
+  gTFPP --> DEF_007
+  DEF_007 --> gFPP
+  V11_001{"V11-001: AND (pending)"}
+  AMC -.-> V11_001
+  V11_001 -.-> bAMC
+  V11_002{"V11-002: AND (pending)"}
+  AMC -.-> V11_002
+  V11_002 -.-> buAMC
+  V11_003{"V11-003: AND (pending)"}
+  AMC -.-> V11_003
+  V11_003 -.-> UF_all
+  V11_004{"V11-004: AND (pending)"}
+  AMC -.-> V11_004
+  V11_004 -.-> LipFix
+  V11_005{"V11-005: AND (pending)"}
+  PhiSep -.-> V11_005
+  PhiComp -.-> V11_005
+  N -.-> V11_005
+  V11_005 -.-> AMC
+  V11_006{"V11-006: AND (pending)"}
+  PhiSep -.-> V11_006
+  N -.-> V11_006
+  V11_006 -.-> ImgSep
+  V11_007{"V11-007: AND (pending)"}
+  AMC -.-> V11_007
+  TermUniformClosed -.-> V11_007
+  V11_007 -.-> gTFPP
+  V11_008{"V11-008: AND (open)"}
+  AMC -.-> V11_008
+  V11_008 -.-> PhiComp

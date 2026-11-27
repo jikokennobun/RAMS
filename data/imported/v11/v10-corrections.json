@@ -1,0 +1,265 @@
+{
+  "format": "rams-source-registry-v1",
+  "source_id": "S005",
+  "source_path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+  "source_sha256": "1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951",
+  "part": 10,
+  "columns": [
+    "id",
+    "statement",
+    "assumptions",
+    "status",
+    "reference",
+    "witness_or_idea"
+  ],
+  "count": 19,
+  "records": [
+    {
+      "key": "S005:v10-corrections:R10-01",
+      "source_line": 2365,
+      "raw": {
+        "id": "R10-01",
+        "statement": "IA□+SC⇒FLöb",
+        "assumptions": "M; all SC parameters",
+        "status": "proved-in-note",
+        "reference": "R10-1",
+        "witness_or_idea": "SC solution p; □a≤□p=□(p□p)≤□a"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-02",
+      "source_line": 2366,
+      "raw": {
+        "id": "R10-02",
+        "statement": "IA_SC(a)+SC(a)⇒FLöb(a)",
+        "assumptions": "M; IA on one SC solution",
+        "status": "proved-in-note",
+        "reference": "R10-1",
+        "witness_or_idea": "parameter-local formulation"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-03",
+      "source_line": 2367,
+      "raw": {
+        "id": "R10-03",
+        "statement": "Mix□⇒IA□",
+        "assumptions": "K⇒M+C",
+        "status": "proved-in-note",
+        "reference": "R10-2",
+        "witness_or_idea": "monotonicity and C"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-04",
+      "source_line": 2368,
+      "raw": {
+        "id": "R10-04",
+        "statement": "IA□⇏Mix□",
+        "assumptions": "N,K,4",
+        "status": "finite-computation",
+        "reference": "R10-2",
+        "witness_or_idea": "3-element Lukasiewicz threshold box"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-05",
+      "source_line": 2369,
+      "raw": {
+        "id": "R10-05",
+        "statement": "Con_S⇔Con_L",
+        "assumptions": "N,K; Diamond=¬□¬",
+        "status": "proved-in-note",
+        "reference": "R10-3",
+        "witness_or_idea": "K and residuation"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-06",
+      "source_line": 2370,
+      "raw": {
+        "id": "R10-06",
+        "statement": "Con_L⇒¬gTFPP",
+        "assumptions": "N; 0≠1; original language",
+        "status": "proved-in-note",
+        "reference": "R10-3",
+        "witness_or_idea": "p=¬□p no closed-term solution"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-07",
+      "source_line": 2371,
+      "raw": {
+        "id": "R10-07",
+        "statement": "Con_L⇒¬gU",
+        "assumptions": "N; 0≠1",
+        "status": "proved-in-note",
+        "reference": "R10-3",
+        "witness_or_idea": "box p=p fixed by 0 and 1"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-08",
+      "source_line": 2372,
+      "raw": {
+        "id": "R10-08",
+        "statement": "Con_L∧FLöb impossible",
+        "assumptions": "N; 0≠1",
+        "status": "proved-in-note",
+        "reference": "R10-3",
+        "witness_or_idea": "FLob at x=0 gives 1≤0"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-09",
+      "source_line": 2373,
+      "raw": {
+        "id": "R10-09",
+        "statement": "Con_S+SC+FPP+¬gTFPP+¬gU",
+        "assumptions": "[0,1] MV with box=id",
+        "status": "proved-in-note",
+        "reference": "R10-3",
+        "witness_or_idea": "SC solve p=(1+a)/2"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-10",
+      "source_line": 2374,
+      "raw": {
+        "id": "R10-10",
+        "statement": "SC⇏F_1,1",
+        "assumptions": "N,K,4,Lob,CP,gU (draft)",
+        "status": "draft-plus-checked-calculation",
+        "reference": "R10-4",
+        "witness_or_idea": "localized MV ring R_-"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-11",
+      "source_line": 2375,
+      "raw": {
+        "id": "R10-11",
+        "statement": "gTFPP⇔HSP(A) gFPP",
+        "assumptions": "finitary language",
+        "status": "carry-v9",
+        "reference": "R10-5",
+        "witness_or_idea": "universally algebraic free algebra argument"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-12",
+      "source_line": 2376,
+      "raw": {
+        "id": "R10-12",
+        "statement": "TermCont⇒GuardCont_p; converse fails",
+        "assumptions": "real order topology; Godel residual",
+        "status": "proved-in-note",
+        "reference": "R10-6",
+        "witness_or_idea": "box≡1"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-13",
+      "source_line": 2377,
+      "raw": {
+        "id": "R10-13",
+        "statement": "AMC⇒uAMC",
+        "assumptions": "general bicRAMS",
+        "status": "unresolved",
+        "reference": "R10-6",
+        "witness_or_idea": "conflicting old proof sketches"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-14",
+      "source_line": 2378,
+      "raw": {
+        "id": "R10-14",
+        "statement": "gTFPP⇒gU",
+        "assumptions": "N,K,4 bicRAMS",
+        "status": "unresolved",
+        "reference": "R10-5",
+        "witness_or_idea": "IA and consistency eliminate candidates"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-15",
+      "source_line": 2379,
+      "raw": {
+        "id": "R10-15",
+        "statement": "SC+IA_SC⇒gU",
+        "assumptions": "N,K; local IA for each a",
+        "status": "conditional-on-draft",
+        "reference": "R10-1",
+        "witness_or_idea": "use main FLob finite system theorem"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-16",
+      "source_line": 2380,
+      "raw": {
+        "id": "R10-16",
+        "statement": "V22-V25 infinite systems",
+        "assumptions": "N,K,4 etc as formerly specified",
+        "status": "needs-independent-audit",
+        "reference": "R10-9",
+        "witness_or_idea": "old derivations not independently checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-17",
+      "source_line": 2381,
+      "raw": {
+        "id": "R10-17",
+        "statement": "Old assertion Con_S+SC+gTFPP via MV id",
+        "assumptions": "N,K MV id",
+        "status": "withdrawn",
+        "reference": "R10-9",
+        "witness_or_idea": "closed-term obstruction"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-18",
+      "source_line": 2382,
+      "raw": {
+        "id": "R10-18",
+        "statement": "Complete Heyting frame AMC⇔uAMC⇔ωExh",
+        "assumptions": "strong frame hypotheses",
+        "status": "old-proof-recheck",
+        "reference": "R10-6",
+        "witness_or_idea": "separate from general bicRAMS"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:v10-corrections:R10-19",
+      "source_line": 2383,
+      "raw": {
+        "id": "R10-19",
+        "statement": "IA_SC versus IA□ strict separation",
+        "assumptions": "N,K etc",
+        "status": "unresolved",
+        "reference": "R10-2",
+        "witness_or_idea": "full countermodel not independently checked"
+      },
+      "repository_status": "pending"
+    }
+  ]
+}

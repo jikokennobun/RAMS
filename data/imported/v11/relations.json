@@ -1,0 +1,6710 @@
+{
+  "format": "rams-source-registry-v1",
+  "source_id": "S005",
+  "source_path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+  "source_sha256": "1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951",
+  "part": 6,
+  "columns": [
+    "id",
+    "source",
+    "target",
+    "kind",
+    "note",
+    "reference",
+    "scope",
+    "grade"
+  ],
+  "count": 446,
+  "records": [
+    {
+      "key": "S005:relations:e0",
+      "source_line": 1693,
+      "raw": {
+        "id": "e0",
+        "source": "sLob",
+        "target": "FLob",
+        "kind": "proof",
+        "note": "sLöb: (□x→x)≤x。単調性から□(□x→x)≤□x。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1",
+      "source_line": 1694,
+      "raw": {
+        "id": "e1",
+        "source": "sLob",
+        "target": "CP",
+        "kind": "proof",
+        "note": "sLöb は CP/strength を導く",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e2",
+      "source_line": 1695,
+      "raw": {
+        "id": "e2",
+        "source": "sLob",
+        "target": "Mix",
+        "kind": "proof",
+        "note": "sLöb は Mix を導く",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e3",
+      "source_line": 1696,
+      "raw": {
+        "id": "e3",
+        "source": "sLob",
+        "target": "Abs",
+        "kind": "proof",
+        "note": "sLöb は吸収を導く",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4",
+      "source_line": 1697,
+      "raw": {
+        "id": "e4",
+        "source": "FLob",
+        "target": "gUTFPP",
+        "kind": "proof",
+        "note": "草稿定理3.1: 一様項構成・一意性",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e5",
+      "source_line": 1698,
+      "raw": {
+        "id": "e5",
+        "source": "gUTFPP",
+        "target": "gTFPP",
+        "kind": "def",
+        "note": "連言の射影",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e6",
+      "source_line": 1699,
+      "raw": {
+        "id": "e6",
+        "source": "gUTFPP",
+        "target": "gUFPP",
+        "kind": "def",
+        "note": "項解は存在し、gUが高々一意",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e7",
+      "source_line": 1700,
+      "raw": {
+        "id": "e7",
+        "source": "gUFPP",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "唯一存在から存在",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e8",
+      "source_line": 1701,
+      "raw": {
+        "id": "e8",
+        "source": "gUFPP",
+        "target": "gU",
+        "kind": "def",
+        "note": "唯一存在から高々一意",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e9",
+      "source_line": 1702,
+      "raw": {
+        "id": "e9",
+        "source": "gTFPP",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "項解がある",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e10",
+      "source_line": 1703,
+      "raw": {
+        "id": "e10",
+        "source": "gFPP",
+        "target": "FAll",
+        "kind": "def",
+        "note": "有限の出現・深度で分解",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e11",
+      "source_line": 1704,
+      "raw": {
+        "id": "e11",
+        "source": "FAll",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "全有限項を尽くす",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e12",
+      "source_line": 1705,
+      "raw": {
+        "id": "e12",
+        "source": "gU",
+        "target": "Lall",
+        "kind": "proof",
+        "note": "草稿系4.10",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e13",
+      "source_line": 1706,
+      "raw": {
+        "id": "e13",
+        "source": "Lall",
+        "target": "gU",
+        "kind": "proof",
+        "note": "草稿系4.10",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e14",
+      "source_line": 1707,
+      "raw": {
+        "id": "e14",
+        "source": "Lall",
+        "target": "L4",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e15",
+      "source_line": 1708,
+      "raw": {
+        "id": "e15",
+        "source": "L4",
+        "target": "L3",
+        "kind": "proof",
+        "note": "L4→L3: (□a)^4≤(□a)^3≤a。L4適用。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e16",
+      "source_line": 1709,
+      "raw": {
+        "id": "e16",
+        "source": "L3",
+        "target": "L2",
+        "kind": "proof",
+        "note": "L3→L2: (□a)^3≤(□a)^2≤a。L3適用。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e17",
+      "source_line": 1710,
+      "raw": {
+        "id": "e17",
+        "source": "L2",
+        "target": "Lob",
+        "kind": "proof",
+        "note": "L2→L1: (□a)^2≤□a≤a。L2適用。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e19",
+      "source_line": 1711,
+      "raw": {
+        "id": "e19",
+        "source": "gFPP",
+        "target": "E3",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e20",
+      "source_line": 1712,
+      "raw": {
+        "id": "e20",
+        "source": "E3",
+        "target": "E2",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e21",
+      "source_line": 1713,
+      "raw": {
+        "id": "e21",
+        "source": "E2",
+        "target": "E1",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e22",
+      "source_line": 1714,
+      "raw": {
+        "id": "e22",
+        "source": "E1",
+        "target": "F13",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e23",
+      "source_line": 1715,
+      "raw": {
+        "id": "e23",
+        "source": "F13",
+        "target": "F12",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e24",
+      "source_line": 1716,
+      "raw": {
+        "id": "e24",
+        "source": "F12",
+        "target": "F11",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e25",
+      "source_line": 1717,
+      "raw": {
+        "id": "e25",
+        "source": "F11",
+        "target": "SC",
+        "kind": "def",
+        "note": "SC は F₁,₁ の対象項",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e26",
+      "source_line": 1718,
+      "raw": {
+        "id": "e26",
+        "source": "E3",
+        "target": "F31",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e27",
+      "source_line": 1719,
+      "raw": {
+        "id": "e27",
+        "source": "E2",
+        "target": "F22",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e28",
+      "source_line": 1720,
+      "raw": {
+        "id": "e28",
+        "source": "F22",
+        "target": "F21",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e29",
+      "source_line": 1721,
+      "raw": {
+        "id": "e29",
+        "source": "F31",
+        "target": "F21",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e30",
+      "source_line": 1722,
+      "raw": {
+        "id": "e30",
+        "source": "F22",
+        "target": "F12",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e31",
+      "source_line": 1723,
+      "raw": {
+        "id": "e31",
+        "source": "F21",
+        "target": "F11",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e32",
+      "source_line": 1724,
+      "raw": {
+        "id": "e32",
+        "source": "E1",
+        "target": "SCiter",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e33",
+      "source_line": 1725,
+      "raw": {
+        "id": "e33",
+        "source": "SCiter",
+        "target": "SCd",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e34",
+      "source_line": 1726,
+      "raw": {
+        "id": "e34",
+        "source": "SCd",
+        "target": "SC",
+        "kind": "linked",
+        "note": "SC₁=SC という端点同一視。任意 d に対する SCd⇒SC は主張しない",
+        "reference": "",
+        "scope": "d=1",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e35",
+      "source_line": 1727,
+      "raw": {
+        "id": "e35",
+        "source": "SC",
+        "target": "G0",
+        "kind": "def",
+        "note": "パラメータ a=0",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e36",
+      "source_line": 1728,
+      "raw": {
+        "id": "e36",
+        "source": "SC",
+        "target": "J",
+        "kind": "proof",
+        "note": "p=□p→a と j=□(j→a) の不動点集合は p↦□p,j↦j→a で相互逆。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e37",
+      "source_line": 1729,
+      "raw": {
+        "id": "e37",
+        "source": "J",
+        "target": "SC",
+        "kind": "proof",
+        "note": "前行と同じ固定点集合の全単射。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e38",
+      "source_line": 1730,
+      "raw": {
+        "id": "e38",
+        "source": "gTFPP",
+        "target": "SCterm",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e39",
+      "source_line": 1731,
+      "raw": {
+        "id": "e39",
+        "source": "SCterm",
+        "target": "SC",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e40",
+      "source_line": 1732,
+      "raw": {
+        "id": "e40",
+        "source": "ESC",
+        "target": "SCterm",
+        "kind": "proof",
+        "note": "指定された解項",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e41",
+      "source_line": 1733,
+      "raw": {
+        "id": "e41",
+        "source": "FLob",
+        "target": "ESC",
+        "kind": "proof",
+        "note": "標準SC解は □a→a",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e42",
+      "source_line": 1734,
+      "raw": {
+        "id": "e42",
+        "source": "F22",
+        "target": "SCpow",
+        "kind": "linked",
+        "note": "SCpow(n,d) は対応する Fₙ,d の試験項族",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e43",
+      "source_line": 1735,
+      "raw": {
+        "id": "e43",
+        "source": "L2",
+        "target": "Ubounded",
+        "kind": "reported",
+        "note": "U≤n≡Lₙ（一般 n の代表表示）",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e44",
+      "source_line": 1736,
+      "raw": {
+        "id": "e44",
+        "source": "Ubounded",
+        "target": "L2",
+        "kind": "reported",
+        "note": "n=2 の代表表示",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e45",
+      "source_line": 1737,
+      "raw": {
+        "id": "e45",
+        "source": "gUFPP",
+        "target": "Pall",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e46",
+      "source_line": 1738,
+      "raw": {
+        "id": "e46",
+        "source": "Pall",
+        "target": "gUFPP",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e47",
+      "source_line": 1739,
+      "raw": {
+        "id": "e47",
+        "source": "Pall",
+        "target": "P4",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e48",
+      "source_line": 1740,
+      "raw": {
+        "id": "e48",
+        "source": "P4",
+        "target": "P3",
+        "kind": "proof",
+        "note": "Pₙ+1⇒Pₙ は strict (草稿)",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e49",
+      "source_line": 1741,
+      "raw": {
+        "id": "e49",
+        "source": "P3",
+        "target": "P2",
+        "kind": "proof",
+        "note": "",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e50",
+      "source_line": 1742,
+      "raw": {
+        "id": "e50",
+        "source": "P2",
+        "target": "P1",
+        "kind": "proof",
+        "note": "",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e51",
+      "source_line": 1743,
+      "raw": {
+        "id": "e51",
+        "source": "P1",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e52",
+      "source_line": 1744,
+      "raw": {
+        "id": "e52",
+        "source": "gUFPP",
+        "target": "gUFbounded",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e53",
+      "source_line": 1745,
+      "raw": {
+        "id": "e53",
+        "source": "gUFbounded",
+        "target": "E2",
+        "kind": "linked",
+        "note": "特定 n では Eₙ を含意（n=2の代表）",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e54",
+      "source_line": 1746,
+      "raw": {
+        "id": "e54",
+        "source": "L2",
+        "target": "Lomega",
+        "kind": "linked",
+        "note": "可算連立の出現上限 n 版との比較軸",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e55",
+      "source_line": 1747,
+      "raw": {
+        "id": "e55",
+        "source": "SCpow",
+        "target": "SCunique",
+        "kind": "linked",
+        "note": "Lₙ による一意性追加で唯一存在へ",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e56",
+      "source_line": 1748,
+      "raw": {
+        "id": "e56",
+        "source": "FLob",
+        "target": "D2",
+        "kind": "proof",
+        "note": "D₁=FLöb⇒D₂",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e57",
+      "source_line": 1749,
+      "raw": {
+        "id": "e57",
+        "source": "D2",
+        "target": "D3",
+        "kind": "proof",
+        "note": "D₂⇒D₃",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e58",
+      "source_line": 1750,
+      "raw": {
+        "id": "e58",
+        "source": "D3",
+        "target": "Dall",
+        "kind": "linked",
+        "note": "D₁,D₂,⋯ を含む系列",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e59",
+      "source_line": 1751,
+      "raw": {
+        "id": "e59",
+        "source": "FLob",
+        "target": "WFL2",
+        "kind": "reported",
+        "note": "WFL_n と FLöb の比較（要再検証）",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e60",
+      "source_line": 1752,
+      "raw": {
+        "id": "e60",
+        "source": "WFL2",
+        "target": "WFL3",
+        "kind": "reported",
+        "note": "弱形式化系列の向きは再確認",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e61",
+      "source_line": 1753,
+      "raw": {
+        "id": "e61",
+        "source": "FLob",
+        "target": "sLn",
+        "kind": "linked",
+        "note": "sLₙ は別系統。FLöb と直接同値とは限らない",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e62",
+      "source_line": 1754,
+      "raw": {
+        "id": "e62",
+        "source": "CtrBox",
+        "target": "Mix",
+        "kind": "proof",
+        "note": "4: □x≤□□x, Ctr□: □x≤(□x)^2, 単調積で (□x)^2≤□x□□x。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e63",
+      "source_line": 1755,
+      "raw": {
+        "id": "e63",
+        "source": "Mix",
+        "target": "FLob",
+        "kind": "proof",
+        "note": "Γ + Mix□ では Löb⇔FLöb（Γで条件を前件とした無条件の含意に正規化）",
+        "reference": "draft v0.10, Lemma 2.3 and Theorem 3.13",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e64",
+      "source_line": 1756,
+      "raw": {
+        "id": "e64",
+        "source": "Mix",
+        "target": "gUFPP",
+        "kind": "proof",
+        "note": "Γ + Mix□ では全基本原理が成立（Γで条件を前件とした無条件の含意に正規化）",
+        "reference": "draft v0.10, Lemma 2.3 and Theorem 3.13",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e65",
+      "source_line": 1757,
+      "raw": {
+        "id": "e65",
+        "source": "Mix",
+        "target": "gTFPP",
+        "kind": "proof",
+        "note": "Γ + Mix□ では全基本原理が成立（Γで条件を前件とした無条件の含意に正規化）",
+        "reference": "draft v0.10, Lemma 2.3 and Theorem 3.13",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e66",
+      "source_line": 1758,
+      "raw": {
+        "id": "e66",
+        "source": "Ctr",
+        "target": "Mix",
+        "kind": "proof",
+        "note": "Ctr ⇒ Ctr□ ⇒ Mix□ （4下）（Γで条件を前件とした無条件の含意に正規化）",
+        "reference": "draft v0.10, Lemma 2.3 and Theorem 3.13",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e67",
+      "source_line": 1759,
+      "raw": {
+        "id": "e67",
+        "source": "Abs",
+        "target": "CP",
+        "kind": "proof",
+        "note": "x=x□x≤□x（整性よりx≤1）。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e68",
+      "source_line": 1760,
+      "raw": {
+        "id": "e68",
+        "source": "MixIndexed",
+        "target": "Mix",
+        "kind": "linked",
+        "note": "Mix(1,2)=Mix□",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e69",
+      "source_line": 1761,
+      "raw": {
+        "id": "e69",
+        "source": "MixIndexed",
+        "target": "CtrBox",
+        "kind": "linked",
+        "note": "Mix(1,1)=Ctr□",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e70",
+      "source_line": 1762,
+      "raw": {
+        "id": "e70",
+        "source": "CP",
+        "target": "sLn",
+        "kind": "linked",
+        "note": "CP_n と sL_n を調べる別系統の様相強化",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e71",
+      "source_line": 1763,
+      "raw": {
+        "id": "e71",
+        "source": "FLob",
+        "target": "Hbox",
+        "kind": "linked",
+        "note": "様相・積適合性と構成原理の比較課題",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e72",
+      "source_line": 1764,
+      "raw": {
+        "id": "e72",
+        "source": "sLob",
+        "target": "Jvee",
+        "kind": "linked",
+        "note": "sLöb領域にもなお厳密な結び保存階層",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e73",
+      "source_line": 1765,
+      "raw": {
+        "id": "e73",
+        "source": "Verum",
+        "target": "FC2",
+        "kind": "proof",
+        "note": "□≡1なら□²0=1。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e74",
+      "source_line": 1766,
+      "raw": {
+        "id": "e74",
+        "source": "FC2",
+        "target": "FC3",
+        "kind": "proof",
+        "note": "□²0=1なら□³0=□1=1。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e75",
+      "source_line": 1767,
+      "raw": {
+        "id": "e75",
+        "source": "FC3",
+        "target": "FCsome",
+        "kind": "def",
+        "note": "FC₃ は有限停止の一例",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e76",
+      "source_line": 1768,
+      "raw": {
+        "id": "e76",
+        "source": "FCsome",
+        "target": "RComega",
+        "kind": "reported",
+        "note": "有限停止⇒残余完備。既存アトラスの結果",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e77",
+      "source_line": 1769,
+      "raw": {
+        "id": "e77",
+        "source": "RComega",
+        "target": "RSomega",
+        "kind": "def",
+        "note": "RCω=RSω∧RPω",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e78",
+      "source_line": 1770,
+      "raw": {
+        "id": "e78",
+        "source": "RComega",
+        "target": "RPomega",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e79",
+      "source_line": 1771,
+      "raw": {
+        "id": "e79",
+        "source": "RSomega",
+        "target": "Romega",
+        "kind": "reported",
+        "note": "残余分離から orbit 分離",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e80",
+      "source_line": 1772,
+      "raw": {
+        "id": "e80",
+        "source": "Romega",
+        "target": "Lob",
+        "kind": "linked",
+        "note": "ΓではLöbは公理として常に成立。Rω⇒Löb を意味ある主張として検証するには Γ0 上での証明が別途必要。",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "tautological"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e81",
+      "source_line": 1773,
+      "raw": {
+        "id": "e81",
+        "source": "FCsome",
+        "target": "gUTFPP",
+        "kind": "proof",
+        "note": "有限反復で一様な唯一解",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e82",
+      "source_line": 1774,
+      "raw": {
+        "id": "e82",
+        "source": "FCsome",
+        "target": "ACont",
+        "kind": "linked",
+        "note": "有限段階の収束と代数的連続性",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e83",
+      "source_line": 1775,
+      "raw": {
+        "id": "e83",
+        "source": "ACC",
+        "target": "FCsome",
+        "kind": "proof",
+        "note": "ACC + Γ ⇒ FC<ω",
+        "reference": "draft v0.10, Theorem 4.13, ACC extension",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e84",
+      "source_line": 1776,
+      "raw": {
+        "id": "e84",
+        "source": "OComega",
+        "target": "Romega",
+        "kind": "conditional",
+        "note": "OCω + Löb ⇒ Rω",
+        "reference": "",
+        "scope": "+OCω, Γ",
+        "grade": "conditional"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e85",
+      "source_line": 1777,
+      "raw": {
+        "id": "e85",
+        "source": "RComega",
+        "target": "UFomega",
+        "kind": "reported",
+        "note": "逆極限完備性と合同距離により可算唯一解",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e86",
+      "source_line": 1778,
+      "raw": {
+        "id": "e86",
+        "source": "RComega",
+        "target": "uAMC",
+        "kind": "proof",
+        "note": "θ_n が分離・完備を与え、非様相演算は非拡大、□は定数1/2の縮小。これは Ctr□ を要しない。",
+        "reference": "fixed_point_atlas.pdf pp.3,7: canonical ultrametric proof",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e87",
+      "source_line": 1779,
+      "raw": {
+        "id": "e87",
+        "source": "gTFPP",
+        "target": "TFfin",
+        "kind": "proof",
+        "note": "Bekič 逐次消去、草稿命題4.3",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e88",
+      "source_line": 1780,
+      "raw": {
+        "id": "e88",
+        "source": "TFfin",
+        "target": "gTFPP",
+        "kind": "proof",
+        "note": "一元系を含む",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e89",
+      "source_line": 1781,
+      "raw": {
+        "id": "e89",
+        "source": "gUTFPP",
+        "target": "UTFfin",
+        "kind": "proof",
+        "note": "項解と一意性の有限連立版",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e90",
+      "source_line": 1782,
+      "raw": {
+        "id": "e90",
+        "source": "UTFfin",
+        "target": "gUTFPP",
+        "kind": "proof",
+        "note": "",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e91",
+      "source_line": 1783,
+      "raw": {
+        "id": "e91",
+        "source": "gU",
+        "target": "Ufin",
+        "kind": "proof",
+        "note": "草稿系4.10",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e92",
+      "source_line": 1784,
+      "raw": {
+        "id": "e92",
+        "source": "Ufin",
+        "target": "gU",
+        "kind": "proof",
+        "note": "",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e93",
+      "source_line": 1785,
+      "raw": {
+        "id": "e93",
+        "source": "UFfin",
+        "target": "Ffin",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e94",
+      "source_line": 1786,
+      "raw": {
+        "id": "e94",
+        "source": "UFfin",
+        "target": "Ufin",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e95",
+      "source_line": 1787,
+      "raw": {
+        "id": "e95",
+        "source": "UFfin",
+        "target": "gUFPP",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e96",
+      "source_line": 1788,
+      "raw": {
+        "id": "e96",
+        "source": "Ffin",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e97",
+      "source_line": 1789,
+      "raw": {
+        "id": "e97",
+        "source": "TFfin",
+        "target": "Ffin",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e98",
+      "source_line": 1790,
+      "raw": {
+        "id": "e98",
+        "source": "TFfin",
+        "target": "SolPar",
+        "kind": "linked",
+        "note": "項による選択作用素は置換と自然に両立",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e99",
+      "source_line": 1791,
+      "raw": {
+        "id": "e99",
+        "source": "UFomega",
+        "target": "Fomega",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e100",
+      "source_line": 1792,
+      "raw": {
+        "id": "e100",
+        "source": "UFomega",
+        "target": "Uomega",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e101",
+      "source_line": 1793,
+      "raw": {
+        "id": "e101",
+        "source": "UFomega",
+        "target": "UFfin",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e102",
+      "source_line": 1794,
+      "raw": {
+        "id": "e102",
+        "source": "Fomega",
+        "target": "Ffin",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e103",
+      "source_line": 1795,
+      "raw": {
+        "id": "e103",
+        "source": "Uomega",
+        "target": "Ufin",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e104",
+      "source_line": 1796,
+      "raw": {
+        "id": "e104",
+        "source": "TFomega",
+        "target": "TFfin",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e105",
+      "source_line": 1797,
+      "raw": {
+        "id": "e105",
+        "source": "TFomega",
+        "target": "Fomega",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e106",
+      "source_line": 1798,
+      "raw": {
+        "id": "e106",
+        "source": "UTFomega",
+        "target": "TFomega",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e107",
+      "source_line": 1799,
+      "raw": {
+        "id": "e107",
+        "source": "UTFomega",
+        "target": "UFomega",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e108",
+      "source_line": 1800,
+      "raw": {
+        "id": "e108",
+        "source": "Fkap",
+        "target": "Fomega",
+        "kind": "linked",
+        "note": "κ≥ω の高基数版",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e109",
+      "source_line": 1801,
+      "raw": {
+        "id": "e109",
+        "source": "Ffin",
+        "target": "SCsys",
+        "kind": "def",
+        "note": "有限 SC 型連立系を包含",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e110",
+      "source_line": 1802,
+      "raw": {
+        "id": "e110",
+        "source": "Fcyc",
+        "target": "Ffin",
+        "kind": "reported",
+        "note": "有限非ガード非巡回連立とガード付き連立の同値",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e111",
+      "source_line": 1803,
+      "raw": {
+        "id": "e111",
+        "source": "Ffin",
+        "target": "Fcyc",
+        "kind": "reported",
+        "note": "",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e112",
+      "source_line": 1804,
+      "raw": {
+        "id": "e112",
+        "source": "TFcyc",
+        "target": "TFfin",
+        "kind": "reported",
+        "note": "有限系 Bekič 消去",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e113",
+      "source_line": 1805,
+      "raw": {
+        "id": "e113",
+        "source": "TFfin",
+        "target": "TFcyc",
+        "kind": "reported",
+        "note": "",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e114",
+      "source_line": 1806,
+      "raw": {
+        "id": "e114",
+        "source": "Fomega",
+        "target": "Cgomega",
+        "kind": "reported",
+        "note": "Fω⇔F<ω∧Cgω の帰結",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e115",
+      "source_line": 1807,
+      "raw": {
+        "id": "e115",
+        "source": "Ffin",
+        "target": "Cgomega",
+        "kind": "linked",
+        "note": "Fω成立に必要なコンパクト性・拡張条件を切り出す",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e116",
+      "source_line": 1808,
+      "raw": {
+        "id": "e116",
+        "source": "uAMC",
+        "target": "AMC",
+        "kind": "def",
+        "note": "超距離は距離",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e117",
+      "source_line": 1809,
+      "raw": {
+        "id": "e117",
+        "source": "AMC",
+        "target": "gUFPP",
+        "kind": "proof",
+        "note": "Banach収縮原理：全ガード付き項が縮小",
+        "reference": "draft v0.10",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e118",
+      "source_line": 1810,
+      "raw": {
+        "id": "e118",
+        "source": "AMC",
+        "target": "MC",
+        "kind": "def",
+        "note": "□縮小だけ残す",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e119",
+      "source_line": 1811,
+      "raw": {
+        "id": "e119",
+        "source": "uAMC",
+        "target": "uMC",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e120",
+      "source_line": 1812,
+      "raw": {
+        "id": "e120",
+        "source": "uMC",
+        "target": "MC",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e121",
+      "source_line": 1813,
+      "raw": {
+        "id": "e121",
+        "source": "uAMC",
+        "target": "StrongCon",
+        "kind": "proof",
+        "note": "",
+        "reference": "draft v0.10",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e122",
+      "source_line": 1814,
+      "raw": {
+        "id": "e122",
+        "source": "StrongCon",
+        "target": "UFfin",
+        "kind": "proof",
+        "note": "有限直積 max 距離上のBanach原理",
+        "reference": "draft v0.10",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e123",
+      "source_line": 1815,
+      "raw": {
+        "id": "e123",
+        "source": "MC",
+        "target": "Lob",
+        "kind": "proof",
+        "note": "一般の N+K+4 上で成立。完備距離上の縮小写像 □ は唯一不動点 1 をもち、□a≤a と4から □²a=□a、ゆえに □a=1≤a、従ってa=1。 【本版で証明を点検】",
+        "reference": "Banach fixed-point theorem; N,K,4, □1=1",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e124",
+      "source_line": 1816,
+      "raw": {
+        "id": "e124",
+        "source": "Lob",
+        "target": "MC",
+        "kind": "proof",
+        "note": "一般の N+K+4 上で成立。Löbと4から全ての□^nの唯一不動点が1。Bessaga逆縮小定理より任意q∈(0,1)に対し完備距離dで□がq縮小。 【本版で証明を点検】",
+        "reference": "C. Bessaga 1959; review https://link.springer.com/article/10.1007/s13398-024-01636-6 §6",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e125",
+      "source_line": 1817,
+      "raw": {
+        "id": "e125",
+        "source": "CompleteLat",
+        "target": "Ffin",
+        "kind": "linked",
+        "note": "単調連立系には Tarski 適用可能、全ガード付きへの含意ではない",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e126",
+      "source_line": 1818,
+      "raw": {
+        "id": "e126",
+        "source": "CompactConvex",
+        "target": "Fomega",
+        "kind": "proof",
+        "note": "コンパクト凸+連続から Schauder–Tychonoff",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e127",
+      "source_line": 1819,
+      "raw": {
+        "id": "e127",
+        "source": "CompactConvex",
+        "target": "FPP",
+        "kind": "proof",
+        "note": "全項連続",
+        "reference": "draft v0.10",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e128",
+      "source_line": 1820,
+      "raw": {
+        "id": "e128",
+        "source": "ContBox",
+        "target": "FPP",
+        "kind": "linked",
+        "note": "標準MV上の連続性という特殊クラスの帰結。一般bicRAMSの普遍的含意には利用しない。",
+        "reference": "draft v0.10",
+        "scope": "specialized [0,1]MV",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e129",
+      "source_line": 1821,
+      "raw": {
+        "id": "e129",
+        "source": "ScUp",
+        "target": "OComega",
+        "kind": "linked",
+        "note": "順序連続性との比較",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e130",
+      "source_line": 1822,
+      "raw": {
+        "id": "e130",
+        "source": "ScDown",
+        "target": "ScUp",
+        "kind": "linked",
+        "note": "独立な連続性方向、含意なし",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e131",
+      "source_line": 1823,
+      "raw": {
+        "id": "e131",
+        "source": "gFPP",
+        "target": "agFPP",
+        "kind": "def",
+        "note": "不動点 x なら距離偏差ゼロ",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e132",
+      "source_line": 1824,
+      "raw": {
+        "id": "e132",
+        "source": "agFPP",
+        "target": "gFPP",
+        "kind": "conditional",
+        "note": "コンパクト距離+項連続なら近似不動点から真の存在",
+        "reference": "",
+        "scope": "+compact + continuity",
+        "grade": "conditional"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e133",
+      "source_line": 1825,
+      "raw": {
+        "id": "e133",
+        "source": "FPP",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e134",
+      "source_line": 1826,
+      "raw": {
+        "id": "e134",
+        "source": "FPP",
+        "target": "bFPP",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e135",
+      "source_line": 1827,
+      "raw": {
+        "id": "e135",
+        "source": "FPP",
+        "target": "FPPub",
+        "kind": "def",
+        "note": "",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e136",
+      "source_line": 1828,
+      "raw": {
+        "id": "e136",
+        "source": "FPPub",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "n=0 部分を含む",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e137",
+      "source_line": 1829,
+      "raw": {
+        "id": "e137",
+        "source": "GI",
+        "target": "FPP",
+        "kind": "conditional",
+        "note": "GIでガードを除去できれば gFPP と FPP が一致",
+        "reference": "",
+        "scope": "+GI,+gFPP",
+        "grade": "conditional"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e138",
+      "source_line": 1830,
+      "raw": {
+        "id": "e138",
+        "source": "DG",
+        "target": "GI",
+        "kind": "linked",
+        "note": "特別な恒等型ガード項の例",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e139",
+      "source_line": 1831,
+      "raw": {
+        "id": "e139",
+        "source": "AIr",
+        "target": "gFPP",
+        "kind": "linked",
+        "note": "gFPP 成立・一意性失敗を与えるモデル族（論理含意ではない）",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e140",
+      "source_line": 1832,
+      "raw": {
+        "id": "e140",
+        "source": "PI",
+        "target": "gFPP",
+        "kind": "linked",
+        "note": "射影型モデルで存在・構成分離（論理含意ではない）",
+        "reference": "",
+        "scope": "Γ",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e141",
+      "source_line": 1833,
+      "raw": {
+        "id": "e141",
+        "source": "SPgFPP",
+        "target": "gTFPP",
+        "kind": "reported",
+        "note": "部分代数保存を通じた項構成との同値",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e142",
+      "source_line": 1834,
+      "raw": {
+        "id": "e142",
+        "source": "gTFPP",
+        "target": "SPgFPP",
+        "kind": "reported",
+        "note": "",
+        "reference": "fixed_point_atlas.pdf",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e143",
+      "source_line": 1835,
+      "raw": {
+        "id": "e143",
+        "source": "SgFPP",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "元の代数も部分代数",
+        "reference": "",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-0",
+      "source_line": 1836,
+      "raw": {
+        "id": "v3-0",
+        "source": "gFPP",
+        "target": "P1",
+        "kind": "def",
+        "note": "ΓにはL₁=Löbが含まれるので P₁=gFPP∧L₁ と gFPP は同値。証明にLöbを用いる。",
+        "reference": "定義・本会話の再検証",
+        "scope": "Γ",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-1",
+      "source_line": 1837,
+      "raw": {
+        "id": "v3-1",
+        "source": "P2",
+        "target": "L2",
+        "kind": "def",
+        "note": "P₂=gFPP∧L₂ の連言消去",
+        "reference": "定義・本会話の再検証",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-2",
+      "source_line": 1838,
+      "raw": {
+        "id": "v3-2",
+        "source": "P3",
+        "target": "L3",
+        "kind": "def",
+        "note": "P₃=gFPP∧L₃ の連言消去",
+        "reference": "定義・本会話の再検証",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-3",
+      "source_line": 1839,
+      "raw": {
+        "id": "v3-3",
+        "source": "P4",
+        "target": "L4",
+        "kind": "def",
+        "note": "P₄=gFPP∧L₄ の連言消去",
+        "reference": "定義・本会話の再検証",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-4",
+      "source_line": 1840,
+      "raw": {
+        "id": "v3-4",
+        "source": "P1",
+        "target": "FAll",
+        "kind": "def",
+        "note": "gFPP と同値、全有限構文格子へ接続",
+        "reference": "定義・本会話の再検証",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-5",
+      "source_line": 1841,
+      "raw": {
+        "id": "v3-5",
+        "source": "Lall",
+        "target": "L2",
+        "kind": "def",
+        "note": "全nのL_nからL₂",
+        "reference": "定義・本会話の再検証",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-6",
+      "source_line": 1842,
+      "raw": {
+        "id": "v3-6",
+        "source": "gUFbounded",
+        "target": "L2",
+        "kind": "reported",
+        "note": "固定n=2の場合のみ；一般族ノードのパラメータを固定して厳密化する必要がある",
+        "reference": "定義・本会話の再検証",
+        "scope": "Γ",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-7",
+      "source_line": 1843,
+      "raw": {
+        "id": "v3-7",
+        "source": "Ctr",
+        "target": "CtrBox",
+        "kind": "proof",
+        "note": "全元の縮約から様相値の縮約",
+        "reference": "剰余束の整性",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-8",
+      "source_line": 1844,
+      "raw": {
+        "id": "v3-8",
+        "source": "Verum",
+        "target": "FLob",
+        "kind": "proof",
+        "note": "□≡1なら □(□x→x)=□x=1。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-9",
+      "source_line": 1845,
+      "raw": {
+        "id": "v3-9",
+        "source": "Verum",
+        "target": "FCsome",
+        "kind": "def",
+        "note": "□0=1 なら有限段階停止",
+        "reference": "定義・本会話の再検証",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-10",
+      "source_line": 1846,
+      "raw": {
+        "id": "v3-10",
+        "source": "FLob",
+        "target": "SCterm",
+        "kind": "proof",
+        "note": "標準解 p=□a→a の項による構成",
+        "reference": "draft v0.10, Corollary 3.4",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-11",
+      "source_line": 1847,
+      "raw": {
+        "id": "v3-11",
+        "source": "FLob",
+        "target": "SC",
+        "kind": "proof",
+        "note": "FLöbはSC方程式の標準解を与える",
+        "reference": "draft v0.10, Corollary 3.4",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-12",
+      "source_line": 1848,
+      "raw": {
+        "id": "v3-12",
+        "source": "gUTFPP",
+        "target": "Ufin",
+        "kind": "def",
+        "note": "唯一項解は有限系で唯一",
+        "reference": "定義・本会話の再検証",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-13",
+      "source_line": 1849,
+      "raw": {
+        "id": "v3-13",
+        "source": "gUTFPP",
+        "target": "Ffin",
+        "kind": "def",
+        "note": "有限連立の一様解から存在",
+        "reference": "定義・本会話の再検証",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-0",
+      "source_line": 1850,
+      "raw": {
+        "id": "v3a-0",
+        "source": "UFany",
+        "target": "Fany",
+        "kind": "def",
+        "note": "唯一存在→存在",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-1",
+      "source_line": 1851,
+      "raw": {
+        "id": "v3a-1",
+        "source": "UFany",
+        "target": "Uany",
+        "kind": "def",
+        "note": "唯一存在→高々一意",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-2",
+      "source_line": 1852,
+      "raw": {
+        "id": "v3a-2",
+        "source": "Fany",
+        "target": "Fomega",
+        "kind": "def",
+        "note": "任意基数→可算",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-3",
+      "source_line": 1853,
+      "raw": {
+        "id": "v3a-3",
+        "source": "Uany",
+        "target": "Uomega",
+        "kind": "def",
+        "note": "任意基数→可算",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-4",
+      "source_line": 1854,
+      "raw": {
+        "id": "v3a-4",
+        "source": "UFany",
+        "target": "UFomega",
+        "kind": "def",
+        "note": "任意基数→可算",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-5",
+      "source_line": 1855,
+      "raw": {
+        "id": "v3a-5",
+        "source": "uAMC",
+        "target": "UFany",
+        "kind": "linked",
+        "note": "【v4修正】無制限の完備距離で sup 直積が有界になるとは限らず、この証明は成立しない。bounded metric 版から任意基数へ導く。",
+        "reference": "完備超距離とBanach原理",
+        "scope": "additional boundedness required",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-6",
+      "source_line": 1856,
+      "raw": {
+        "id": "v3a-6",
+        "source": "AMC",
+        "target": "UFany",
+        "kind": "linked",
+        "note": "【v4修正】無制限の完備距離で sup 直積が有界になるとは限らず、この証明は成立しない。bounded metric 版から任意基数へ導く。",
+        "reference": "完備距離とBanach原理",
+        "scope": "additional boundedness required",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-7",
+      "source_line": 1857,
+      "raw": {
+        "id": "v3a-7",
+        "source": "FCsome",
+        "target": "UFany",
+        "kind": "proof",
+        "note": "各T^rが定数写像になるため、任意基数のガード付き連立系も唯一解を持つ。",
+        "reference": "draft v0.10 Lemma 4.12, 任意基数への同一の項帰納法",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-8",
+      "source_line": 1858,
+      "raw": {
+        "id": "v3a-8",
+        "source": "CompactConvex",
+        "target": "Fany",
+        "kind": "proof",
+        "note": "任意直積 A^I はコンパクト凸、各座標項演算は連続。Schauder–Tychonoff不動点定理。",
+        "reference": "Schauder–Tychonoff",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-9",
+      "source_line": 1859,
+      "raw": {
+        "id": "v3a-9",
+        "source": "AbsPlusFLob",
+        "target": "Abs",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-10",
+      "source_line": 1860,
+      "raw": {
+        "id": "v3a-10",
+        "source": "AbsPlusFLob",
+        "target": "FLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-11",
+      "source_line": 1861,
+      "raw": {
+        "id": "v3a-11",
+        "source": "AbsPlusFLob",
+        "target": "sLob",
+        "kind": "proof",
+        "note": "強Löbの特徴づけ sLöb ⇔ Abs∧FLöb",
+        "reference": "draft v0.10, Theorem 4.2",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-12",
+      "source_line": 1862,
+      "raw": {
+        "id": "v3a-12",
+        "source": "sLob",
+        "target": "AbsPlusFLob",
+        "kind": "proof",
+        "note": "強Löb⇒吸収かつFLöb",
+        "reference": "draft v0.10, Theorem 4.2",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-13",
+      "source_line": 1863,
+      "raw": {
+        "id": "v3a-13",
+        "source": "CtrCP",
+        "target": "Ctr",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-14",
+      "source_line": 1864,
+      "raw": {
+        "id": "v3a-14",
+        "source": "CtrCP",
+        "target": "CP",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "定義",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3a-15",
+      "source_line": 1865,
+      "raw": {
+        "id": "v3a-15",
+        "source": "CtrCP",
+        "target": "Abs",
+        "kind": "proof",
+        "note": "x²=x および x≤□x なら x=x²≤x□x≤x",
+        "reference": "積の単調性・整性",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v3-bessaga-ultrametric",
+      "source_line": 1866,
+      "raw": {
+        "id": "v3-bessaga-ultrametric",
+        "source": "MC",
+        "target": "uMC",
+        "kind": "proof",
+        "note": "完備縮小距離dと唯一不動点1から φ(x)=d(x,1) と置き、x≠yで δ(x,y)=max{φ(x),φ(y)}、x=yでδ=0と定義。δは完備超距離で□の同じ縮小率を保つ。 【本版で証明を点検】",
+        "reference": "Banach + ultrametric remetrization; cf. https://link.springer.com/article/10.1007/s00025-023-02072-5",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x174",
+      "source_line": 1867,
+      "raw": {
+        "id": "x174",
+        "source": "F14",
+        "target": "F13",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x175",
+      "source_line": 1868,
+      "raw": {
+        "id": "x175",
+        "source": "F23",
+        "target": "F13",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x176",
+      "source_line": 1869,
+      "raw": {
+        "id": "x176",
+        "source": "F23",
+        "target": "F22",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x177",
+      "source_line": 1870,
+      "raw": {
+        "id": "x177",
+        "source": "F24",
+        "target": "F14",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x178",
+      "source_line": 1871,
+      "raw": {
+        "id": "x178",
+        "source": "F24",
+        "target": "F23",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x179",
+      "source_line": 1872,
+      "raw": {
+        "id": "x179",
+        "source": "F32",
+        "target": "F22",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x180",
+      "source_line": 1873,
+      "raw": {
+        "id": "x180",
+        "source": "F32",
+        "target": "F31",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x181",
+      "source_line": 1874,
+      "raw": {
+        "id": "x181",
+        "source": "F33",
+        "target": "F23",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x182",
+      "source_line": 1875,
+      "raw": {
+        "id": "x182",
+        "source": "F33",
+        "target": "F32",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x183",
+      "source_line": 1876,
+      "raw": {
+        "id": "x183",
+        "source": "F34",
+        "target": "F24",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x184",
+      "source_line": 1877,
+      "raw": {
+        "id": "x184",
+        "source": "F34",
+        "target": "F33",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x185",
+      "source_line": 1878,
+      "raw": {
+        "id": "x185",
+        "source": "F41",
+        "target": "F31",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x186",
+      "source_line": 1879,
+      "raw": {
+        "id": "x186",
+        "source": "F42",
+        "target": "F32",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x187",
+      "source_line": 1880,
+      "raw": {
+        "id": "x187",
+        "source": "F42",
+        "target": "F41",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x188",
+      "source_line": 1881,
+      "raw": {
+        "id": "x188",
+        "source": "F43",
+        "target": "F33",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x189",
+      "source_line": 1882,
+      "raw": {
+        "id": "x189",
+        "source": "F43",
+        "target": "F42",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x190",
+      "source_line": 1883,
+      "raw": {
+        "id": "x190",
+        "source": "F44",
+        "target": "F34",
+        "kind": "def",
+        "note": "出現回数の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x191",
+      "source_line": 1884,
+      "raw": {
+        "id": "x191",
+        "source": "F44",
+        "target": "F43",
+        "kind": "def",
+        "note": "ガード深度の上限を1だけ下げる",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x192",
+      "source_line": 1885,
+      "raw": {
+        "id": "x192",
+        "source": "E1",
+        "target": "F11",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x193",
+      "source_line": 1886,
+      "raw": {
+        "id": "x193",
+        "source": "E1",
+        "target": "F12",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x194",
+      "source_line": 1887,
+      "raw": {
+        "id": "x194",
+        "source": "E1",
+        "target": "F14",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x195",
+      "source_line": 1888,
+      "raw": {
+        "id": "x195",
+        "source": "E2",
+        "target": "F21",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x196",
+      "source_line": 1889,
+      "raw": {
+        "id": "x196",
+        "source": "E2",
+        "target": "F23",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x197",
+      "source_line": 1890,
+      "raw": {
+        "id": "x197",
+        "source": "E2",
+        "target": "F24",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x198",
+      "source_line": 1891,
+      "raw": {
+        "id": "x198",
+        "source": "E3",
+        "target": "F32",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x199",
+      "source_line": 1892,
+      "raw": {
+        "id": "x199",
+        "source": "E3",
+        "target": "F33",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x200",
+      "source_line": 1893,
+      "raw": {
+        "id": "x200",
+        "source": "E3",
+        "target": "F34",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x201",
+      "source_line": 1894,
+      "raw": {
+        "id": "x201",
+        "source": "E4",
+        "target": "E3",
+        "kind": "def",
+        "note": "出現数の上限を縮める",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x202",
+      "source_line": 1895,
+      "raw": {
+        "id": "x202",
+        "source": "E4",
+        "target": "F41",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x203",
+      "source_line": 1896,
+      "raw": {
+        "id": "x203",
+        "source": "E4",
+        "target": "F42",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x204",
+      "source_line": 1897,
+      "raw": {
+        "id": "x204",
+        "source": "E4",
+        "target": "F43",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x205",
+      "source_line": 1898,
+      "raw": {
+        "id": "x205",
+        "source": "E4",
+        "target": "F44",
+        "kind": "def",
+        "note": "深度hを指定する",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x206",
+      "source_line": 1899,
+      "raw": {
+        "id": "x206",
+        "source": "gFPP",
+        "target": "E4",
+        "kind": "def",
+        "note": "任意出現回数を含むため E₄ も成立",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x207",
+      "source_line": 1900,
+      "raw": {
+        "id": "x207",
+        "source": "FAll",
+        "target": "E4",
+        "kind": "def",
+        "note": "全出現深度での存在から",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x208",
+      "source_line": 1901,
+      "raw": {
+        "id": "x208",
+        "source": "P2",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x209",
+      "source_line": 1902,
+      "raw": {
+        "id": "x209",
+        "source": "P3",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x210",
+      "source_line": 1903,
+      "raw": {
+        "id": "x210",
+        "source": "P4",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x211",
+      "source_line": 1904,
+      "raw": {
+        "id": "x211",
+        "source": "L5",
+        "target": "L4",
+        "kind": "proof",
+        "note": "b^5≤b^4≤aならL5からa=1。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x212",
+      "source_line": 1905,
+      "raw": {
+        "id": "x212",
+        "source": "P5",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x213",
+      "source_line": 1906,
+      "raw": {
+        "id": "x213",
+        "source": "P5",
+        "target": "L5",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x214",
+      "source_line": 1907,
+      "raw": {
+        "id": "x214",
+        "source": "P5",
+        "target": "P4",
+        "kind": "def",
+        "note": "P5→P4: gFPPは保持、L5→L4。",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x215",
+      "source_line": 1908,
+      "raw": {
+        "id": "x215",
+        "source": "L6",
+        "target": "L5",
+        "kind": "proof",
+        "note": "b^6≤b^5≤aならL6からa=1。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x216",
+      "source_line": 1909,
+      "raw": {
+        "id": "x216",
+        "source": "P6",
+        "target": "gFPP",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x217",
+      "source_line": 1910,
+      "raw": {
+        "id": "x217",
+        "source": "P6",
+        "target": "L6",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x218",
+      "source_line": 1911,
+      "raw": {
+        "id": "x218",
+        "source": "P6",
+        "target": "P5",
+        "kind": "def",
+        "note": "P6→P5: gFPPは保持、L6→L5。",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x219",
+      "source_line": 1912,
+      "raw": {
+        "id": "x219",
+        "source": "Lall",
+        "target": "L6",
+        "kind": "def",
+        "note": "全L_nからL6",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x220",
+      "source_line": 1913,
+      "raw": {
+        "id": "x220",
+        "source": "Pall",
+        "target": "P6",
+        "kind": "def",
+        "note": "全P_nからP6",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x221",
+      "source_line": 1914,
+      "raw": {
+        "id": "x221",
+        "source": "FC3",
+        "target": "FC4",
+        "kind": "proof",
+        "note": "□³0=1なら□⁴0=□1=1。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x222",
+      "source_line": 1915,
+      "raw": {
+        "id": "x222",
+        "source": "FC4",
+        "target": "FC5",
+        "kind": "proof",
+        "note": "□⁴0=1なら□⁵0=□1=1。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x223",
+      "source_line": 1916,
+      "raw": {
+        "id": "x223",
+        "source": "FC5",
+        "target": "FCsome",
+        "kind": "def",
+        "note": "FC5で有限停止",
+        "reference": "definition; parameter monotonicity",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x224",
+      "source_line": 1917,
+      "raw": {
+        "id": "x224",
+        "source": "D3",
+        "target": "D4",
+        "kind": "proof",
+        "note": "4: □a≤□□a と□の単調性で□^n a≤□^(n+1)a。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x225",
+      "source_line": 1918,
+      "raw": {
+        "id": "x225",
+        "source": "D4",
+        "target": "D5",
+        "kind": "proof",
+        "note": "前行と同じ。",
+        "reference": "v12 elementary proof audit (direct algebraic argument)",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x226",
+      "source_line": 1919,
+      "raw": {
+        "id": "x226",
+        "source": "SCiter",
+        "target": "SC2",
+        "kind": "def",
+        "note": "全深度のSCから特定深度",
+        "reference": "definition",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x227",
+      "source_line": 1920,
+      "raw": {
+        "id": "x227",
+        "source": "F12",
+        "target": "SC2",
+        "kind": "def",
+        "note": "SC2方程式はF₁,2の対象項",
+        "reference": "definition",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x228",
+      "source_line": 1921,
+      "raw": {
+        "id": "x228",
+        "source": "SCiter",
+        "target": "SC3",
+        "kind": "def",
+        "note": "全深度のSCから特定深度",
+        "reference": "definition",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x229",
+      "source_line": 1922,
+      "raw": {
+        "id": "x229",
+        "source": "F13",
+        "target": "SC3",
+        "kind": "def",
+        "note": "SC3方程式はF₁,3の対象項",
+        "reference": "definition",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x230",
+      "source_line": 1923,
+      "raw": {
+        "id": "x230",
+        "source": "SCiter",
+        "target": "SC4",
+        "kind": "def",
+        "note": "全深度のSCから特定深度",
+        "reference": "definition",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x231",
+      "source_line": 1924,
+      "raw": {
+        "id": "x231",
+        "source": "F14",
+        "target": "SC4",
+        "kind": "def",
+        "note": "SC4方程式はF₁,4の対象項",
+        "reference": "definition",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:x232",
+      "source_line": 1925,
+      "raw": {
+        "id": "x232",
+        "source": "SCiter",
+        "target": "SC",
+        "kind": "def",
+        "note": "d=1の場合",
+        "reference": "definition",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:short-L6-L4",
+      "source_line": 1926,
+      "raw": {
+        "id": "short-L6-L4",
+        "source": "L6",
+        "target": "L4",
+        "kind": "proof",
+        "note": "L₆⇒L₅⇒L₄ の推移的な省略表示",
+        "reference": "既存辺の推移律",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:short-P6-P4",
+      "source_line": 1927,
+      "raw": {
+        "id": "short-P6-P4",
+        "source": "P6",
+        "target": "P4",
+        "kind": "proof",
+        "note": "P₆⇒P₅⇒P₄ の推移的な省略表示",
+        "reference": "既存辺の推移律",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:short-FC3-FC5",
+      "source_line": 1928,
+      "raw": {
+        "id": "short-FC3-FC5",
+        "source": "FC3",
+        "target": "FC5",
+        "kind": "proof",
+        "note": "FC₃⇒FC₄⇒FC₅ の推移的な省略表示",
+        "reference": "既存辺の推移律",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:short-D3-D5",
+      "source_line": 1929,
+      "raw": {
+        "id": "short-D3-D5",
+        "source": "D3",
+        "target": "D5",
+        "kind": "proof",
+        "note": "D₃⇒D₄⇒D₅ の推移的な省略表示",
+        "reference": "既存辺の推移律",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:short-FLob-D5",
+      "source_line": 1930,
+      "raw": {
+        "id": "short-FLob-D5",
+        "source": "FLob",
+        "target": "D5",
+        "kind": "proof",
+        "note": "FLöb⇒D₂⇒D₃⇒D₄⇒D₅ の省略表示",
+        "reference": "既存辺の推移律",
+        "scope": "Γ",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_238",
+      "source_line": 1931,
+      "raw": {
+        "id": "e4_238",
+        "source": "Mix",
+        "target": "Mix13",
+        "kind": "proof",
+        "note": "□²x≤□³x (4) から右辺が増えるので Mix(1,2)⇒Mix(1,3)",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_239",
+      "source_line": 1932,
+      "raw": {
+        "id": "e4_239",
+        "source": "Mix13",
+        "target": "Mix14",
+        "kind": "proof",
+        "note": "4により□³x≤□⁴x、積単調",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_240",
+      "source_line": 1933,
+      "raw": {
+        "id": "e4_240",
+        "source": "Mix14",
+        "target": "Mix15",
+        "kind": "proof",
+        "note": "4により□⁴x≤□⁵x、積単調",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_241",
+      "source_line": 1934,
+      "raw": {
+        "id": "e4_241",
+        "source": "Mix",
+        "target": "Mix23",
+        "kind": "proof",
+        "note": "Mix(1,2)の式にx:=□xを代入してMix(2,3)を得る。K+Cの不適切な向きの使用は不要。",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_242",
+      "source_line": 1935,
+      "raw": {
+        "id": "e4_242",
+        "source": "Mix23",
+        "target": "Mix24",
+        "kind": "proof",
+        "note": "□³x≤□⁴x による単調性",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_243",
+      "source_line": 1936,
+      "raw": {
+        "id": "e4_243",
+        "source": "Mix",
+        "target": "EMix",
+        "kind": "def",
+        "note": "各xについてn=2の証人をとる",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_244",
+      "source_line": 1937,
+      "raw": {
+        "id": "e4_244",
+        "source": "Mix13",
+        "target": "EMix",
+        "kind": "def",
+        "note": "各xについてn=3の証人をとる",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_245",
+      "source_line": 1938,
+      "raw": {
+        "id": "e4_245",
+        "source": "Mix14",
+        "target": "EMix",
+        "kind": "def",
+        "note": "各xについてn=4の証人をとる",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_246",
+      "source_line": 1939,
+      "raw": {
+        "id": "e4_246",
+        "source": "CtrBox",
+        "target": "Mix13",
+        "kind": "proof",
+        "note": "Ctr□⇒Mix(1,2)⇒Mix(1,3)",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_247",
+      "source_line": 1940,
+      "raw": {
+        "id": "e4_247",
+        "source": "SJ2",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_248",
+      "source_line": 1941,
+      "raw": {
+        "id": "e4_248",
+        "source": "SJ2",
+        "target": "Jv2",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_249",
+      "source_line": 1942,
+      "raw": {
+        "id": "e4_249",
+        "source": "SJ3",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_250",
+      "source_line": 1943,
+      "raw": {
+        "id": "e4_250",
+        "source": "SJ3",
+        "target": "Jv3",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_251",
+      "source_line": 1944,
+      "raw": {
+        "id": "e4_251",
+        "source": "Jv2",
+        "target": "Jv3",
+        "kind": "proof",
+        "note": "結び演算の単調性とJ∨の定義から",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_252",
+      "source_line": 1945,
+      "raw": {
+        "id": "e4_252",
+        "source": "SJ2",
+        "target": "SJ3",
+        "kind": "proof",
+        "note": "J∨ 階層の含意",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_253",
+      "source_line": 1946,
+      "raw": {
+        "id": "e4_253",
+        "source": "SJ4",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_254",
+      "source_line": 1947,
+      "raw": {
+        "id": "e4_254",
+        "source": "SJ4",
+        "target": "Jv4",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_255",
+      "source_line": 1948,
+      "raw": {
+        "id": "e4_255",
+        "source": "Jv3",
+        "target": "Jv4",
+        "kind": "proof",
+        "note": "結び演算の単調性とJ∨の定義から",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_256",
+      "source_line": 1949,
+      "raw": {
+        "id": "e4_256",
+        "source": "SJ3",
+        "target": "SJ4",
+        "kind": "proof",
+        "note": "J∨ 階層の含意",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_257",
+      "source_line": 1950,
+      "raw": {
+        "id": "e4_257",
+        "source": "SJ5",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_258",
+      "source_line": 1951,
+      "raw": {
+        "id": "e4_258",
+        "source": "SJ5",
+        "target": "Jv5",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_259",
+      "source_line": 1952,
+      "raw": {
+        "id": "e4_259",
+        "source": "Jv4",
+        "target": "Jv5",
+        "kind": "proof",
+        "note": "結び演算の単調性とJ∨の定義から",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_260",
+      "source_line": 1953,
+      "raw": {
+        "id": "e4_260",
+        "source": "SJ4",
+        "target": "SJ5",
+        "kind": "proof",
+        "note": "J∨ 階層の含意",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_261",
+      "source_line": 1954,
+      "raw": {
+        "id": "e4_261",
+        "source": "SJ6",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_262",
+      "source_line": 1955,
+      "raw": {
+        "id": "e4_262",
+        "source": "SJ6",
+        "target": "Jv6",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_263",
+      "source_line": 1956,
+      "raw": {
+        "id": "e4_263",
+        "source": "Jv5",
+        "target": "Jv6",
+        "kind": "proof",
+        "note": "結び演算の単調性とJ∨の定義から",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_264",
+      "source_line": 1957,
+      "raw": {
+        "id": "e4_264",
+        "source": "SJ5",
+        "target": "SJ6",
+        "kind": "proof",
+        "note": "J∨ 階層の含意",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_265",
+      "source_line": 1958,
+      "raw": {
+        "id": "e4_265",
+        "source": "Jv2",
+        "target": "Jvee",
+        "kind": "linked",
+        "note": "有限結びに関する階層の総称を具体化",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_266",
+      "source_line": 1959,
+      "raw": {
+        "id": "e4_266",
+        "source": "Verum",
+        "target": "SJ2",
+        "kind": "proof",
+        "note": "□≡1ならsLöbとJ∨₂の双方が自明に成立",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_267",
+      "source_line": 1960,
+      "raw": {
+        "id": "e4_267",
+        "source": "SFC2",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_268",
+      "source_line": 1961,
+      "raw": {
+        "id": "e4_268",
+        "source": "SFC2",
+        "target": "FC2",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_269",
+      "source_line": 1962,
+      "raw": {
+        "id": "e4_269",
+        "source": "SFC3",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_270",
+      "source_line": 1963,
+      "raw": {
+        "id": "e4_270",
+        "source": "SFC3",
+        "target": "FC3",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_271",
+      "source_line": 1964,
+      "raw": {
+        "id": "e4_271",
+        "source": "SFC2",
+        "target": "SFC3",
+        "kind": "def",
+        "note": "有限停止の単調性",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_272",
+      "source_line": 1965,
+      "raw": {
+        "id": "e4_272",
+        "source": "SFC4",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_273",
+      "source_line": 1966,
+      "raw": {
+        "id": "e4_273",
+        "source": "SFC4",
+        "target": "FC4",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_274",
+      "source_line": 1967,
+      "raw": {
+        "id": "e4_274",
+        "source": "SFC3",
+        "target": "SFC4",
+        "kind": "def",
+        "note": "有限停止の単調性",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_275",
+      "source_line": 1968,
+      "raw": {
+        "id": "e4_275",
+        "source": "SFC5",
+        "target": "sLob",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_276",
+      "source_line": 1969,
+      "raw": {
+        "id": "e4_276",
+        "source": "SFC5",
+        "target": "FC5",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_277",
+      "source_line": 1970,
+      "raw": {
+        "id": "e4_277",
+        "source": "SFC4",
+        "target": "SFC5",
+        "kind": "def",
+        "note": "有限停止の単調性",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_278",
+      "source_line": 1971,
+      "raw": {
+        "id": "e4_278",
+        "source": "Verum",
+        "target": "sLob",
+        "kind": "proof",
+        "note": "□≡1なら□x→x=x、よって強Löb",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_279",
+      "source_line": 1972,
+      "raw": {
+        "id": "e4_279",
+        "source": "Verum",
+        "target": "SFC2",
+        "kind": "proof",
+        "note": "Verum⇒sLöbかつFC₂",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_280",
+      "source_line": 1973,
+      "raw": {
+        "id": "e4_280",
+        "source": "uAMC",
+        "target": "PFZ",
+        "kind": "proof",
+        "note": "dのq^nレベル集合は合同で、□は深度を一つ進める。完備性=逆極限実現。",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_281",
+      "source_line": 1974,
+      "raw": {
+        "id": "e4_281",
+        "source": "PFZ",
+        "target": "uAMC",
+        "kind": "proof",
+        "note": "q^sup{n:xθ_n y} は完備超距離で全原始演算のLip境界を満たす。",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_282",
+      "source_line": 1975,
+      "raw": {
+        "id": "e4_282",
+        "source": "PFN",
+        "target": "buAMC",
+        "kind": "proof",
+        "note": "自然数添字の合同レベルから有界な完備超距離を構成",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_283",
+      "source_line": 1976,
+      "raw": {
+        "id": "e4_283",
+        "source": "buAMC",
+        "target": "PFN",
+        "kind": "proof",
+        "note": "d≤q^n のレベル集合を採用し、尺度の正規化で θ₀=A²",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_284",
+      "source_line": 1977,
+      "raw": {
+        "id": "e4_284",
+        "source": "buAMC",
+        "target": "bAMC",
+        "kind": "def",
+        "note": "超距離は距離",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_285",
+      "source_line": 1978,
+      "raw": {
+        "id": "e4_285",
+        "source": "bAMC",
+        "target": "AMC",
+        "kind": "def",
+        "note": "有界性の条件を外す",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_286",
+      "source_line": 1979,
+      "raw": {
+        "id": "e4_286",
+        "source": "buAMC",
+        "target": "uAMC",
+        "kind": "def",
+        "note": "有界性の条件を外す",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_287",
+      "source_line": 1980,
+      "raw": {
+        "id": "e4_287",
+        "source": "bAMC",
+        "target": "UFany",
+        "kind": "proof",
+        "note": "一様に有界なsup直積のBanach収縮で任意基数の唯一解",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_288",
+      "source_line": 1981,
+      "raw": {
+        "id": "e4_288",
+        "source": "buAMC",
+        "target": "ULipAny",
+        "kind": "proof",
+        "note": "一様有界sup直積にBanachを適用。パラメータ依存も非拡大",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_289",
+      "source_line": 1982,
+      "raw": {
+        "id": "e4_289",
+        "source": "ULipAny",
+        "target": "UFany",
+        "kind": "def",
+        "note": "唯一可解性だけ取り出す",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_290",
+      "source_line": 1983,
+      "raw": {
+        "id": "e4_290",
+        "source": "uAMC",
+        "target": "LipFix",
+        "kind": "proof",
+        "note": "超距離三角不等式によりfix_tのパラメータ依存は1-Lipschitz。通常AMCではこの証明は不可。",
+        "reference": "2026-10-29 independent inequality audit",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_291",
+      "source_line": 1984,
+      "raw": {
+        "id": "e4_291",
+        "source": "LipFix",
+        "target": "gUFPP",
+        "kind": "def",
+        "note": "存在・一意を含む定義",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_292",
+      "source_line": 1985,
+      "raw": {
+        "id": "e4_292",
+        "source": "uAMC",
+        "target": "LipFix",
+        "kind": "proof",
+        "note": "uAMC⇒AMC⇒LipFix",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_293",
+      "source_line": 1986,
+      "raw": {
+        "id": "e4_293",
+        "source": "RComega",
+        "target": "PFN",
+        "kind": "proof",
+        "note": "標準残余合同θ_nが分離・完備・□-深度移行を満たす",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_294",
+      "source_line": 1987,
+      "raw": {
+        "id": "e4_294",
+        "source": "FCsome",
+        "target": "PFN",
+        "kind": "proof",
+        "note": "有限段階でθ_nが対角合同となり逆極限条件が成立",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_295",
+      "source_line": 1988,
+      "raw": {
+        "id": "e4_295",
+        "source": "RComega",
+        "target": "UFfin",
+        "kind": "proof",
+        "note": "RCω⇒uAMC⇒すべての有限連立系に唯一解",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_296",
+      "source_line": 1989,
+      "raw": {
+        "id": "e4_296",
+        "source": "StrongMix",
+        "target": "CP",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_297",
+      "source_line": 1990,
+      "raw": {
+        "id": "e4_297",
+        "source": "StrongMix",
+        "target": "Ctr",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e4_298",
+      "source_line": 1991,
+      "raw": {
+        "id": "e4_298",
+        "source": "StrongMix",
+        "target": "Abs",
+        "kind": "proof",
+        "note": "x²=xおよびx≤□xなのでx=x□x",
+        "reference": "v4 proof register",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew299",
+      "source_line": 1992,
+      "raw": {
+        "id": "enew299",
+        "source": "CP",
+        "target": "CP2",
+        "kind": "def",
+        "note": "整性からx^nが減少するため",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew300",
+      "source_line": 1993,
+      "raw": {
+        "id": "enew300",
+        "source": "sLob",
+        "target": "sL2",
+        "kind": "def",
+        "note": "整性によるべきの減少",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew301",
+      "source_line": 1994,
+      "raw": {
+        "id": "enew301",
+        "source": "sL2",
+        "target": "Lob",
+        "kind": "proof",
+        "note": "(□x≤x)なら(□x→x)=1ゆえにx=1",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew302",
+      "source_line": 1995,
+      "raw": {
+        "id": "enew302",
+        "source": "CP2",
+        "target": "CP3",
+        "kind": "def",
+        "note": "整性からx^nが減少するため",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew303",
+      "source_line": 1996,
+      "raw": {
+        "id": "enew303",
+        "source": "sL2",
+        "target": "sL3",
+        "kind": "def",
+        "note": "整性によるべきの減少",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew304",
+      "source_line": 1997,
+      "raw": {
+        "id": "enew304",
+        "source": "sL3",
+        "target": "Lob",
+        "kind": "proof",
+        "note": "(□x≤x)なら(□x→x)=1ゆえにx=1",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew305",
+      "source_line": 1998,
+      "raw": {
+        "id": "enew305",
+        "source": "CP3",
+        "target": "CP4",
+        "kind": "def",
+        "note": "整性からx^nが減少するため",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew306",
+      "source_line": 1999,
+      "raw": {
+        "id": "enew306",
+        "source": "sL3",
+        "target": "sL4",
+        "kind": "def",
+        "note": "整性によるべきの減少",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew307",
+      "source_line": 2000,
+      "raw": {
+        "id": "enew307",
+        "source": "sL4",
+        "target": "Lob",
+        "kind": "proof",
+        "note": "(□x≤x)なら(□x→x)=1ゆえにx=1",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew308",
+      "source_line": 2001,
+      "raw": {
+        "id": "enew308",
+        "source": "FCP2",
+        "target": "FLob",
+        "kind": "def",
+        "note": "連言の射影",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew309",
+      "source_line": 2002,
+      "raw": {
+        "id": "enew309",
+        "source": "FCP2",
+        "target": "CP2",
+        "kind": "def",
+        "note": "連言の射影",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew310",
+      "source_line": 2003,
+      "raw": {
+        "id": "enew310",
+        "source": "FCP2",
+        "target": "sL3",
+        "kind": "proof",
+        "note": "草稿の冪的強Löb化: FLöb + CP2 ⇒ sL3",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew311",
+      "source_line": 2004,
+      "raw": {
+        "id": "enew311",
+        "source": "FCP3",
+        "target": "FLob",
+        "kind": "def",
+        "note": "連言の射影",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew312",
+      "source_line": 2005,
+      "raw": {
+        "id": "enew312",
+        "source": "FCP3",
+        "target": "CP3",
+        "kind": "def",
+        "note": "連言の射影",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew313",
+      "source_line": 2006,
+      "raw": {
+        "id": "enew313",
+        "source": "FCP3",
+        "target": "sL4",
+        "kind": "proof",
+        "note": "草稿の冪的強Löb化: FLöb + CP3 ⇒ sL4",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew314",
+      "source_line": 2007,
+      "raw": {
+        "id": "enew314",
+        "source": "FLCP",
+        "target": "FLob",
+        "kind": "def",
+        "note": "連言射影",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew315",
+      "source_line": 2008,
+      "raw": {
+        "id": "enew315",
+        "source": "FLCP",
+        "target": "CP",
+        "kind": "def",
+        "note": "連言射影",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:enew316",
+      "source_line": 2009,
+      "raw": {
+        "id": "enew316",
+        "source": "FLCP",
+        "target": "sL2",
+        "kind": "proof",
+        "note": "FLöb+CP ⇒ sL₂。強Löb公理そのものではない。",
+        "reference": "fixed_point_atlas.pdf p5",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e317",
+      "source_line": 2010,
+      "raw": {
+        "id": "v8e317",
+        "source": "U",
+        "target": "uAMC",
+        "kind": "def",
+        "note": "新記号𝕌は既存uAMCの別名。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e318",
+      "source_line": 2011,
+      "raw": {
+        "id": "v8e318",
+        "source": "uAMC",
+        "target": "U",
+        "kind": "def",
+        "note": "𝕌の定義。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e319",
+      "source_line": 2012,
+      "raw": {
+        "id": "v8e319",
+        "source": "AMC",
+        "target": "DepthLip",
+        "kind": "proof",
+        "note": "ガード深度ごとのLipschitz係数は構文帰納法でq^h、出現回数に依存しない。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e320",
+      "source_line": 2013,
+      "raw": {
+        "id": "v8e320",
+        "source": "DepthLip",
+        "target": "GuardLipMC",
+        "kind": "def",
+        "note": "全guard項のガード深度≥1。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e321",
+      "source_line": 2014,
+      "raw": {
+        "id": "v8e321",
+        "source": "PFN",
+        "target": "GUCtheta",
+        "kind": "proof",
+        "note": "合同の非拡大性とシフトで、guarded項は一様連続。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e322",
+      "source_line": 2015,
+      "raw": {
+        "id": "v8e322",
+        "source": "GUCtheta",
+        "target": "GContMC",
+        "kind": "proof",
+        "note": "定義中の分離・完備・shiftフィルトレーションから□縮小距離を作り、guarded項の連続性を得る。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e323",
+      "source_line": 2016,
+      "raw": {
+        "id": "v8e323",
+        "source": "LocSepComp",
+        "target": "Loc",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e324",
+      "source_line": 2017,
+      "raw": {
+        "id": "v8e324",
+        "source": "LocSepComp",
+        "target": "PFN",
+        "kind": "proof",
+        "note": "meet局所合同の下降・シフト・逆極限完備性からPFℕ。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e325",
+      "source_line": 2018,
+      "raw": {
+        "id": "v8e325",
+        "source": "bMC",
+        "target": "buMC",
+        "kind": "proof",
+        "note": "有界 □-縮小距離⇒像の交叉が1⇒有界完備超距離（U2）。",
+        "reference": "MASTER v3, U2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e326",
+      "source_line": 2019,
+      "raw": {
+        "id": "v8e326",
+        "source": "buMC",
+        "target": "bMC",
+        "kind": "def",
+        "note": "超距離は距離。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e327",
+      "source_line": 2020,
+      "raw": {
+        "id": "v8e327",
+        "source": "buMC",
+        "target": "ImgSep",
+        "kind": "proof",
+        "note": "有界性とq縮小から全像□ⁿ[A]の直径が0に収束。",
+        "reference": "MASTER v3 U2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e328",
+      "source_line": 2021,
+      "raw": {
+        "id": "v8e328",
+        "source": "ImgSep",
+        "target": "buMC",
+        "kind": "proof",
+        "note": "像深度v(x)=max{n:x∈□ⁿ[A]}により有界完備超距離を構成。",
+        "reference": "MASTER v3 U2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e329",
+      "source_line": 2022,
+      "raw": {
+        "id": "v8e329",
+        "source": "ImgSep",
+        "target": "Lob",
+        "kind": "proof",
+        "note": "□a≤aと4なら□aは□の固定点。像交叉が{1}ゆえ□a=1。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e330",
+      "source_line": 2023,
+      "raw": {
+        "id": "v8e330",
+        "source": "bMC",
+        "target": "MC",
+        "kind": "def",
+        "note": "有界条件を除く。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e331",
+      "source_line": 2024,
+      "raw": {
+        "id": "v8e331",
+        "source": "buMC",
+        "target": "uMC",
+        "kind": "def",
+        "note": "有界条件を除く。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e332",
+      "source_line": 2025,
+      "raw": {
+        "id": "v8e332",
+        "source": "bAMC",
+        "target": "bMC",
+        "kind": "def",
+        "note": "非様相演算の非拡大性を忘れる。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e333",
+      "source_line": 2026,
+      "raw": {
+        "id": "v8e333",
+        "source": "buAMC",
+        "target": "buMC",
+        "kind": "def",
+        "note": "非様相演算の非拡大性を忘れる。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e334",
+      "source_line": 2027,
+      "raw": {
+        "id": "v8e334",
+        "source": "buAMC",
+        "target": "ImgSep",
+        "kind": "proof",
+        "note": "有界縮小距離の必要条件。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e335",
+      "source_line": 2028,
+      "raw": {
+        "id": "v8e335",
+        "source": "FCsome",
+        "target": "ImgSep",
+        "kind": "proof",
+        "note": "□ⁿ0=1なら単調性で□ⁿ[A]={1}。",
+        "reference": "Algebraic orbit lemma",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e336",
+      "source_line": 2029,
+      "raw": {
+        "id": "v8e336",
+        "source": "MC",
+        "target": "MContWitness",
+        "kind": "def",
+        "note": "縮小写像は連続。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e337",
+      "source_line": 2030,
+      "raw": {
+        "id": "v8e337",
+        "source": "MContWitness",
+        "target": "MC",
+        "kind": "def",
+        "note": "定義の□縮小を忘れる。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e338",
+      "source_line": 2031,
+      "raw": {
+        "id": "v8e338",
+        "source": "MC",
+        "target": "StrictModal",
+        "kind": "def",
+        "note": "一様q<1縮小はstrict縮小。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e339",
+      "source_line": 2032,
+      "raw": {
+        "id": "v8e339",
+        "source": "StrictModal",
+        "target": "Lob",
+        "kind": "proof",
+        "note": "N,4下で□a≤aなら□aは□の固定点。strict contractionには固定点1以外がない。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e340",
+      "source_line": 2033,
+      "raw": {
+        "id": "v8e340",
+        "source": "AMC",
+        "target": "TermContMC",
+        "kind": "def",
+        "note": "非拡大的なら全基本演算は連続。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e341",
+      "source_line": 2034,
+      "raw": {
+        "id": "v8e341",
+        "source": "TermContMC",
+        "target": "GContMC",
+        "kind": "def",
+        "note": "全項連続⇒ガード付き項連続。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e342",
+      "source_line": 2035,
+      "raw": {
+        "id": "v8e342",
+        "source": "GContMC",
+        "target": "MC",
+        "kind": "def",
+        "note": "連続条件を忘れる。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e343",
+      "source_line": 2036,
+      "raw": {
+        "id": "v8e343",
+        "source": "TermContMC",
+        "target": "MC",
+        "kind": "def",
+        "note": "連続条件を忘れる。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e344",
+      "source_line": 2037,
+      "raw": {
+        "id": "v8e344",
+        "source": "AMC",
+        "target": "GuardLipMC",
+        "kind": "proof",
+        "note": "非様相演算max非拡大＋□ q-縮小⇒任意guarded項がq-縮小。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e345",
+      "source_line": 2038,
+      "raw": {
+        "id": "v8e345",
+        "source": "GuardLipMC",
+        "target": "GuardIterContr",
+        "kind": "def",
+        "note": "k=1でよい。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e346",
+      "source_line": 2039,
+      "raw": {
+        "id": "v8e346",
+        "source": "GuardLipMC",
+        "target": "GuardStrict",
+        "kind": "def",
+        "note": "一様縮小なら厳密縮小。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e347",
+      "source_line": 2040,
+      "raw": {
+        "id": "v8e347",
+        "source": "GuardLipMC",
+        "target": "GContMC",
+        "kind": "def",
+        "note": "縮小写像は連続。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e348",
+      "source_line": 2041,
+      "raw": {
+        "id": "v8e348",
+        "source": "GuardIterContr",
+        "target": "gUFPP",
+        "kind": "proof",
+        "note": "t^kの縮小の唯一不動点はtの唯一不動点となる。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e349",
+      "source_line": 2042,
+      "raw": {
+        "id": "v8e349",
+        "source": "GuardStrict",
+        "target": "gU",
+        "kind": "proof",
+        "note": "厳密距離縮小写像は不動点を高々一つしかもたない。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e350",
+      "source_line": 2043,
+      "raw": {
+        "id": "v8e350",
+        "source": "TermContTau",
+        "target": "GuardContTau",
+        "kind": "def",
+        "note": "全項連続⇒ガード項連続。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e351",
+      "source_line": 2044,
+      "raw": {
+        "id": "v8e351",
+        "source": "IVTall",
+        "target": "IVTguard",
+        "kind": "def",
+        "note": "全項をガード項に制限。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e352",
+      "source_line": 2045,
+      "raw": {
+        "id": "v8e352",
+        "source": "OrdTermCont",
+        "target": "TermContTau",
+        "kind": "def",
+        "note": "連言消去（位相はorder topology）。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e353",
+      "source_line": 2046,
+      "raw": {
+        "id": "v8e353",
+        "source": "OrdTermCont",
+        "target": "OrdConnected",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e354",
+      "source_line": 2047,
+      "raw": {
+        "id": "v8e354",
+        "source": "OrdTermCont",
+        "target": "IVTall",
+        "kind": "proof",
+        "note": "連続写像は連結な順序区間を連結集合へ写す。線型連続体の連結集合は順序凸。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e355",
+      "source_line": 2048,
+      "raw": {
+        "id": "v8e355",
+        "source": "TopoFixed",
+        "target": "FPP",
+        "kind": "proof",
+        "note": "適用可能なコンパクト凸集合上で各連続自己写像は不動点を持つ。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e356",
+      "source_line": 2049,
+      "raw": {
+        "id": "v8e356",
+        "source": "GContMC",
+        "target": "MContWitness",
+        "kind": "def",
+        "note": "ガード項□pの連続性を含むが既にMCを含む。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v8e357",
+      "source_line": 2050,
+      "raw": {
+        "id": "v8e357",
+        "source": "RComega",
+        "target": "ImgSep",
+        "kind": "linked",
+        "note": "標準残余合同の完備分離性と集合全像の交叉は一般に同じでない。未検証の比較対象。",
+        "reference": "v8 metric lemma / RAMS1_MASTER §36–42",
+        "scope": "open",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_358",
+      "source_line": 2051,
+      "raw": {
+        "id": "v10_358",
+        "source": "PhiSepComp",
+        "target": "PhiSep",
+        "kind": "def",
+        "note": "連言除去",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_359",
+      "source_line": 2052,
+      "raw": {
+        "id": "v10_359",
+        "source": "PhiSepComp",
+        "target": "PhiComp",
+        "kind": "def",
+        "note": "連言除去",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_360",
+      "source_line": 2053,
+      "raw": {
+        "id": "v10_360",
+        "source": "PhiSepComp",
+        "target": "PFN",
+        "kind": "proof",
+        "note": "θ₀=∇, Φ単調より下降、shiftはΦの定義、分離と逆極限全射よりPFℕ",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_361",
+      "source_line": 2054,
+      "raw": {
+        "id": "v10_361",
+        "source": "PFN",
+        "target": "PhiSep",
+        "kind": "proof",
+        "note": "任意の適合下降合同塔 τₙ について Φⁿ(∇)⊆τₙ。分離性を継承",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_362",
+      "source_line": 2055,
+      "raw": {
+        "id": "v10_362",
+        "source": "PhiNil",
+        "target": "PhiSepComp",
+        "kind": "proof",
+        "note": "有限段階に対角合同へ到達する塔は分離・逆極限完備",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_363",
+      "source_line": 2056,
+      "raw": {
+        "id": "v10_363",
+        "source": "PhiNil",
+        "target": "FCsome",
+        "kind": "proof",
+        "note": "Φⁿ(∇)=Δ⇒□ⁿ[A]が一点集合。Nによりその値は1",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_364",
+      "source_line": 2057,
+      "raw": {
+        "id": "v10_364",
+        "source": "IndBox",
+        "target": "Lob",
+        "kind": "def",
+        "note": "同じ準恒等式",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_365",
+      "source_line": 2058,
+      "raw": {
+        "id": "v10_365",
+        "source": "Lob",
+        "target": "IndBox",
+        "kind": "def",
+        "note": "同じ準恒等式",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_366",
+      "source_line": 2059,
+      "raw": {
+        "id": "v10_366",
+        "source": "ScUp",
+        "target": "OmegaContBox",
+        "kind": "def",
+        "note": "Scott連続なら存在する増大列の上限を保存",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_367",
+      "source_line": 2060,
+      "raw": {
+        "id": "v10_367",
+        "source": "OmegaExh",
+        "target": "Lob",
+        "kind": "proof",
+        "note": "□a≤a なら □ⁿ0≤a、上限が1なのでa=1",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_368",
+      "source_line": 2061,
+      "raw": {
+        "id": "v10_368",
+        "source": "Frame",
+        "target": "CompleteOrder",
+        "kind": "def",
+        "note": "Frameは完備束",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_369",
+      "source_line": 2062,
+      "raw": {
+        "id": "v10_369",
+        "source": "FrameLoc",
+        "target": "Frame",
+        "kind": "def",
+        "note": "連言除去",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_370",
+      "source_line": 2063,
+      "raw": {
+        "id": "v10_370",
+        "source": "FrameLoc",
+        "target": "Loc",
+        "kind": "def",
+        "note": "連言除去",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_371",
+      "source_line": 2064,
+      "raw": {
+        "id": "v10_371",
+        "source": "FrameLocOmega",
+        "target": "FrameLoc",
+        "kind": "def",
+        "note": "連言除去",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_372",
+      "source_line": 2065,
+      "raw": {
+        "id": "v10_372",
+        "source": "FrameLocOmega",
+        "target": "OmegaContBox",
+        "kind": "def",
+        "note": "連言除去",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_373",
+      "source_line": 2066,
+      "raw": {
+        "id": "v10_373",
+        "source": "FrameLocIndOmega",
+        "target": "FrameLocOmega",
+        "kind": "def",
+        "note": "連言除去",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_374",
+      "source_line": 2067,
+      "raw": {
+        "id": "v10_374",
+        "source": "FrameLocIndOmega",
+        "target": "IndBox",
+        "kind": "def",
+        "note": "連言除去",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_375",
+      "source_line": 2068,
+      "raw": {
+        "id": "v10_375",
+        "source": "FrameLocIndOmega",
+        "target": "OmegaExh",
+        "kind": "proof",
+        "note": "pω=∨ₙ□ⁿ0 はωContより固定点、Ind□で1",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v10_376",
+      "source_line": 2069,
+      "raw": {
+        "id": "v10_376",
+        "source": "FrameLocIndOmega",
+        "target": "PFN",
+        "kind": "proof",
+        "note": "Frameでx=∨ₙ(x∧pₙ)、整合系のgluingで逆極限全射",
+        "reference": "RAMS-1 v10 audit, theorem/proof sketch",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1377",
+      "source_line": 2070,
+      "raw": {
+        "id": "e1377",
+        "source": "PhiSep",
+        "target": "ImgSep",
+        "kind": "proof",
+        "note": "Φⁿ(∇) はすべての □ⁿ[A] の二点を同一視する。∩Φⁿ(∇)=Δ なら ∩□ⁿ[A]={1}。",
+        "reference": "v11 research note §1",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1378",
+      "source_line": 2071,
+      "raw": {
+        "id": "e1378",
+        "source": "DCCPhiSep",
+        "target": "ConDCC",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1379",
+      "source_line": 2072,
+      "raw": {
+        "id": "e1379",
+        "source": "DCCPhiSep",
+        "target": "PhiSep",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1380",
+      "source_line": 2073,
+      "raw": {
+        "id": "e1380",
+        "source": "SIPhiSep",
+        "target": "SIred",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1381",
+      "source_line": 2074,
+      "raw": {
+        "id": "e1381",
+        "source": "SIPhiSep",
+        "target": "PhiSep",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1382",
+      "source_line": 2075,
+      "raw": {
+        "id": "e1382",
+        "source": "SimplePhiSep",
+        "target": "SimpleRed",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1383",
+      "source_line": 2076,
+      "raw": {
+        "id": "e1383",
+        "source": "SimplePhiSep",
+        "target": "PhiSep",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1384",
+      "source_line": 2077,
+      "raw": {
+        "id": "e1384",
+        "source": "SimpleUAMC",
+        "target": "SimpleRed",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1385",
+      "source_line": 2078,
+      "raw": {
+        "id": "e1385",
+        "source": "SimpleUAMC",
+        "target": "uAMC",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1386",
+      "source_line": 2079,
+      "raw": {
+        "id": "e1386",
+        "source": "SIuAMC",
+        "target": "SIred",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1387",
+      "source_line": 2080,
+      "raw": {
+        "id": "e1387",
+        "source": "SIuAMC",
+        "target": "uAMC",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1388",
+      "source_line": 2081,
+      "raw": {
+        "id": "e1388",
+        "source": "DCCPhiSep",
+        "target": "PhiNil",
+        "kind": "proof",
+        "note": "下降する正準合同列はDCCで停止する。∩θ_n=Δなら停止値はΔ。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1389",
+      "source_line": 2082,
+      "raw": {
+        "id": "e1389",
+        "source": "SIPhiSep",
+        "target": "PhiNil",
+        "kind": "proof",
+        "note": "全非自明合同が最小非自明合同μを含む。∩θ_n=Δなら、ある段階でθ_n=Δ。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1390",
+      "source_line": 2083,
+      "raw": {
+        "id": "e1390",
+        "source": "SimplePhiSep",
+        "target": "Verum",
+        "kind": "proof",
+        "note": "単純な非様相還元ではΦ(∇)∈{Δ,∇}。分離性からΦ(∇)=Δとなり、□は定数1。",
+        "reference": "v11 research note §1",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1391",
+      "source_line": 2084,
+      "raw": {
+        "id": "e1391",
+        "source": "SimpleUAMC",
+        "target": "Verum",
+        "kind": "proof",
+        "note": "超距離の閾値合同が単純性によりΔか∇しかないため離散一様距離となる。□はq<1縮小なので定数1。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1392",
+      "source_line": 2085,
+      "raw": {
+        "id": "e1392",
+        "source": "SIuAMC",
+        "target": "LocalFC",
+        "kind": "proof",
+        "note": "劣直既約性により適合超距離の異なる二点間距離には共通正下限がある。□反復は1へqⁿ収束するので有限時刻で等しい。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1393",
+      "source_line": 2086,
+      "raw": {
+        "id": "e1393",
+        "source": "FCsome",
+        "target": "LocalFC",
+        "kind": "def",
+        "note": "□^N0=1なら単調性によりすべてのxで□^Nx=1。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1394",
+      "source_line": 2087,
+      "raw": {
+        "id": "e1394",
+        "source": "AMC",
+        "target": "UFcyc",
+        "kind": "proof",
+        "note": "有限cycle-guarded系は各閉路に□縮小を持つ。max-plus閉路積<1から重み付き最大距離で厳密収縮。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1395",
+      "source_line": 2088,
+      "raw": {
+        "id": "e1395",
+        "source": "UFcyc",
+        "target": "Fcyc",
+        "kind": "def",
+        "note": "唯一解なら解がある。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1396",
+      "source_line": 2089,
+      "raw": {
+        "id": "e1396",
+        "source": "UFcyc",
+        "target": "UFfin",
+        "kind": "def",
+        "note": "完全ガード付き有限連立系はcycle-guarded系に含まれる。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1397",
+      "source_line": 2090,
+      "raw": {
+        "id": "e1397",
+        "source": "AMC",
+        "target": "CycleIterContr",
+        "kind": "proof",
+        "note": "有限m変数の長さmの依存パスは少なくとも1回□を通る。非様相演算のmax非拡大性から Lip(T^m)≤q。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1398",
+      "source_line": 2091,
+      "raw": {
+        "id": "e1398",
+        "source": "CycleIterContr",
+        "target": "UFcyc",
+        "kind": "proof",
+        "note": "T^m が完備距離上のBanach縮小で唯一固定点xを持つ。TとT^mは可換だからT(x)もT^m固定点、よってT(x)=x。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1399",
+      "source_line": 2092,
+      "raw": {
+        "id": "e1399",
+        "source": "PhiCompactSep",
+        "target": "PhiCompact",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1400",
+      "source_line": 2093,
+      "raw": {
+        "id": "e1400",
+        "source": "PhiCompactSep",
+        "target": "PhiSep",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1401",
+      "source_line": 2094,
+      "raw": {
+        "id": "e1401",
+        "source": "CompactLocalFC",
+        "target": "CompactIsolatedOne",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1402",
+      "source_line": 2095,
+      "raw": {
+        "id": "e1402",
+        "source": "CompactLocalFC",
+        "target": "LocalFC",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1403",
+      "source_line": 2096,
+      "raw": {
+        "id": "e1403",
+        "source": "CompactImgSep",
+        "target": "ImgSep",
+        "kind": "def",
+        "note": "連言消去。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1404",
+      "source_line": 2097,
+      "raw": {
+        "id": "e1404",
+        "source": "PhiCompact",
+        "target": "PhiComp",
+        "kind": "proof",
+        "note": "整合した剰余類の下降列は非空閉集合の下降列。コンパクト性による有限交差性から共通元を得る。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1405",
+      "source_line": 2098,
+      "raw": {
+        "id": "e1405",
+        "source": "PhiCompactSep",
+        "target": "PhiSepComp",
+        "kind": "proof",
+        "note": "ΦSepとΦCompの連言が成立する。",
+        "reference": "v11 research note §1",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1406",
+      "source_line": 2099,
+      "raw": {
+        "id": "e1406",
+        "source": "CompactLocalFC",
+        "target": "FCsome",
+        "kind": "proof",
+        "note": "U_n={x:□ⁿx=1} は開かつ増大してAを覆う。コンパクト性から有限段 N で U_N=A。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1407",
+      "source_line": 2100,
+      "raw": {
+        "id": "e1407",
+        "source": "CompactImgSep",
+        "target": "TopoMC",
+        "kind": "proof",
+        "note": "Janošのコンパクト距離空間における逆縮小定理。元の位相を与える縮小距離を構成。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:e1408",
+      "source_line": 2101,
+      "raw": {
+        "id": "e1408",
+        "source": "TopoMC",
+        "target": "bMC",
+        "kind": "proof",
+        "note": "Aがコンパクトでの適合距離は有界完備。文献定理のスコープを要確認。",
+        "reference": "v11 research note §2",
+        "scope": "NK4",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-409",
+      "source_line": 2102,
+      "raw": {
+        "id": "v12-409",
+        "source": "AMC",
+        "target": "bAMC",
+        "kind": "proof",
+        "note": "束meetのmax非拡大性でd(x,0)≤d(1,0)、三角不等式でdiam≤2d(0,1)。",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-410",
+      "source_line": 2103,
+      "raw": {
+        "id": "v12-410",
+        "source": "uAMC",
+        "target": "buAMC",
+        "kind": "proof",
+        "note": "超距離版ではdiam(A)=d(0,1)。有界性は冗長。",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-411",
+      "source_line": 2104,
+      "raw": {
+        "id": "v12-411",
+        "source": "AMC",
+        "target": "UFany",
+        "kind": "proof",
+        "note": "非様相演算max非拡大+□q縮小。束演算から距離有界、任意濃度直積sup距離完備でBanach。",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-412",
+      "source_line": 2105,
+      "raw": {
+        "id": "v12-412",
+        "source": "Verum",
+        "target": "uAMC",
+        "kind": "proof",
+        "note": "□≡1なら離散超距離が完備で全原始演算max非拡大、□は0縮小。",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-413",
+      "source_line": 2106,
+      "raw": {
+        "id": "v12-413",
+        "source": "AMC",
+        "target": "BoxAvoidNil",
+        "kind": "proof",
+        "note": "非様相演算のmax非拡大性とN：冪零b=□a≠1ならd(b,1)≥d(0,1)だがq縮小に矛盾。",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-414",
+      "source_line": 2107,
+      "raw": {
+        "id": "v12-414",
+        "source": "NilAMC",
+        "target": "AMC",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-415",
+      "source_line": 2108,
+      "raw": {
+        "id": "v12-415",
+        "source": "NilAMC",
+        "target": "NilAll",
+        "kind": "def",
+        "note": "連言消去",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-416",
+      "source_line": 2109,
+      "raw": {
+        "id": "v12-416",
+        "source": "NilAMC",
+        "target": "Verum",
+        "kind": "proof",
+        "note": "NとAMCの下で□像の非1冪零元なし、NilAllにより□a=1。",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-417",
+      "source_line": 2110,
+      "raw": {
+        "id": "v12-417",
+        "source": "ConstBox",
+        "target": "Verum",
+        "kind": "proof",
+        "note": "N:□1=1なので定値□は全て1。",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-418",
+      "source_line": 2111,
+      "raw": {
+        "id": "v12-418",
+        "source": "Verum",
+        "target": "ConstBox",
+        "kind": "def",
+        "note": "定値1は定値",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-419",
+      "source_line": 2112,
+      "raw": {
+        "id": "v12-419",
+        "source": "UFany",
+        "target": "KappaUF",
+        "kind": "def",
+        "note": "量化が一致する同義ノード",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v12-420",
+      "source_line": 2113,
+      "raw": {
+        "id": "v12-420",
+        "source": "KappaUF",
+        "target": "UFany",
+        "kind": "def",
+        "note": "量化が一致する同義ノード",
+        "reference": "v12 direct proof",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v13-si-uamc-fc",
+      "source_line": 2114,
+      "raw": {
+        "id": "v13-si-uamc-fc",
+        "source": "SIuAMC",
+        "target": "FCsome",
+        "kind": "proof",
+        "note": "uAMC = buAMC。SIのmonolith μから正の距離下限 δ>0 を得る。diam D<∞、d(□^n0,1)≤q^nD<δ より □^n0=1。",
+        "reference": "v13 elementary monolith-ball and boundedness proof, needs independent referee check",
+        "scope": "NK4",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v14_gFPP_SCplus",
+      "source_line": 2115,
+      "raw": {
+        "id": "v14_gFPP_SCplus",
+        "source": "gFPP",
+        "target": "SCplus",
+        "kind": "def",
+        "note": "SC⁺ は guarded 項 p=a·□p の特殊例。gFPP から即座に従う。",
+        "reference": "v14 definition audit",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v14_Fany_SCCbounded",
+      "source_line": 2116,
+      "raw": {
+        "id": "v14_Fany_SCCbounded",
+        "source": "Fany",
+        "target": "SCCbounded",
+        "kind": "def",
+        "note": "有界SCCサイズの連立系は、任意基数の guarded 連立系の部分クラス。",
+        "reference": "v14 definition audit",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v14_TFung_FPP",
+      "source_line": 2117,
+      "raw": {
+        "id": "v14_TFung_FPP",
+        "source": "TFung",
+        "target": "FPP",
+        "kind": "def",
+        "note": "全非ガード項に一様項選択があれば、各非ガード項に不動点が存在する。",
+        "reference": "v14 definition audit",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v14_TFung_gTFPP",
+      "source_line": 2118,
+      "raw": {
+        "id": "v14_TFung_gTFPP",
+        "source": "TFung",
+        "target": "gTFPP",
+        "kind": "def",
+        "note": "非ガード全項の一様項選択は、guarded 項の一様選択を特に含む。",
+        "reference": "v14 definition audit",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v14_OrbitZero_FCsome",
+      "source_line": 2119,
+      "raw": {
+        "id": "v14_OrbitZero_FCsome",
+        "source": "OrbitZero",
+        "target": "FCsome",
+        "kind": "def",
+        "note": "OrbitZero は FC<ω の別名。",
+        "reference": "v14 name unification",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v14_FCsome_OrbitZero",
+      "source_line": 2120,
+      "raw": {
+        "id": "v14_FCsome_OrbitZero",
+        "source": "FCsome",
+        "target": "OrbitZero",
+        "kind": "def",
+        "note": "FC<ω は OrbitZero の別名。",
+        "reference": "v14 name unification",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v14_AMC_NonmodalNonexp",
+      "source_line": 2121,
+      "raw": {
+        "id": "v14_AMC_NonmodalNonexp",
+        "source": "AMC",
+        "target": "NonmodalNonexp",
+        "kind": "def",
+        "note": "AMC を実現する距離では、全非様相演算が max-非拡大的。",
+        "reference": "v14 definition audit",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v15-1",
+      "source_line": 2122,
+      "raw": {
+        "id": "v15-1",
+        "source": "AMCCyc",
+        "target": "AMC",
+        "kind": "def",
+        "note": "AMCCyc は「AMC ∧ 特定系へのcycle条件」なので AMC を含意する。",
+        "reference": "v15 direct audit",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v15-2",
+      "source_line": 2123,
+      "raw": {
+        "id": "v15-2",
+        "source": "SubdirFinite",
+        "target": "CycleIterContr",
+        "kind": "linked",
+        "note": "同一の有限連立系Tの重み付き縮小判定と関係するが、単独では全称UFcycを含意しない。",
+        "reference": "v15 direct audit",
+        "scope": "NK4",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v15-3",
+      "source_line": 2124,
+      "raw": {
+        "id": "v15-3",
+        "source": "TopoMC",
+        "target": "MetricTauCompat",
+        "kind": "linked",
+        "note": "TopoMCの位相τが順序位相なら一致する。一般には追加仮定 τ=τ_order が必要。",
+        "reference": "v15 direct audit",
+        "scope": "NK4",
+        "grade": "association"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v16_verified_1",
+      "source_line": 2125,
+      "raw": {
+        "id": "v16_verified_1",
+        "source": "F11",
+        "target": "SCplus",
+        "kind": "def",
+        "note": "F₁,₁は一出現・深度1の全ガード付き項を対象とする。t(p,a)=a·□p はその特殊例。",
+        "reference": "定義からの直接帰結（2026-10-29監査）",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v16_verified_2",
+      "source_line": 2126,
+      "raw": {
+        "id": "v16_verified_2",
+        "source": "gUFPP",
+        "target": "SCunique",
+        "kind": "def",
+        "note": "固定した n,d≥1 に対し p=(□^d p)^n→a はガード付き項。gUFPP は全パラメータで唯一解を与える。",
+        "reference": "定義からの直接帰結（2026-10-29監査）",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v16_verified_3",
+      "source_line": 2127,
+      "raw": {
+        "id": "v16_verified_3",
+        "source": "SCunique",
+        "target": "SCpow",
+        "kind": "def",
+        "note": "同じ指数 n,d の唯一可解性は存在を含意する。",
+        "reference": "定義からの直接帰結（2026-10-29監査）",
+        "scope": "NK4",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v9-equivalence-1",
+      "source_line": 2128,
+      "raw": {
+        "id": "v9-equivalence-1",
+        "source": "gTFPP",
+        "target": "SPgFPP",
+        "kind": "equivalence",
+        "note": "一様項解の恒等式保存と座標射影自由代数",
+        "reference": "MASTER_v9.md T-II.5",
+        "scope": "any algebra in the same finitary signature",
+        "grade": "E9-1 proved in MASTER_v9"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:v9-equivalence-2",
+      "source_line": 2129,
+      "raw": {
+        "id": "v9-equivalence-2",
+        "source": "gTFPP",
+        "target": "Var_gFPP",
+        "kind": "equivalence",
+        "note": "生成多様体の全代数でのFPPと一様項解は同値",
+        "reference": "MASTER_v9.md T-II.5",
+        "scope": "any algebra in the same finitary signature",
+        "grade": "E9-1 proved in MASTER_v9"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e1",
+      "source_line": 2130,
+      "raw": {
+        "id": "N11e1",
+        "source": "AMC",
+        "target": "uAMC",
+        "kind": "equivalence",
+        "note": "N11-01; the same metric is an ultrametric",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e2",
+      "source_line": 2131,
+      "raw": {
+        "id": "N11e2",
+        "source": "uAMC",
+        "target": "AMC",
+        "kind": "definition",
+        "note": "Every ultrametric is a metric",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e3",
+      "source_line": 2132,
+      "raw": {
+        "id": "N11e3",
+        "source": "AMC",
+        "target": "CongFiltExists",
+        "kind": "theorem",
+        "note": "N11-02",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e4",
+      "source_line": 2133,
+      "raw": {
+        "id": "N11e4",
+        "source": "CongFiltExists",
+        "target": "AMC",
+        "kind": "theorem",
+        "note": "N11-02",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e5",
+      "source_line": 2134,
+      "raw": {
+        "id": "N11e5",
+        "source": "AMC",
+        "target": "UFany",
+        "kind": "theorem",
+        "note": "N11-03; all cardinalities, finite support",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e6",
+      "source_line": 2135,
+      "raw": {
+        "id": "N11e6",
+        "source": "AMC",
+        "target": "LipFix",
+        "kind": "theorem",
+        "note": "N11-03: parameter 1-Lipschitz",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e7",
+      "source_line": 2136,
+      "raw": {
+        "id": "N11e7",
+        "source": "AMC",
+        "target": "TermApprox",
+        "kind": "theorem",
+        "note": "N11-04 uniform term approximants; term definability requires closure",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e8",
+      "source_line": 2137,
+      "raw": {
+        "id": "N11e8",
+        "source": "PhiSepComp",
+        "target": "AMC",
+        "kind": "theorem",
+        "note": "N11-02 sufficiency for canonical Phi tower",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:relations:N11e9",
+      "source_line": 2138,
+      "raw": {
+        "id": "N11e9",
+        "source": "AMC",
+        "target": "MalcevNonexp",
+        "kind": "theorem",
+        "note": "N11-01; compatible metric is ultrametric",
+        "reference": "UPDATE_v11_PROOFS.md",
+        "scope": "bounded integral commutative residuated lattice with modal operator; additional assumptions in proof",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    }
+  ]
+}

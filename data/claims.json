@@ -1,7 +1,177 @@
 [
-  {"id":"RAMS-C001","statement":"全基本演算がmax非拡大的な距離は、Mal'cev項がある場合に超距離となる。RAMSへの適用条件を確定する。","assumptions":["Mal'cev項の存在","全基本演算のmax非拡大性","分離的距離"],"status":"pending","scope":"general_theorem","source_ids":["S002"],"evidence":[],"audit":[],"novelty":"unchecked"},
-  {"id":"RAMS-C002","statement":"適合完備縮小超距離と、分離的合同塔・逆極限実現・様相の一段深化との対応。正確な同値条件を確定する。","assumptions":["非様相還元の合同塔","可算降鎖","様相の一段深化","完備性と分離性の正確な規約"],"status":"pending","scope":"general_theorem","source_ids":["S001","S002"],"evidence":[],"audit":[],"novelty":"unchecked"},
-  {"id":"RAMS-C003","statement":"局所的な像吸収条件の下でSC解とFLöbを関係づける。両方向に必要な仮定を再構成する。","assumptions":["有界整可換剰余束","様相条件は原稿と照合","像吸収の局所条件を確定"],"status":"pending","scope":"general_theorem","source_ids":["S001"],"evidence":[],"audit":[],"novelty":"unchecked"},
-  {"id":"RAMS-C004","statement":"標準MV代数のbox_r(x)=1-r+rxによる縮小性・一意性・項定義可能性の分離。","assumptions":["0<r<1","標準MV言語と定数0,1","gTFPP反例のrは既約有理数"],"status":"pending","scope":"infinite_model_family","source_ids":["S001"],"evidence":[],"audit":[],"novelty":"unchecked"},
-  {"id":"RAMS-C005","statement":"NK4下のgTFPPからgUが従うか。","assumptions":["NK4","対象クラスと言語の確定が必要"],"status":"pending","scope":"open_question","source_ids":["S002","S003"],"evidence":[],"audit":[],"novelty":"unchecked"}
+  {
+    "id": "RAMS-C001",
+    "statement": "v11 N11-01: 有界整可換剰余束の全非様相演算がmax非拡大的なら証人距離自体が有界超距離。AMC⇔uAMC⇔bAMC⇔buAMCを監査する。",
+    "assumptions": [
+      "有界整可換剰余束の完全な非様相署名",
+      "全非様相基本演算のmax非拡大性",
+      "分離的距離。超距離性自体にはN/K/4や完備性は不要"
+    ],
+    "status": "pending",
+    "scope": "general_theorem",
+    "source_ids": [
+      "S002",
+      "S005"
+    ],
+    "evidence": [
+      "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+    ],
+    "audit": [],
+    "novelty": "unchecked",
+    "source_status": "proved-in-note",
+    "review_state": "source_proof_available_independent_audit_pending",
+    "source_section": "N11-01"
+  },
+  {
+    "id": "RAMS-C002",
+    "statement": "v11 N11-02: AMCと、ある分離的・逆極限完備な適合合同フィルトレーションの存在の同値。正準Phi塔との混同を除外して監査する。",
+    "assumptions": [
+      "有界整可換剰余束",
+      "N（原本の定理文に合わせる）",
+      "全単射の標準逆極限写像とbox-shift"
+    ],
+    "status": "pending",
+    "scope": "general_theorem",
+    "source_ids": [
+      "S001",
+      "S002",
+      "S005"
+    ],
+    "evidence": [
+      "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+    ],
+    "audit": [],
+    "novelty": "unchecked",
+    "source_status": "proved-in-note",
+    "review_state": "source_proof_available_independent_audit_pending",
+    "source_section": "N11-02"
+  },
+  {
+    "id": "RAMS-C003",
+    "statement": "v10 R10-1: M+IA_box下のSC⇔FLobと解上の局所吸収。MixからIA_boxへの含意と逆向きの有限反例を区別する。",
+    "assumptions": [
+      "有界整可換剰余束",
+      "M",
+      "IA_box、または対象SC解上の局所吸収"
+    ],
+    "status": "pending",
+    "scope": "general_theorem",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "evidence": [
+      "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+    ],
+    "audit": [],
+    "novelty": "unchecked",
+    "source_status": "proved-in-note",
+    "review_state": "source_proof_available_independent_audit_pending",
+    "source_section": "R10-1/R10-2"
+  },
+  {
+    "id": "RAMS-C004",
+    "statement": "標準MV代数のbox_r(x)=1-r+rxによる縮小性・一意性・項定義可能性の分離。",
+    "assumptions": [
+      "0<r<1",
+      "標準MV言語と定数0,1",
+      "gTFPP反例のrは既約有理数"
+    ],
+    "status": "pending",
+    "scope": "infinite_model_family",
+    "source_ids": [
+      "S001",
+      "S005"
+    ],
+    "evidence": [
+      "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+    ],
+    "audit": [],
+    "novelty": "unchecked",
+    "source_status": "partial-source-support",
+    "review_state": "parameter_family_and_term_language_scope_audit_pending"
+  },
+  {
+    "id": "RAMS-C005",
+    "statement": "NK4下のgTFPPからgUが従うか。",
+    "assumptions": [
+      "有界整可換剰余束",
+      "N,K,4",
+      "単一Aで各guarded tに元言語のp-free項s_tを一様パラメータ選択"
+    ],
+    "status": "pending",
+    "scope": "open_question",
+    "source_ids": [
+      "S002",
+      "S003",
+      "S005"
+    ],
+    "evidence": [],
+    "audit": [],
+    "novelty": "unchecked",
+    "source_status": "open",
+    "source_section": "v11 verification N11-08; not proof-text N11-08"
+  },
+  {
+    "id": "RAMS-C006",
+    "statement": "三元MV鎖のbox(x)=max(1/2,x)はN,K,4,IA_boxを満たしMixを満たさない。",
+    "assumptions": [
+      "台集合{0,1/2,1}と全演算表",
+      "box=[1,1,2]（整数添字）"
+    ],
+    "scope": "finite_instance",
+    "status": "finite_checked",
+    "source_status": "finite-computation",
+    "source_section": "R10-2",
+    "source_ids": [
+      "S004",
+      "S005"
+    ],
+    "evidence": [
+      "research/evidence/v11/ia-threshold-certificate.json",
+      "research/evidence/v11/ia-threshold-result.json"
+    ],
+    "audit": [],
+    "novelty": "unchecked"
+  },
+  {
+    "id": "RAMS-C007",
+    "statement": "FinCof(N) strict-prefixはFLob、全濃度の有限支持ガード系唯一存在、PhiSepを満たすがPhiCompとAMCを満たさないというv11の強い反例。",
+    "assumptions": [
+      "有限/余有限集合のBoolean代数",
+      "strict-prefix box",
+      "各方程式は有限項で全未知変数がguarded"
+    ],
+    "scope": "infinite_model",
+    "status": "pending",
+    "source_status": "proved-in-note",
+    "source_section": "N11-05",
+    "source_ids": [
+      "S005"
+    ],
+    "evidence": [
+      "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md"
+    ],
+    "audit": [],
+    "novelty": "unchecked"
+  },
+  {
+    "id": "RAMS-C008",
+    "statement": "AMC⇒正準PhiCompはv11でも未証明。ある適合合同塔の存在から正準塔の完備性を移さない。",
+    "assumptions": [
+      "有界整可換剰余束",
+      "正準Phi合同反復塔の定義",
+      "AMC"
+    ],
+    "scope": "open_question",
+    "status": "pending",
+    "source_status": "open",
+    "source_section": "N11-06",
+    "source_ids": [
+      "S005"
+    ],
+    "evidence": [],
+    "audit": [],
+    "novelty": "unchecked"
+  }
 ]

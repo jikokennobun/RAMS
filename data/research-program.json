@@ -1,15 +1,238 @@
 {
-  "profile":"working-bicrl-v1",
-  "roles":["discovery","counterexample","audit"],
-  "defaults":{"max_tasks":1,"stage_timeout_seconds":600,"max_functions":1000,"experiment_timeout_ms":1000},
-  "tasks":[
-    {"id":"AUTO-001","priority":1,"title":"Mal'cev項とmax非拡大的距離の超距離性","source_ids":["S002"],"claim_ids":["RAMS-C001"],"depends_on":[],"needs_originals":false,"definition_basis":"standalone","objective":"一般のMal'cev代数を対象として、項のmax非拡大性から超三角不等式を導く。RAMSへの適用には明示的な項と恒等式を与え、有界整可換剰余束という作業用署名で検証する。正式なAMCの同値主張は原本確認まで保留する。"},
-    {"id":"AUTO-002","priority":2,"title":"SC・FLöb・像吸収の局所的分析","source_ids":["S001"],"claim_ids":["RAMS-C003"],"depends_on":[],"needs_originals":false,"definition_basis":"working-bicrl-v1","objective":"hierarchy.jsonのSC、FLob、IA_boxを作業用定式化として両方向の証明を別々に構築する。必要なN/K/4/単調性を省略しない。仮定が不足する向きは反例または未解決として報告する。"},
-    {"id":"AUTO-003","priority":3,"title":"合同塔・超距離・逆極限の対応","source_ids":["S001","S002"],"claim_ids":["RAMS-C002"],"depends_on":[],"needs_originals":false,"definition_basis":"standalone","objective":"可算降鎖theta_0=A^2、交わりが対角、boxが一段深めるという仮定を明示し、超距離と逆極限の対応を構築する。有限商の仮定を混入しない。完備性の必要十分条件、添字、正規化を監査する。"},
-    {"id":"AUTO-004","priority":4,"title":"MV代数box_rの分離と項の算術障害","source_ids":["S001"],"claim_ids":["RAMS-C004"],"depends_on":[],"needs_originals":false,"definition_basis":"standalone","objective":"標準MV演算と0,1とbox_r(x)=1-r+rxだけの言語を固定。全区間の存在、非一意性、r=a/bの場合の閉項の分母制限を正確に証明し、通常の縮小性とmax適合性を区別する。無限構造の有限サンプルを証明として使わない。"},
-    {"id":"AUTO-005","priority":5,"title":"不動点のパラメータ依存・残差等式・一様項近似","source_ids":["S002"],"claim_ids":[],"depends_on":[],"needs_originals":false,"definition_basis":"standalone","objective":"完備有界超距離、boxの一様q縮小、基本演算のmax非拡大を明示し、パラメータ非拡大性・残差等式・反復項の一様近似を証明する。有限項による厳密な可解性との隔たりを明記する。"},
-    {"id":"AUTO-006","priority":6,"title":"prefix MV族のD_n/H_nとLöb系の分離","source_ids":["S003"],"claim_ids":[],"depends_on":[],"needs_originals":false,"definition_basis":"standalone","objective":"有限長有理MV列とstrict-prefix boxを明示してD_n/H_nの閾値を再証明する。有限長であって有限集合ではない点、距離完備性の必要性を検査し、共有チャットのuAMC主張を特に批判的に監査する。"},
-    {"id":"AUTO-007","priority":7,"title":"NK4下のgTFPPからgUへの含意","source_ids":["S002","S003"],"claim_ids":["RAMS-C005"],"depends_on":[],"needs_originals":true,"definition_basis":"originals_required","objective":"原本で対象クラス・言語・量化順序を確定した後、項解選択と一意性の含意を探索する。有限モデル検証器でgTFPPを判定したと主張しない。"},
-    {"id":"AUTO-008","priority":8,"title":"Mixによる階層崩壊と仮定の弱化","source_ids":["S001","S003"],"claim_ids":[],"depends_on":[],"needs_originals":true,"definition_basis":"originals_required","objective":"Mixの原本定義を固定してから中心原理の同値化を監査する。既存のMix定義を推測せず、局所吸収で代替できる推論を抽出する。"}
+  "profile": "working-bicrl-v1",
+  "roles": [
+    "discovery",
+    "counterexample",
+    "audit"
+  ],
+  "defaults": {
+    "max_tasks": 1,
+    "stage_timeout_seconds": 600,
+    "max_functions": 1000,
+    "experiment_timeout_ms": 1000
+  },
+  "tasks": [
+    {
+      "id": "AUTO-001",
+      "priority": 1,
+      "title": "N11-01の独立監査：AMC距離の有界超距離性",
+      "source_ids": [
+        "S002",
+        "S004",
+        "S005"
+      ],
+      "claim_ids": [
+        "RAMS-C001"
+      ],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "objective": "v11の明示的Malcev項と恒等式、max非拡大性、有界性を独立に検証する。原本では既に証明があるため未解決問題として再登録しない。正しさの監査と文献上の新規性を分離する。",
+      "source_sections": [
+        "definitions",
+        "N11-01"
+      ],
+      "definition_review": "research/reports/v11-definitions-review.md"
+    },
+    {
+      "id": "AUTO-002",
+      "priority": 2,
+      "title": "SC・FLöb・像吸収の局所的分析",
+      "source_ids": [
+        "S001",
+        "S004",
+        "S005"
+      ],
+      "claim_ids": [
+        "RAMS-C003"
+      ],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "objective": "hierarchy.jsonのSC、FLob、IA_boxを作業用定式化として両方向の証明を別々に構築する。必要なN/K/4/単調性を省略しない。仮定が不足する向きは反例または未解決として報告する。",
+      "source_sections": [
+        "definitions",
+        "R10-1",
+        "R10-2"
+      ],
+      "definition_review": "research/reports/v11-definitions-review.md"
+    },
+    {
+      "id": "AUTO-003",
+      "priority": 3,
+      "title": "合同塔・超距離・逆極限の対応",
+      "source_ids": [
+        "S001",
+        "S002",
+        "S004",
+        "S005"
+      ],
+      "claim_ids": [
+        "RAMS-C002"
+      ],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "objective": "N11-02を監査する。ある適合合同塔と正準Phi塔を区別し、theta_0、縮小率0、自明代数、逆極限全射性、正準合同類の閉性を点検する。AMC⇒PhiCompは証明されていないまま保持する。",
+      "source_sections": [
+        "definitions",
+        "N11-02",
+        "N11-06"
+      ],
+      "definition_review": "research/reports/v11-definitions-review.md"
+    },
+    {
+      "id": "AUTO-004",
+      "priority": 4,
+      "title": "MV代数box_rの分離と項の算術障害",
+      "source_ids": [
+        "S001",
+        "S004",
+        "S005"
+      ],
+      "claim_ids": [
+        "RAMS-C004"
+      ],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "objective": "標準MV演算と0,1とbox_r(x)=1-r+rxだけの言語を固定。全区間の存在、非一意性、r=a/bの場合の閉項の分母制限を正確に証明し、通常の縮小性とmax適合性を区別する。無限構造の有限サンプルを証明として使わない。",
+      "source_sections": [
+        "definitions",
+        "N11-07",
+        "R10-3",
+        "R10-5"
+      ],
+      "definition_review": "research/reports/v11-definitions-review.md"
+    },
+    {
+      "id": "AUTO-005",
+      "priority": 5,
+      "title": "不動点のパラメータ依存・残差等式・一様項近似",
+      "source_ids": [
+        "S002",
+        "S004",
+        "S005"
+      ],
+      "claim_ids": [],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "objective": "完備有界超距離、boxの一様q縮小、基本演算のmax非拡大を明示し、パラメータ非拡大性・残差等式・反復項の一様近似を証明する。有限項による厳密な可解性との隔たりを明記する。",
+      "source_sections": [
+        "definitions",
+        "N11-03",
+        "N11-04"
+      ],
+      "definition_review": "research/reports/v11-definitions-review.md"
+    },
+    {
+      "id": "AUTO-006",
+      "priority": 6,
+      "title": "prefix MV族のD_n/H_nとLöb系の分離",
+      "source_ids": [
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "claim_ids": [],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "objective": "有限長有理MV列とstrict-prefix boxを明示してD_n/H_nの閾値を再証明する。有限長であって有限集合ではない点、距離完備性の必要性を検査し、共有チャットのuAMC主張を特に批判的に監査する。",
+      "source_sections": [
+        "definitions",
+        "N11-07"
+      ],
+      "definition_review": "research/reports/v11-definitions-review.md"
+    },
+    {
+      "id": "AUTO-007",
+      "priority": 7,
+      "title": "NK4下のgTFPPからgUへの含意",
+      "source_ids": [
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "claim_ids": [
+        "RAMS-C005"
+      ],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "objective": "v11 §1.2の単一代数版gTFPPを固定してNK4下のgTFPP⇒gUを探索する。HSP特徴づけを一意性へ転用せず、原語彙の定数条件とIA/Con_Lによる候補排除を明示する。有限閉包でgTFPPを判定したと主張しない。",
+      "source_sections": [
+        "definitions",
+        "R10-5"
+      ],
+      "definition_review": "research/reports/v11-definitions-review.md"
+    },
+    {
+      "id": "AUTO-008",
+      "priority": 8,
+      "title": "Mixによる階層崩壊と仮定の弱化",
+      "source_ids": [
+        "S001",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "claim_ids": [],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "objective": "v11 §1.1のMix=box(x)<=box(x) product box^2(x)を使い、NK+Mix下の階層崩壊とIAによる弱化を監査する。付属主定理は依存補題を原本で確認し、資料のcheckedラベルで検証済みにしない。",
+      "source_sections": [
+        "definitions",
+        "R10-1",
+        "R10-2"
+      ],
+      "definition_review": "research/reports/v11-definitions-review.md"
+    },
+    {
+      "id": "AUTO-009",
+      "priority": 2,
+      "title": "FinCof(N)強反例の独立監査",
+      "source_ids": [
+        "S005"
+      ],
+      "claim_ids": [
+        "RAMS-C007"
+      ],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "definition_review": "research/reports/v11-definitions-review.md",
+      "source_sections": [
+        "definitions",
+        "N11-05",
+        "N11-06"
+      ],
+      "objective": "有限支持の任意濃度系の座標再帰、FinCofへの閉性、正準Phi塔の計算、Baire位相群による非AMCを別々に監査する。単なる非PhiCompから非AMCを結論しない。"
+    },
+    {
+      "id": "AUTO-010",
+      "priority": 5,
+      "title": "正準Phi塔の完備性回復条件",
+      "source_ids": [
+        "S005"
+      ],
+      "claim_ids": [
+        "RAMS-C008"
+      ],
+      "depends_on": [],
+      "needs_originals": false,
+      "definition_basis": "v11-source-definitions",
+      "definition_review": "research/reports/v11-definitions-review.md",
+      "source_sections": [
+        "definitions",
+        "N11-02",
+        "N11-05",
+        "N11-06"
+      ],
+      "objective": "AMC⇒PhiCompの未証明箇所を明示し、Phi合同類の閉性・開閉性等の十分条件と、条件なしの反例を探索する。存在する塔と正準塔を同一視しない。"
+    }
   ]
 }

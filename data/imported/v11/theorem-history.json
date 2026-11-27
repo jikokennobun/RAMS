@@ -1,0 +1,1715 @@
+{
+  "format": "rams-source-registry-v1",
+  "source_id": "S005",
+  "source_path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+  "source_sha256": "1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951",
+  "part": 9,
+  "columns": [
+    "id",
+    "category",
+    "statement",
+    "source",
+    "verification",
+    "pdf_page",
+    "proof_location",
+    "priority"
+  ],
+  "count": 113,
+  "records": [
+    {
+      "key": "S005:theorem-history:D2.1",
+      "source_line": 2241,
+      "raw": {
+        "id": "D2.1",
+        "category": "定義",
+        "statement": "有界整可換剰余束とは、A = (A, ∧, ∨, ·, →, 0, 1) であって、(A, ∧, ∨, 0, 1) は有界",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "4",
+        "proof_location": "D 2.1",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D2.2",
+      "source_line": 2242,
+      "raw": {
+        "id": "D2.2",
+        "category": "定義",
+        "statement": "以下の条件では、x, y は台集合の任意の元とする。様相条件を次で定める。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "5",
+        "proof_location": "D 2.2",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D2.3",
+      "source_line": 2243,
+      "raw": {
+        "id": "D2.3",
+        "category": "補題",
+        "statement": "N + K は M を導く。また、M + K は C を導く。整性の下で Mix□ ⇒ 4、および",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "5",
+        "proof_location": "D 2.3",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D2.4",
+      "source_line": 2244,
+      "raw": {
+        "id": "D2.4",
+        "category": "定義",
+        "statement": "項 t(p, ⃗a) において p の全出現が □ の作用域内にあるとき、t を p に関してガー",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "5",
+        "proof_location": "D 2.4",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D2.5",
+      "source_line": 2245,
+      "raw": {
+        "id": "D2.5",
+        "category": "定義",
+        "statement": "構造 A に対して、次の原理を定める。以下の略号は本稿での記法である。ガード",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "6",
+        "proof_location": "D 2.5",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D2.6",
+      "source_line": 2246,
+      "raw": {
+        "id": "D2.6",
+        "category": "定義",
+        "statement": "SC! はSC方程式が全てのパラメータで唯一解を持つこと、H はHenkin方程式",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "6",
+        "proof_location": "D 2.6",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.1",
+      "source_line": 2247,
+      "raw": {
+        "id": "D3.1",
+        "category": "定理",
+        "statement": "(主定理). N, K, FLöb を満たす有界整可換剰余束の単様相拡大では、4 とLöb規則",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "7",
+        "proof_location": "D 3.1",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.2",
+      "source_line": 2248,
+      "raw": {
+        "id": "D3.2",
+        "category": "補題",
+        "statement": "M, FLöb の下で、全ての a と n ≥ 0 に対して",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "7",
+        "proof_location": "D 3.2",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.3",
+      "source_line": 2249,
+      "raw": {
+        "id": "D3.3",
+        "category": "補題",
+        "statement": "M, FLöb の下で、全ての n ≥ 0 に対して",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "7",
+        "proof_location": "D 3.3",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.4",
+      "source_line": 2250,
+      "raw": {
+        "id": "D3.4",
+        "category": "系",
+        "statement": "N, K, FLöb の下で、p = □a → a はSC方程式の解である。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "7",
+        "proof_location": "D 3.4",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.5",
+      "source_line": 2251,
+      "raw": {
+        "id": "D3.5",
+        "category": "補題",
+        "statement": "整可換剰余束において、f ∈ {·, ∧, ∨, →} に対し",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "8",
+        "proof_location": "D 3.5",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.6",
+      "source_line": 2252,
+      "raw": {
+        "id": "D3.6",
+        "category": "補題",
+        "statement": "(有限べき置換評価). N, K, 4 を仮定する。有限組 ⃗x, ⃗y に対し",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "8",
+        "proof_location": "D 3.6",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.7",
+      "source_line": 2253,
+      "raw": {
+        "id": "D3.7",
+        "category": "定理",
+        "statement": "(一意性). N, K, FLöb の下で、全てのガード付き有限連立系の解は高々一つであ",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "8",
+        "proof_location": "D 3.7",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.8",
+      "source_line": 2254,
+      "raw": {
+        "id": "D3.8",
+        "category": "補題",
+        "statement": "(外側が様相演算である不動点). N, K, FLöb の下で、任意の項 u(p, ⃗a) に対し",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "9",
+        "proof_location": "D 3.8",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.9",
+      "source_line": 2255,
+      "raw": {
+        "id": "D3.9",
+        "category": "定理",
+        "statement": "(一様な項構成と有限連立系). 各ガード付き有限連立系",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "9",
+        "proof_location": "D 3.9",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.10",
+      "source_line": 2256,
+      "raw": {
+        "id": "D3.10",
+        "category": "例",
+        "statement": "(構成手順の計算例). SC方程式 p = □p → a に対し、q = □p を導入すると p = q → a,",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "10",
+        "proof_location": "D 3.10",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.11",
+      "source_line": 2257,
+      "raw": {
+        "id": "D3.11",
+        "category": "定理",
+        "statement": "(局所的特徴づけ). M, K, Mix□ を仮定する。各 a ∈ A について、ra = □a → a とす",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "10",
+        "proof_location": "D 3.11",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.12",
+      "source_line": 2258,
+      "raw": {
+        "id": "D3.12",
+        "category": "定理",
+        "statement": "N, K, Mix□ の下で SC, Löb, FLöb は同値である。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "10",
+        "proof_location": "D 3.12",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.13",
+      "source_line": 2259,
+      "raw": {
+        "id": "D3.13",
+        "category": "定理",
+        "statement": "(Mixの下での特徴づけ). N, K, Mix□ を満たす有界整可換剰余束の単様相拡大にお",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "10",
+        "proof_location": "D 3.13",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.14",
+      "source_line": 2260,
+      "raw": {
+        "id": "D3.14",
+        "category": "補足",
+        "statement": "定理3.9は、対象の代数にもパラメータ値にも依存しない一つの項変換を与え",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "11",
+        "proof_location": "D 3.14",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.15",
+      "source_line": 2261,
+      "raw": {
+        "id": "D3.15",
+        "category": "系",
+        "statement": "(準同型との両立). f : A → B が N, K, FLöb を満たす代数の準同型であるとする。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "11",
+        "proof_location": "D 3.15",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.16",
+      "source_line": 2262,
+      "raw": {
+        "id": "D3.16",
+        "category": "系",
+        "statement": "(束演算を持たない場合). 主定理は、整可換剰余順序モノイドの単様相拡大と、項言",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "11",
+        "proof_location": "D 3.16",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.17",
+      "source_line": 2263,
+      "raw": {
+        "id": "D3.17",
+        "category": "系",
+        "statement": "(追加演算を含む言語). 有限アリティの演算 f を言語に加え、各 f に対して整数",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "11",
+        "proof_location": "D 3.17",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.18",
+      "source_line": 2264,
+      "raw": {
+        "id": "D3.18",
+        "category": "系",
+        "statement": "(Heyting代数の場合). 積が x ∧ y に一致する場合、Mix□ と 4 は同値である。 従って",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "12",
+        "proof_location": "D 3.18",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D3.19",
+      "source_line": 2265,
+      "raw": {
+        "id": "D3.19",
+        "category": "定理",
+        "statement": "0 < d < c < 1 とする。[0, 1] に通常の束演算と",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "12",
+        "proof_location": "D 3.19",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.1",
+      "source_line": 2266,
+      "raw": {
+        "id": "D4.1",
+        "category": "命題",
+        "statement": "様相条件を仮定しなくても、各 a に対し",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "13",
+        "proof_location": "D 4.1",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.2",
+      "source_line": 2267,
+      "raw": {
+        "id": "D4.2",
+        "category": "定理",
+        "statement": "N, K の下で、次が成立する。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "14",
+        "proof_location": "D 4.2",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.3",
+      "source_line": 2268,
+      "raw": {
+        "id": "D4.3",
+        "category": "命題",
+        "statement": "(一様構成と有限連立系). 様相条件を課さなくても、gTFPP は、全てのガード付き",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "14",
+        "proof_location": "D 4.3",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.4",
+      "source_line": 2269,
+      "raw": {
+        "id": "D4.4",
+        "category": "命題",
+        "statement": "N だけの下で gU ⇒ Löb が成立する。ここに K, 4 は不要である。 N, K, 4 の下で",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "15",
+        "proof_location": "D 4.4",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.5",
+      "source_line": 2270,
+      "raw": {
+        "id": "D4.5",
+        "category": "命題",
+        "statement": "(存在原理の範囲による含意). 様相条件を課さなくても、h ≥ 1 に対し",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "15",
+        "proof_location": "D 4.5",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.6",
+      "source_line": 2271,
+      "raw": {
+        "id": "D4.6",
+        "category": "例",
+        "statement": "鎖 0 < a < b < c < 1 上で積と剰余を次のように定める。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "15",
+        "proof_location": "D 4.6",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.7",
+      "source_line": 2272,
+      "raw": {
+        "id": "D4.7",
+        "category": "定理",
+        "statement": "R = Q[ε]、F = Q(ε) とし、F を ε が正の無限小となるように順序づける。 具",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "17",
+        "proof_location": "D 4.7",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.8",
+      "source_line": 2273,
+      "raw": {
+        "id": "D4.8",
+        "category": "補題",
+        "statement": "(出現回数を保つ置換評価). N, K, 4 を仮定し、",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "18",
+        "proof_location": "D 4.8",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.9",
+      "source_line": 2274,
+      "raw": {
+        "id": "D4.9",
+        "category": "定理",
+        "statement": "(有限べきLöb規則と出現回数). n ≥ 1 とする。N, K, 4 の下で次は同値である。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "19",
+        "proof_location": "D 4.9",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.10",
+      "source_line": 2275,
+      "raw": {
+        "id": "D4.10",
+        "category": "系",
+        "statement": "N, K, 4 の下で、次は同値である。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "19",
+        "proof_location": "D 4.10",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.11",
+      "source_line": 2276,
+      "raw": {
+        "id": "D4.11",
+        "category": "系",
+        "statement": "(有限代数での一様構成). 有限な代数で gU が成立すれば、gUFPP と gTFPP が成立",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "19",
+        "proof_location": "D 4.11",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.12",
+      "source_line": 2277,
+      "raw": {
+        "id": "D4.12",
+        "category": "補題",
+        "statement": "N, K を仮定し、ある r ≥ 0 で □r 0 = 1 とする。 任意のガード付き有限系の項写",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "20",
+        "proof_location": "D 4.12",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.13",
+      "source_line": 2278,
+      "raw": {
+        "id": "D4.13",
+        "category": "定理",
+        "statement": "(有限代数での崩壊). 有限な N, K 代数では、次は同値である。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "20",
+        "proof_location": "D 4.13",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.14",
+      "source_line": 2279,
+      "raw": {
+        "id": "D4.14",
+        "category": "命題",
+        "statement": "K を本稿の言語の代数の準多様体とする。 全ての A ∈ K が gFPP を満たすこと",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "20",
+        "proof_location": "D 4.14",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.15",
+      "source_line": 2280,
+      "raw": {
+        "id": "D4.15",
+        "category": "命題",
+        "statement": "非自明な代数で N, gU が成立すれば、全ての n ≥ 1 について (□0)n 6= 0 である。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "21",
+        "proof_location": "D 4.15",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.16",
+      "source_line": 2281,
+      "raw": {
+        "id": "D4.16",
+        "category": "定理",
+        "statement": "整数 m ≥ 2 に対し、有理MV鎖 Q ∩ [0, 1] に",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "22",
+        "proof_location": "D 4.16",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.17",
+      "source_line": 2282,
+      "raw": {
+        "id": "D4.17",
+        "category": "定理",
+        "statement": "(存在と一意存在の間の厳密な階層). Pn = gFPP + Ln と置く。 N, K, 4 の下で",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "23",
+        "proof_location": "D 4.17",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D4.18",
+      "source_line": 2283,
+      "raw": {
+        "id": "D4.18",
+        "category": "命題",
+        "statement": "N, K, 4, Löb, gUFPP, gTFPP の下でも、Dd ⇒ Dd+1 の各有限隣接段階は厳密であ",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "24",
+        "proof_location": "D 4.18",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.1",
+      "source_line": 2284,
+      "raw": {
+        "id": "D5.1",
+        "category": "定義",
+        "statement": "k, h ≥ 1 に対し、Fk,h は次の項全てについての、全パラメータでの不動点存在を表",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "26",
+        "proof_location": "D 5.1",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.2",
+      "source_line": 2285,
+      "raw": {
+        "id": "D5.2",
+        "category": "補題",
+        "statement": "全ての AR は N, K, 4, Löb, CP を満たし、全ガード付き有限連立系の解は高々一つ",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "27",
+        "proof_location": "D 5.2",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.3",
+      "source_line": 2286,
+      "raw": {
+        "id": "D5.3",
+        "category": "補題",
+        "statement": "(分母による存在の十分条件). R が 1 − P (ε) の逆元を、deg P ≤ h, kP k1 ≤ k を満",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "28",
+        "proof_location": "D 5.3",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.4",
+      "source_line": 2287,
+      "raw": {
+        "id": "D5.4",
+        "category": "定理",
+        "statement": "(二次元階層の厳密性). k, h ≥ 1 に対し",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "28",
+        "proof_location": "D 5.4",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.5",
+      "source_line": 2288,
+      "raw": {
+        "id": "D5.5",
+        "category": "定理",
+        "statement": "n ≥ 1 に対し",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "29",
+        "proof_location": "D 5.5",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.6",
+      "source_line": 2289,
+      "raw": {
+        "id": "D5.6",
+        "category": "命題",
+        "statement": "(極性の分離). N, K, 4, Löb, CP, gU の下でも、SC− と SC+ は相互に含意しない。 特",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "30",
+        "proof_location": "D 5.6",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.7",
+      "source_line": 2290,
+      "raw": {
+        "id": "D5.7",
+        "category": "例",
+        "statement": "(実数の部分環での極性の分離). MV鎖 G ∩ [0, 1] に □x = (3 + x)/4 を入れる。 G =",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "30",
+        "proof_location": "D 5.7",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.8",
+      "source_line": 2291,
+      "raw": {
+        "id": "D5.8",
+        "category": "定理",
+        "statement": "(実数の部分鎖における特徴づけ). CG,m において、次が成立する。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "30",
+        "proof_location": "D 5.8",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.9",
+      "source_line": 2292,
+      "raw": {
+        "id": "D5.9",
+        "category": "定理",
+        "statement": "(反復SCの独立性). Fj = 22 +1 とし、任意の T ⊆ N に対し RT = Z[1/2, 1/Fj : j ∈ T ]",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "31",
+        "proof_location": "D 5.9",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.10",
+      "source_line": 2293,
+      "raw": {
+        "id": "D5.10",
+        "category": "定理",
+        "statement": "(有限試験族の不十分性). 任 意 の 有 限 個 の L 項 ti (p, ⃗ai ) (1 ≤ i ≤ q) に 対",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "32",
+        "proof_location": "D 5.10",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.11",
+      "source_line": 2294,
+      "raw": {
+        "id": "D5.11",
+        "category": "系",
+        "statement": "(相対有限公理化の不可能性). T0 を言語 L の有界整可換剰余束の単様相拡大の一階",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "32",
+        "proof_location": "D 5.11",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D5.12",
+      "source_line": 2295,
+      "raw": {
+        "id": "D5.12",
+        "category": "命題",
+        "statement": "(SC解演算による生成の限界). SC の唯一解を選ぶ演算を言語に追加しても、全ガ",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "33",
+        "proof_location": "D 5.12",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D6.1",
+      "source_line": 2296,
+      "raw": {
+        "id": "D6.1",
+        "category": "定義",
+        "statement": "FPP は全ての L 項 t(p, ⃗a) についての全パラメータでの不動点存在を表す。 bFPP",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "33",
+        "proof_location": "D 6.1",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D6.2",
+      "source_line": 2297,
+      "raw": {
+        "id": "D6.2",
+        "category": "命題",
+        "statement": "N, K, 4, Löb, CP の下で、次の非含意が成立する。",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "33",
+        "proof_location": "D 6.2",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D6.3",
+      "source_line": 2298,
+      "raw": {
+        "id": "D6.3",
+        "category": "系",
+        "statement": "系5.11の T0 , T1 のいずれの上でも、FPPは有限個の一階文によって公理化できな",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "34",
+        "proof_location": "D 6.3",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D6.4",
+      "source_line": 2299,
+      "raw": {
+        "id": "D6.4",
+        "category": "命題",
+        "statement": "(実区間での存在). 標準MV代数 [0, 1] 上で N, K, CP が成立すれば、□ は 1‑Lipschitz",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "34",
+        "proof_location": "D 6.4",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:D6.5",
+      "source_line": 2300,
+      "raw": {
+        "id": "D6.5",
+        "category": "命題",
+        "statement": "(全域的縮約との不両立). 非自明な整剰余束で全域的縮約 x ≤ x2 が成立すれば、p =",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "34",
+        "proof_location": "D 6.5",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:DA.1",
+      "source_line": 2301,
+      "raw": {
+        "id": "DA.1",
+        "category": "命題",
+        "statement": "(有限連立系の重み付き評価). Cm 上のガード付き有限連立系 pi = ti (⃗",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "36",
+        "proof_location": "D A.1",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:DA.2",
+      "source_line": 2302,
+      "raw": {
+        "id": "DA.2",
+        "category": "例",
+        "statement": "C2 上の系",
+        "source": "fixed_points_mix.pdf v0.10",
+        "verification": "PROOF_IN_DRAFT_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "36",
+        "proof_location": "D A.2",
+        "priority": "normal"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V1",
+      "source_line": 2303,
+      "raw": {
+        "id": "V1",
+        "category": "今回の証明を記載",
+        "statement": "## 30.1 定理 V1：SC と Jeroslow 型方程式の解集合の全単射",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V1",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V2",
+      "source_line": 2304,
+      "raw": {
+        "id": "V2",
+        "category": "今回の証明を記載",
+        "statement": "## 30.2 定理 V2：gU が Löb 規則を導くための最小条件",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V2",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V3",
+      "source_line": 2305,
+      "raw": {
+        "id": "V3",
+        "category": "今回の証明を記載",
+        "statement": "## 30.3 定理 V3：sLöb の最小 Mix による特徴づけ",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V3",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V4",
+      "source_line": 2306,
+      "raw": {
+        "id": "V4",
+        "category": "今回の証明を記載",
+        "statement": "## 30.4 定理 V4：Boolean・CP 代数での作用素の分類",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V4",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V5",
+      "source_line": 2307,
+      "raw": {
+        "id": "V5",
+        "category": "今回の証明を記載",
+        "statement": "## 30.5 定理 V5：非自明な冪等剰余代数では bFPP は成立しない",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V5",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V6",
+      "source_line": 2308,
+      "raw": {
+        "id": "V6",
+        "category": "今回の証明を記載",
+        "statement": "## 30.6 定理 V6：有限代数での gU から項による解の構成",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V6",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V7",
+      "source_line": 2309,
+      "raw": {
+        "id": "V7",
+        "category": "今回の証明を記載",
+        "statement": "## 30.7 定理 V7：準多様体での存在と共通項選択",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V7",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V8",
+      "source_line": 2310,
+      "raw": {
+        "id": "V8",
+        "category": "今回の証明を記載",
+        "statement": "## 30.8 定理 V8：完備超距離による**任意濃度**のガード付き連立系の唯一解",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V8",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V9",
+      "source_line": 2311,
+      "raw": {
+        "id": "V9",
+        "category": "今回の証明を記載",
+        "statement": "## 30.9 定理 V9：適合する有界完備超距離の合同フィルトレーションによる特徴づけ",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V9",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V10",
+      "source_line": 2312,
+      "raw": {
+        "id": "V10",
+        "category": "今回の証明を記載",
+        "statement": "## 30.10 定理 V10：ガード付き恒等項は適合収縮距離の障害",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V10",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V11",
+      "source_line": 2313,
+      "raw": {
+        "id": "V11",
+        "category": "今回の証明を記載",
+        "statement": "## 30.11 定理 V11：アフィンMV鎖のガード付き恒等項と距離的非特徴づけ",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V11",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V12",
+      "source_line": 2314,
+      "raw": {
+        "id": "V12",
+        "category": "今回の証明を記載",
+        "statement": "## 30.12 定理 V12：有理MV鎖の全有限可解性と可算ガード付き系の非可解性",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V12",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V13",
+      "source_line": 2315,
+      "raw": {
+        "id": "V13",
+        "category": "今回の証明を記載",
+        "statement": "## 30.13 定理 V13：コンパクトな有限可解性から任意濃度系への持ち上げ",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V13",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V14",
+      "source_line": 2316,
+      "raw": {
+        "id": "V14",
+        "category": "今回の証明を記載",
+        "statement": "## 30.14 定理 V14：有限停止から任意濃度の項による唯一解",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V14",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V15",
+      "source_line": 2317,
+      "raw": {
+        "id": "V15",
+        "category": "今回の証明を記載",
+        "statement": "## 30.15 定理 V15：可算連立系の唯一項解から有限停止を回収",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V15",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V16",
+      "source_line": 2318,
+      "raw": {
+        "id": "V16",
+        "category": "今回の証明を記載",
+        "statement": "## 30.16 定理 V16：任意濃度の存在を保つ直積",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V16",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V17",
+      "source_line": 2319,
+      "raw": {
+        "id": "V17",
+        "category": "今回の証明を記載",
+        "statement": "## 30.17 定理 V17：強い Löb の下でのガード付き恒等項の排除",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V17",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V18",
+      "source_line": 2320,
+      "raw": {
+        "id": "V18",
+        "category": "今回の証明を記載",
+        "statement": "## 30.18 定理 V18：近似解と実解の分離",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V18",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V19",
+      "source_line": 2321,
+      "raw": {
+        "id": "V19",
+        "category": "今回の証明を記載",
+        "statement": "## 30.19 定理 V19：一様スペクトル半径による有限／無限系の縮小判定",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V19",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V20",
+      "source_line": 2322,
+      "raw": {
+        "id": "V20",
+        "category": "今回の証明を記載",
+        "statement": "## 30.20 定理 V20：SC の標準候補と FLöb の関係",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V20",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V21",
+      "source_line": 2323,
+      "raw": {
+        "id": "V21",
+        "category": "今回の証明を記載",
+        "statement": "## 30.21 定理 V21：N,K,CP の標準MV区間での非様相方程式の存在",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V21",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V22",
+      "source_line": 2324,
+      "raw": {
+        "id": "V22",
+        "category": "今回の証明を記載",
+        "statement": "## 35.1 定理 V22（強い可算系分離）",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V22",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V23",
+      "source_line": 2325,
+      "raw": {
+        "id": "V23",
+        "category": "今回の証明を記載",
+        "statement": "## 35.2 系 V23（無限可解性が要求する完備性の強さ）",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V23",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V24",
+      "source_line": 2326,
+      "raw": {
+        "id": "V24",
+        "category": "今回の証明を記載",
+        "statement": "## 35.3 定理 V24：FLöb と有限系の一様項構成でも可算系の存在は従わない",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V24",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V25",
+      "source_line": 2327,
+      "raw": {
+        "id": "V25",
+        "category": "今回の証明を記載",
+        "statement": "## 35.4 定理 V25：適合する完備超距離と任意濃度の唯一解があっても可算系の項選択はない",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V25",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:V26",
+      "source_line": 2328,
+      "raw": {
+        "id": "V26",
+        "category": "今回の証明を記載",
+        "statement": "## 35.5 注意 V26：**一段前駆写像**と**strict-prefix様相**は異なる",
+        "source": "RAMS1_FIXEDPOINT_VERIFIED_CORE_v2.md",
+        "verification": "IN_THIS_PACKAGE_PROOF_REVIEWED_MANUALLY_NOT_FORMALLY_CERTIFIED",
+        "pdf_page": "",
+        "proof_location": "V26",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U1",
+      "source_line": 2329,
+      "raw": {
+        "id": "U1",
+        "category": "定理",
+        "statement": "N,M,4 の下で Löb ⇔ MC ⇔ uMC",
+        "source": "v3 update + Bessaga",
+        "verification": "PROOF_THIS_WORK_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "",
+        "proof_location": "U1",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U2",
+      "source_line": 2330,
+      "raw": {
+        "id": "U2",
+        "category": "定理",
+        "statement": "bMC ⇔ buMC ⇔ ∩n □^n[A]={1} (N 下)",
+        "source": "v3 update",
+        "verification": "PROOF_THIS_WORK_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "",
+        "proof_location": "U2",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U3",
+      "source_line": 2331,
+      "raw": {
+        "id": "U3",
+        "category": "補題",
+        "statement": "buAMC ⇒ 任意濃度の行有限ガード付き系に唯一解",
+        "source": "v3 update",
+        "verification": "PROOF_THIS_WORK_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "",
+        "proof_location": "U3",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:T27a",
+      "source_line": 2332,
+      "raw": {
+        "id": "T27a",
+        "category": "定理",
+        "statement": "uAMC ⇔ 整数添字の適合合同フィルトレーション＋逆極限完備性",
+        "source": "v4 update",
+        "verification": "PROOF_THIS_WORK_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "",
+        "proof_location": "v4 §48",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:T27b",
+      "source_line": 2333,
+      "raw": {
+        "id": "T27b",
+        "category": "定理",
+        "statement": "buAMC ⇔ 自然数添字の適合合同フィルトレーション＋逆極限完備性",
+        "source": "v4 update",
+        "verification": "PROOF_THIS_WORK_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "",
+        "proof_location": "v4 §48",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:T28",
+      "source_line": 2334,
+      "raw": {
+        "id": "T28",
+        "category": "補題",
+        "statement": "Lipschitz 経路重み<1 ⇒ guarded 項縮小・有限／任意濃度の唯一解",
+        "source": "v4 update",
+        "verification": "PROOF_THIS_WORK_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "",
+        "proof_location": "v4 §49",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:T29",
+      "source_line": 2335,
+      "raw": {
+        "id": "T29",
+        "category": "反例",
+        "statement": "GCont_p は全基本演算の連続性を含意しない：Gödel [0,1] と □≡1",
+        "source": "v4 update",
+        "verification": "PROOF_THIS_WORK_NOT_INDEPENDENTLY_CHECKED",
+        "pdf_page": "",
+        "proof_location": "v4 §50",
+        "priority": "medium"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:O27",
+      "source_line": 2336,
+      "raw": {
+        "id": "O27",
+        "category": "未解決",
+        "statement": "gTFPP ⇒ gU ? over N,K,4,Löb",
+        "source": "project dialogue",
+        "verification": "OPEN",
+        "pdf_page": "",
+        "proof_location": "v4 §53",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:O28",
+      "source_line": 2337,
+      "raw": {
+        "id": "O28",
+        "category": "未解決",
+        "statement": "F11 ⇔ SC−∧SC+ を一般 bicRAMS へ拡張できるか",
+        "source": "project dialogue",
+        "verification": "OPEN",
+        "pdf_page": "",
+        "proof_location": "v4 §53",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:O29",
+      "source_line": 2338,
+      "raw": {
+        "id": "O29",
+        "category": "未解決",
+        "statement": "uAMC から任意濃度の唯一解に必要な追加仮定",
+        "source": "project dialogue",
+        "verification": "OPEN",
+        "pdf_page": "",
+        "proof_location": "v4 §53",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:O30",
+      "source_line": 2339,
+      "raw": {
+        "id": "O30",
+        "category": "未解決",
+        "statement": "v7 図（166/317）の最終データ未取得",
+        "source": "project dialogue",
+        "verification": "SOURCE_NOT_RETRIEVED",
+        "pdf_page": "",
+        "proof_location": "v4 §53",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-01",
+      "source_line": 2340,
+      "raw": {
+        "id": "U6-01",
+        "category": "v6 theorem",
+        "statement": "Phi tower downward / shift / universal minimality",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.3",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-02",
+      "source_line": 2341,
+      "raw": {
+        "id": "U6-02",
+        "category": "v6 theorem",
+        "statement": "PhiSep implies ImgSep",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.4",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-03",
+      "source_line": 2342,
+      "raw": {
+        "id": "U6-03",
+        "category": "v6 theorem",
+        "statement": "ImgSep iff bounded complete contracting ultrametric for Box",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.4",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-04",
+      "source_line": 2343,
+      "raw": {
+        "id": "U6-04",
+        "category": "v6 theorem",
+        "statement": "PhiSepComp implies PFN iff buAMC; PFN implies PhiSep",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.5",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-05",
+      "source_line": 2344,
+      "raw": {
+        "id": "U6-05",
+        "category": "v6 theorem",
+        "statement": "PhiNil implies finite modal termination FC<omega",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.6",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-06",
+      "source_line": 2345,
+      "raw": {
+        "id": "U6-06",
+        "category": "v6 theorem",
+        "statement": "Con(B) DCC and PhiSep imply PhiNil",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.6",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-07",
+      "source_line": 2346,
+      "raw": {
+        "id": "U6-07",
+        "category": "v6 theorem",
+        "statement": "Subdirect irreducibility B + PhiSep imply PhiNil",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.6",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-08",
+      "source_line": 2347,
+      "raw": {
+        "id": "U6-08",
+        "category": "v6 theorem",
+        "statement": "Simple B + PhiSep imply Box=1",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.6",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-09",
+      "source_line": 2348,
+      "raw": {
+        "id": "U6-09",
+        "category": "v6 theorem",
+        "statement": "Simple B + uAMC imply Box=1",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.7",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-10",
+      "source_line": 2349,
+      "raw": {
+        "id": "U6-10",
+        "category": "v6 theorem",
+        "statement": "SI or ConDCC B + uAMC implies local finite termination",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.7",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-11",
+      "source_line": 2350,
+      "raw": {
+        "id": "U6-11",
+        "category": "v6 theorem",
+        "statement": "Compactness closed Phi-congruence classes imply PhiComp",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.8",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-12",
+      "source_line": 2351,
+      "raw": {
+        "id": "U6-12",
+        "category": "v6 theorem",
+        "statement": "Compact Box-continuous isolated 1 + LocalFC implies FC<omega",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.8",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-13",
+      "source_line": 2352,
+      "raw": {
+        "id": "U6-13",
+        "category": "v6 theorem",
+        "statement": "AMC implies finite cycle-guarded equation systems uniquely solvable",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.9",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:theorem-history:U6-14",
+      "source_line": 2353,
+      "raw": {
+        "id": "U6-14",
+        "category": "v6 theorem",
+        "statement": "Frame + Loc + omega continuity + Loeb => PFN=>buAMC",
+        "source": "RAMS1_FIXEDPOINT_UPDATE_v6_2026-10-29.md",
+        "verification": "PROOF_THIS_UPDATE_UNREVIEWED",
+        "pdf_page": "",
+        "proof_location": "§0.10",
+        "priority": "high"
+      },
+      "repository_status": "pending"
+    }
+  ]
+}

@@ -8,7 +8,8 @@ export function validateHierarchy(h, evidenceExists=p=>existsSync(resolve(root,p
   if(typeof h.profile!=='string' || !Array.isArray(h.principles) || !Array.isArray(h.rules)) throw Error('Invalid hierarchy');
   for(const p of h.principles) {if(!/^[A-Za-z0-9_]+$/.test(p.id)||ids.has(p.id)||typeof p.definition!=='string') throw Error('Invalid principle');ids.add(p.id);}
   const rules=new Set();
-  const definitions={'DEF-001':[['gUFPP'],'gFPP'],'DEF-002':[['gUFPP'],'gU'],'DEF-003':[['gFPP','gU'],'gUFPP']};
+  const definitions={'DEF-001':[['gUFPP'],'gFPP'],'DEF-002':[['gUFPP'],'gU'],'DEF-003':[['gFPP','gU'],'gUFPP'],
+    'DEF-004':[['gUTFPP'],'gTFPP'],'DEF-005':[['gUTFPP'],'gU'],'DEF-006':[['gTFPP','gU'],'gUTFPP'],'DEF-007':[['gTFPP'],'gFPP']};
   for(const r of h.rules) {
     if(!/^[A-Za-z0-9_-]+$/.test(r.id)||rules.has(r.id)) throw Error('Invalid rule ID');rules.add(r.id);
     if(!Array.isArray(r.premises)||!r.premises.length||!Array.isArray(r.assumptions)) throw Error('Rule needs premises and assumptions');

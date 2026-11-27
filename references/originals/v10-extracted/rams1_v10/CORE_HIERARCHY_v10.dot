@@ -1,0 +1,27 @@
+digraph RAMS10 {
+  graph [rankdir=TB, splines=polyline, nodesep=.45, ranksep=.6, pad=.25, bgcolor="white", fontname="DejaVu Sans", fontsize=17, label="RAMS-1 v10  |  N,K: non-redundant fixed-point implications", labelloc=t];
+  node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=13, color="#8193a7", fillcolor="#edf2f7", fontcolor="#18212c", margin="0.19,0.13"];
+  edge [arrowsize=.65, penwidth=1.4, color="#61758a"];
+  sLob [label="sLöb"];
+  FLob [label="FLöb", fillcolor="#dce8f8"];
+  gUTFPP [label="gTFPP ∧ gU", fillcolor="#dfeee3"];
+  gUFPP [label="gUFPP", fillcolor="#dfeee3"];
+  gTFPP [label="gTFPP", fillcolor="#dfeee3"];
+  gFPP [label="gFPP", fillcolor="#e9f0fb"];
+  gU [label="gU", fillcolor="#e9f0fb"];
+  SC [label="SC",fillcolor="#efe4f9"];
+  sLob -> FLob;
+  FLob -> gUTFPP;
+  FLob -> SC;
+  gUTFPP -> gUFPP;
+  gUTFPP -> gTFPP;
+  gUFPP -> gFPP;
+  gUFPP -> gU;
+  gTFPP -> gFPP;
+  {rank=same;gUFPP;gTFPP}
+  {rank=same;gFPP;gU}
+  cnode [label="IA + SC", fillcolor="#f5edda"];
+  cnode -> FLob [style=dashed,color="#aa7648",label="new: M",fontcolor="#91603e",fontsize=10];
+  caption [shape=plaintext, label="Solid: implication from the stated base theory. Dashed: additional assumption IA.\nSC ⇒ gTFPP, gTFPP ⇒ gU and AMC ⇒ uAMC are NOT asserted.",fontsize=10,fontcolor="#556270"];
+  {rank=sink;caption}
+}

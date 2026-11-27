@@ -1,0 +1,25 @@
+{
+  "profile": "working-bicrl-v1",
+  "conflicts": [],
+  "lead_countermodels": [],
+  "unsupported_rules": [
+    "LEAD-002",
+    "LEAD-003",
+    "LEAD-004",
+    "LEAD-005",
+    "LEAD-006",
+    "DEF-004",
+    "DEF-005",
+    "DEF-006",
+    "DEF-007",
+    "V11-001",
+    "V11-002",
+    "V11-003",
+    "V11-004",
+    "V11-005",
+    "V11-006",
+    "V11-007",
+    "V11-008"
+  ],
+  "note": "Absence of a finite countermodel is not a proof."
+}

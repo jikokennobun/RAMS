@@ -35,7 +35,7 @@ export function independentAlgebraCheck(m) {
       }
     }
   }
-  const properties={N:m.box[m.top]===m.top,K:true,'4':true,Lob:true,FLob:true,SC:true,IA_box:true};
+  const properties={N:m.box[m.top]===m.top,K:true,'4':true,Lob:true,FLob:true,SC:true,IA_box:true,M:true,C:true,Mix:true,sLob:true,CP:true,Abs:true,Ctr:true,Ctr_box:true};
   const failures={};
   function record(key,witness) {properties[key]=false;failures[key]??=witness;}
   for(const a of A) {
@@ -44,7 +44,17 @@ export function independentAlgebraCheck(m) {
     if(!le(m.box[m.residual[m.box[a]][a]],m.box[a]))record('FLob',{a});
     if(!A.some(p=>p===m.residual[m.box[p]][a]))record('SC',{a,solutions:[]});
     if(m.box[m.product[a][m.box[a]]]!==m.box[a])record('IA_box',{a});
-    for(const b of A) if(!le(m.box[m.residual[a][b]],m.residual[m.box[a]][m.box[b]]))record('K',{a,b});
+    if(!le(m.box[a],m.product[m.box[a]][m.box[m.box[a]]]))record('Mix',{a});
+    if(!le(m.residual[m.box[a]][a],a))record('sLob',{a});
+    if(!le(a,m.box[a]))record('CP',{a});
+    if(!le(a,m.product[a][m.box[a]]))record('Abs',{a});
+    if(!le(a,m.product[a][a]))record('Ctr',{a});
+    if(!le(m.box[a],m.product[m.box[a]][m.box[a]]))record('Ctr_box',{a});
+    for(const b of A) {
+      if(!le(m.box[m.residual[a][b]],m.residual[m.box[a]][m.box[b]]))record('K',{a,b});
+      if(le(a,b)&&!le(m.box[a],m.box[b]))record('M',{a,b});
+      if(!le(m.product[m.box[a]][m.box[b]],m.box[m.product[a][b]]))record('C',{a,b});
+    }
   }
   return {properties,failures};
 }

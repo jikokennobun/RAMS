@@ -1,0 +1,90 @@
+{
+  "profile": "working-bicrl-v1",
+  "scope": "finite_instance",
+  "complete": true,
+  "model_hash": "f5e2af66d544cccf401f6dd7164ec47633bfd2ddee2ee570b3efc71e66927a44",
+  "properties": {
+    "4": true,
+    "N": true,
+    "K": true,
+    "Lob": false,
+    "FLob": false,
+    "SC": false,
+    "IA_box": true,
+    "M": true,
+    "C": true,
+    "Mix": false,
+    "sLob": false,
+    "CP": true,
+    "Abs": false,
+    "Ctr": false,
+    "Ctr_box": false,
+    "gFPP": false,
+    "gU": false,
+    "gUFPP": false
+  },
+  "failures": {
+    "Mix": {
+      "a": 0
+    },
+    "sLob": {
+      "a": 0
+    },
+    "Ctr_box": {
+      "a": 0
+    },
+    "Lob": {
+      "a": 1
+    },
+    "FLob": {
+      "a": 1
+    },
+    "SC": {
+      "a": 1,
+      "solutions": []
+    },
+    "Abs": {
+      "a": 1
+    },
+    "Ctr": {
+      "a": 1
+    },
+    "gU": {
+      "entry": 4,
+      "values": [
+        1,
+        1,
+        2
+      ],
+      "fixed_points": [
+        1,
+        2
+      ]
+    },
+    "gFPP": {
+      "entry": 16,
+      "values": [
+        2,
+        2,
+        1
+      ],
+      "fixed_points": []
+    },
+    "gUFPP": {
+      "entry": 16,
+      "values": [
+        2,
+        2,
+        1
+      ],
+      "fixed_points": []
+    }
+  },
+  "state_count": 54,
+  "claim_id": "RAMS-C006",
+  "source_ids": [
+    "S004",
+    "S005"
+  ],
+  "method": "operation tables + independent exhaustive evaluator; attached Python not executed"
+}

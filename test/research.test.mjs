@@ -36,6 +36,7 @@ test('modal failures are distinguished from algebra validity',()=>{
 test('general claim needs proof and separate audit',()=>{
   const sources=readData('sources'),claims=readData('claims'),tasks=readData('tasks');
   claims[0].status='proved';
+  claims[0].evidence=[];
   assert.throws(()=>validateLedgers(sources,claims,tasks),/Evidence required/);
   claims[0].evidence=['research/proof.md'];
   assert.throws(()=>validateLedgers(sources,claims,tasks,()=>true),/Separate audit/);
@@ -45,6 +46,6 @@ test('finite checks cannot promote an unrestricted theorem',()=>{
   assert.throws(()=>validateLedgers(readData('sources'),claims,readData('tasks'),()=>true),/Finite checks cannot/);
 });
 test('task dependency cycles are rejected',()=>{
-  const tasks=readData('tasks');tasks[0].status='queued';tasks[0].depends_on=['RAMS-Q002'];
+  const tasks=readData('tasks');for(const t of tasks)t.status='queued';tasks[0].depends_on=['RAMS-Q002'];
   assert.throws(()=>validateLedgers(readData('sources'),readData('claims'),tasks),/cycle/);
 });

@@ -1,0 +1,14 @@
+{
+  "source_ids":["S004","S005"],
+  "definition_review":"research/reports/v11-definitions-review.md",
+  "changes":[
+    {"id":"V11-CHANGE-001","kind":"corrected","historical_key":"S005:v10-corrections:R10-13","current_section":"N11-01","claim_id":"RAMS-C001","source_resolution":"proof_supplied_in_v11","repository_resolution":"pending_independent_audit"},
+    {"id":"V11-CHANGE-002","kind":"clarified","statement":"AMC iff some compatible complete separated congruence filtration","current_section":"N11-02","do_not_substitute":"canonical Phi tower"},
+    {"id":"V11-CHANGE-003","kind":"open","statement":"AMC implies canonical PhiComp","current_section":"N11-06","claim_id":"RAMS-C008"},
+    {"id":"V11-CHANGE-004","kind":"id_collision","first_key":"S005:proof:N11-08","first_statement":"arithmetic/language/category connections, not theorems","second_key":"S005:verification:N11-08","second_statement":"gTFPP implies gU under NK4, open","resolution":"keep_namespaces_separate"},
+    {"id":"V11-CHANGE-005","kind":"clarified","statement":"source checked/proved-in-note labels are not independent repository audits","repository_status":"pending unless separately checked in stated finite scope"}
+  ],
+  "principle_aliases":{"CongFiltExists":"CongruenceTower","TermApprox":"UniformApproximation","UFany":"UF_all","CtrBox":"Ctr_box","IABox":"IA_box"},
+  "automatic_edge_promotion":false,
+  "embedded_handoff_instructions_executed":false
+}

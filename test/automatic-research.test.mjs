@@ -31,6 +31,7 @@ test('conjunctive fixed-point rules require both premises',()=>{
 test('audited conditional rules require all extra assumptions',()=>{
   const h=readData('hierarchy'),r=h.rules.find(r=>r.id==='LEAD-001');
   r.status='audited';r.evidence=['research/definitions.md'];r.audit=['docs/workflow.md'];
+  r.assumptions=['N','K','4','IA_box'];
   assert.equal(closure(h,['SC'],['N','K','4']).derived.includes('FLob'),false);
   const full=closure(h,['SC'],['N','K','4','IA_box']);
   assert.equal(full.derived.includes('FLob'),true);assert.equal(full.provenance.FLob.rule,'LEAD-001');
@@ -92,7 +93,9 @@ test('task selector skips original-dependent and previously attempted tasks',()=
   const p=readData('research-program');
   assert.equal(selectTasks(p,[])[0].id,'AUTO-001');
   assert.equal(selectTasks(p,[{task_id:'AUTO-001',status:'error'}])[0].id,'AUTO-002');
-  assert.throws(()=>selectTasks(p,[],{taskId:'AUTO-007'}),/blocked/);
+  assert.equal(selectTasks(p,[],{taskId:'AUTO-007'})[0].id,'AUTO-007');
+  const blocked=structuredClone(p);blocked.tasks.find(t=>t.id==='AUTO-007').needs_originals=true;
+  assert.throws(()=>selectTasks(blocked,[],{taskId:'AUTO-007'}),/blocked/);
   assert.throws(()=>selectTasks(p,[],{maxTasks:21}),/1..20/);
 });
 test('strict stage validation rejects role confusion and status promotion',()=>{
@@ -144,5 +147,5 @@ test('CLI limits and missing/unknown arguments fail before launching research',(
 });
 test('real ledgers load without promoting original-dependent claims',()=>{
   const loaded=loadContext();assert.equal(loaded.input_hash.length,64);
-  assert.ok(loaded.context.claims.every(c=>c.status==='pending'));
+  assert.ok(loaded.context.claims.filter(c=>c.scope!=='finite_instance').every(c=>c.status==='pending'));
 });

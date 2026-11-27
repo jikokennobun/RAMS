@@ -1,0 +1,173 @@
+{
+  "format": "rams-source-registry-v1",
+  "source_id": "S005",
+  "source_path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+  "source_sha256": "1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951",
+  "part": 8,
+  "columns": [
+    "id",
+    "statement",
+    "status",
+    "method",
+    "note"
+  ],
+  "count": 13,
+  "records": [
+    {
+      "key": "S005:verification:N11-01",
+      "source_line": 2217,
+      "raw": {
+        "id": "N11-01",
+        "statement": "AMC⇔uAMC⇔bAMC⇔buAMC",
+        "status": "proved-in-note",
+        "method": "Malcev term m",
+        "note": "discharges 2026-10-31 open problem"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:N11-02",
+      "source_line": 2218,
+      "raw": {
+        "id": "N11-02",
+        "statement": "AMC⇔exists complete separated compatible congruence filtration",
+        "status": "proved-in-note",
+        "method": "threshold congruences",
+        "note": "do not replace exists with canonical Phi tower"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:N11-03",
+      "source_line": 2219,
+      "raw": {
+        "id": "N11-03",
+        "statement": "ultrametric residual equality and parameter-1-Lipschitz solutions",
+        "status": "proved-in-note",
+        "method": "nonexpansiveness+q-contraction",
+        "note": "recovers guarded unique solutions"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:N11-04",
+      "source_line": 2220,
+      "raw": {
+        "id": "N11-04",
+        "statement": "uniform convergence of term approximants; term closure sufficient for gTFPP",
+        "status": "proved-in-note",
+        "method": "uniform contraction bound",
+        "note": "not AMC⇒gTFPP unconditionally"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:N11-05",
+      "source_line": 2221,
+      "raw": {
+        "id": "N11-05",
+        "statement": "FinCof Boolean FLob+∀κ UFκ+ΦSep+¬ΦComp+¬AMC",
+        "status": "proved-in-note",
+        "method": "coordinate recursion + Baire category",
+        "note": "strong countermodel"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:N11-06",
+      "source_line": 2222,
+      "raw": {
+        "id": "N11-06",
+        "statement": "ΦSep+ΦComp⇒AMC; ΦSep⇏ΦComp",
+        "status": "proved-in-note",
+        "method": "canonical tower; FinCof",
+        "note": "AMC⇒ΦComp still open"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:N11-07",
+      "source_line": 2223,
+      "raw": {
+        "id": "N11-07",
+        "statement": "simple MV affine separates MC from AMC",
+        "status": "proved-in-note",
+        "method": "simple reduct forces Verum under AMC",
+        "note": "independent of the FinCof model"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:N11-08",
+      "source_line": 2224,
+      "raw": {
+        "id": "N11-08",
+        "statement": "gTFPP⇒gU under NK4",
+        "status": "open",
+        "method": "HSP preservation does not yield uniqueness",
+        "note": "IA excludes potential countermodels"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:D27-Main",
+      "source_line": 2225,
+      "raw": {
+        "id": "D27-Main",
+        "statement": "FLob implies finite guarded systems unique term solutions",
+        "status": "draft-reverification",
+        "method": "37-page 2026-10-27 preprint",
+        "note": "no independent referee check"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:D27-Fkh",
+      "source_line": 2226,
+      "raw": {
+        "id": "D27-Fkh",
+        "statement": "F(k,h) strict in both indices",
+        "status": "draft-reverification",
+        "method": "localization of non-Archimedean MV chain",
+        "note": "check closure and edge witnesses"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:D27-Ln",
+      "source_line": 2227,
+      "raw": {
+        "id": "D27-Ln",
+        "statement": "Ln iff uniqueness up to n occurrences",
+        "status": "draft-reverification",
+        "method": "finite-power Löb rule and Cm model",
+        "note": "check proof for arbitrary guarded syntax"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:V22-V25",
+      "source_line": 2228,
+      "raw": {
+        "id": "V22-V25",
+        "statement": "finite versus countable systems separation",
+        "status": "draft-reverification",
+        "method": "formal power series / GL free algebra",
+        "note": "separate existence from term selection"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:verification:N11-Open",
+      "source_line": 2229,
+      "raw": {
+        "id": "N11-Open",
+        "statement": "AMC⇒canonical ΦComp",
+        "status": "open",
+        "method": "Φ congruence classes may be not closed",
+        "note": "find additional closure hypotheses / counterexample"
+      },
+      "repository_status": "pending"
+    }
+  ]
+}

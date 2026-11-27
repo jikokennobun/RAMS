@@ -1,0 +1,377 @@
+{
+  "format": "rams-materials-v1",
+  "source_id": "S005",
+  "source_path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+  "source_sha256": "1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951",
+  "originals": [
+    {
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "bytes": 343563,
+      "sha256": "1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951"
+    },
+    {
+      "path": "references/originals/RAMS1_RESEARCH_PACKAGE_v10_2026-10-31.zip",
+      "bytes": 1047593,
+      "sha256": "830e356bab3b03e66754e0e5a29ede04e5f890c04b155af36c203996bb75692f"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/CORE_HIERARCHY_v10.dot",
+      "bytes": 1343,
+      "sha256": "17ad25f194c895afc61ab4355ddf84cf78475d6f25f516ab248aae1801e43430"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/CORE_HIERARCHY_v10.png",
+      "bytes": 109111,
+      "sha256": "7dbd5c4ad2da470ea827e840fba48c35984febaf30605baad21608856e0559a4"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/CORE_HIERARCHY_v10.svg",
+      "bytes": 9011,
+      "sha256": "a2058a40a5e2d41053ef7a143c1558a6af08e830c79991be0dcb329aca791b40"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/MANIFEST.md",
+      "bytes": 1899,
+      "sha256": "59699b4c8183f0fd7bb17badbd77e4814cdb7d44d639f35fc8d161b770be731c"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/MASTER_v10.md",
+      "bytes": 136145,
+      "sha256": "577ca75ff10c6b0179b4d3d90ebfd6baed0b3088ca7632ae3cbe8adec677bde7"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/REGISTER_V10_NEW.csv",
+      "bytes": 1987,
+      "sha256": "26fa07fd1445a50645fe911f8d4f56983eac4750f20887edf76f9b1c27c43eb7"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/UPDATE_v10_PROOFS.md",
+      "bytes": 11221,
+      "sha256": "5fd7ff0cadee078f0134c3fab4f25007017c7a99ac459082f0290adaebc1414c"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/archive_MASTER_v9.md",
+      "bytes": 130047,
+      "sha256": "0dc4208cb950d79a31b38840ec15e1ce87c1e6c5938f580fc20fda18de2eb3d7"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/archive_UPDATE_v9.md",
+      "bytes": 2197,
+      "sha256": "fa528afa599ffe32590d61f54916569c8b2825f454561fc004bdf5ce412fd0ed"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/build_v10.py",
+      "bytes": 10673,
+      "sha256": "06b88f6bafbebd63d8651c0dd85c7bfe002c661a0efc475b61abaa7ddb868a51"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/check_IA_3MV.py",
+      "bytes": 692,
+      "sha256": "aa80f49539bd544570129c9d8bb7544ff61bc275084060034f8407bae198e0ed"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_MLG2026_revision-notes.md",
+      "bytes": 12642,
+      "sha256": "8582beeebd88e334f4f0f1bb58e2a1ff459ec84c16a05db7162e8cedf4919145"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_atlas_v16_extracted.txt",
+      "bytes": 30533,
+      "sha256": "b7302c7b0fc5b73ccec7b48b524e8a39191a38cf5ce01a5b2e0a6bc850714d93"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_author_notes_ja.md",
+      "bytes": 17807,
+      "sha256": "4d7d25b2c356c0dbdd1eb2c7e6bbbce16d6c4962b704e60073b54bc4eeea3aa2"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_fixed_point_atlas.pdf",
+      "bytes": 454040,
+      "sha256": "d5053c240cae5e2d8e9fd73a768c61516e675093f654d04a5b3cd5c420f901d4"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_fixed_point_atlas.tex",
+      "bytes": 58662,
+      "sha256": "cd69ace374546312c3cffed234b457a81d5e706de2ad5fd97c1fd61799f0b7a8"
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_fixed_points_mix.pdf",
+      "bytes": 476664,
+      "sha256": "2e0e1353e4b675264aefd0170819433a4cfc91ef34bd6223359636ace288acec"
+    }
+  ],
+  "archive_manifest_checks": [
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/CORE_HIERARCHY_v10.dot",
+      "sha256": "17ad25f194c895afc61ab4355ddf84cf78475d6f25f516ab248aae1801e43430",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/CORE_HIERARCHY_v10.png",
+      "sha256": "7dbd5c4ad2da470ea827e840fba48c35984febaf30605baad21608856e0559a4",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/CORE_HIERARCHY_v10.svg",
+      "sha256": "a2058a40a5e2d41053ef7a143c1558a6af08e830c79991be0dcb329aca791b40",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/MASTER_v10.md",
+      "sha256": "577ca75ff10c6b0179b4d3d90ebfd6baed0b3088ca7632ae3cbe8adec677bde7",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/REGISTER_V10_NEW.csv",
+      "sha256": "26fa07fd1445a50645fe911f8d4f56983eac4750f20887edf76f9b1c27c43eb7",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/UPDATE_v10_PROOFS.md",
+      "sha256": "5fd7ff0cadee078f0134c3fab4f25007017c7a99ac459082f0290adaebc1414c",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/archive_MASTER_v9.md",
+      "sha256": "0dc4208cb950d79a31b38840ec15e1ce87c1e6c5938f580fc20fda18de2eb3d7",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/archive_UPDATE_v9.md",
+      "sha256": "fa528afa599ffe32590d61f54916569c8b2825f454561fc004bdf5ce412fd0ed",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/check_IA_3MV.py",
+      "sha256": "aa80f49539bd544570129c9d8bb7544ff61bc275084060034f8407bae198e0ed",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_MLG2026_revision-notes.md",
+      "sha256": "8582beeebd88e334f4f0f1bb58e2a1ff459ec84c16a05db7162e8cedf4919145",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_atlas_v16_extracted.txt",
+      "sha256": "b7302c7b0fc5b73ccec7b48b524e8a39191a38cf5ce01a5b2e0a6bc850714d93",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_author_notes_ja.md",
+      "sha256": "4d7d25b2c356c0dbdd1eb2c7e6bbbce16d6c4962b704e60073b54bc4eeea3aa2",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_fixed_point_atlas.pdf",
+      "sha256": "d5053c240cae5e2d8e9fd73a768c61516e675093f654d04a5b3cd5c420f901d4",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_fixed_point_atlas.tex",
+      "sha256": "cd69ace374546312c3cffed234b457a81d5e706de2ad5fd97c1fd61799f0b7a8",
+      "matched": true
+    },
+    {
+      "path": "references/originals/v10-extracted/rams1_v10/source_fixed_points_mix.pdf",
+      "sha256": "2e0e1353e4b675264aefd0170819433a4cfc91ef34bd6223359636ace288acec",
+      "matched": true
+    }
+  ],
+  "registries": [
+    {
+      "name": "principles",
+      "part": 5,
+      "count": 235,
+      "path": "data/imported/v11/principles.json"
+    },
+    {
+      "name": "relations",
+      "part": 6,
+      "count": 446,
+      "path": "data/imported/v11/relations.json"
+    },
+    {
+      "name": "separations",
+      "part": 7,
+      "count": 56,
+      "path": "data/imported/v11/separations.json"
+    },
+    {
+      "name": "verification",
+      "part": 8,
+      "count": 13,
+      "path": "data/imported/v11/verification.json"
+    },
+    {
+      "name": "theorem-history",
+      "part": 9,
+      "count": 113,
+      "path": "data/imported/v11/theorem-history.json"
+    },
+    {
+      "name": "v10-corrections",
+      "part": 10,
+      "count": 19,
+      "path": "data/imported/v11/v10-corrections.json"
+    }
+  ],
+  "sections": [
+    {
+      "id": "definitions",
+      "key": "S005:definitions",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 95,
+      "end_line": 114,
+      "text": "### 1.1. 基礎クラスを混同しない\n\n主基底は有界整可換剰余束の一様相拡大\n\\[\nA=(A,\\wedge,\\vee,\\cdot,\\to,0,1,\\Box),\\quad\nxy\\le z\\iff y\\le x\\to z,\\quad 1=\\top.\n\\]\n非様相還元を \\(A^-\\) と書く。`NK` は `N:□1=1` と `K:□(x→y)·□x≤□y`、`NK4` はさらに `4:□x≤□□x`、`Γ` は `NK4+Löb` を指す。**Γ の下で証明した矢印を NK4 全体へ広げない。** 定理に指定がないときは基底構造のみを仮定しない。束を除く剰余順序モノイドで成立する結論は別途「束不要」と注記する。部分代数・言語の縮小では gFPP 等の評価対象項が変わる。\n\n`M` = □の単調性、`C` = □x□y≤□(xy)、`Ctr` = x≤x²、`Ctr□` = □x≤(□x)²、`CP` = x≤□x、`Mix` = □x≤□x□□x、`Abs` = x≤x□x（整性の下で等式 x□x=x）。`Mix^(r,s)` = □^r x≤□^r x·□^s x（□^0=id）。\n\n**基底からの直接計算**：`NK⇒M+C`。`4+Ctr□⇒Mix`、`Mix⇒4`、`CP+Ctr⇒Abs`、`Abs⇒CP`。`sLöb⇒FLöb` は M の下で単調性による。`NK` の正規性を \\(\\Box1=1,\\Box(xy)=\\Box x\\Box y\\) と同一視するのは縮約等の追加条件があるときに限る（MLG2026改訂記録参照）。\n\n### 1.2. 不動点原理の四つの異なる結論\n\nガード付き一変数項 \\(t(p,\\vec a)\\) は \\(p\\) の各出現が少なくとも一つの □ に覆われるもの。`gFPP`: 全パラメータで解**存在**、`gU`: 解が**高々一個**、`gUFPP = gFPP∧gU`、`gTFPP`: 各構文項 t に対し p を含まない元の言語の項 \\(s_t(\\vec a)\\) が、すべてのパラメータ値で \\(t(s_t,\\vec a)=s_t\\) を満たす。`gUTFPP=gTFPP∧gU`。`gTFPP⇒gFPP` だが一般 `gTFPP⇒gU` は**未決着**。`gUFPP⇒gTFPP` は草稿の反例で否定される。`F^κ`, `UF^κ`, `TF^κ` は未知変数が κ 個の**有限支持の連立項系**であり、`F_{k,h}` の下付き k,h とは別名前空間。\n\n**判定ラベル**：`[E]` 本資料で短い自足的証明を再構成／定義帰結、`[D]` 37ページ草稿に主張・証明、`[P]` v2〜v7 の証明草稿、`[R]` アトラス・研究対話報告、`[U]` 未解決・仮定未精査、`[X]` 誤りまたは過剰一般化のため除外。`[D]` と `[P]` は独立査読済みではない。\n\n"
+    },
+    {
+      "id": "N11-01",
+      "key": "S005:proof:N11-01",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1004,
+      "end_line": 1027,
+      "text": "## N11-01. 最重要訂正：AMC ⇔ uAMC ⇔ bAMC ⇔ buAMC（本稿証明）\n\n**定理**。上記の剰余束の言語では\n\n$$\\boxed{\\mathrm{AMC}\\iff\\mathrm{uAMC}\\iff\\mathrm{bAMC}\\iff\\mathrm{buAMC}.}$$\n\nさらに **AMC の証人である距離そのものが超距離である**。$N,K,4$ や距離の完備性・$\\Box$ の縮小性は、この超距離化そのものには不要である。\n\n**証明**。非様相項\n\n$$m(x,y,z)=\\bigl(x\\cdot(y\\to z)\\bigr)\\vee\\bigl(z\\cdot(y\\to x)\\bigr)$$\n\nを取る。整性と剰余律により $y\\to y=1$、$y(y\\to x)\\le x$ なので、$m(x,y,y)=x$。同じく $m(y,y,z)=z$。全基本演算が max-非拡大なら任意の項演算もそうだから、\n\n$$d(x,z)=d(m(x,y,y),m(y,y,z))\\le\\max\\{d(x,y),0,d(y,z)\\}.$$\n\n従って $d$ は超距離。また $x=x\\wedge1$、$0=x\\wedge0$ から\n\n$$d(x,0)\\le d(1,0),\\qquad d(x,y)\\le\\max\\{d(x,0),d(0,y)\\}\\le d(1,0),$$\n\nゆえに自動的に有界。完備性は仮定からそのまま保持される。□\n\n**帰結**：旧 v10 §4、§11、§16 の `AMC⇒uAMC は未解決` は撤回する。`AMC` と `uAMC` の間に反例は存在しない（この正確な定義と言語に限る）。$m$ は Mal’cev 項であり、この結論は Mal’cev 型普遍代数的原理の応用である。新規性を当然視しない。$\\wedge,\\vee,\\to,\\cdot$ を削る弱い言語や、max-非拡大性をやめた距離の問題には適用できない。\n"
+    },
+    {
+      "id": "N11-02",
+      "key": "S005:proof:N11-02",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1028,
+      "end_line": 1040,
+      "text": "## N11-02. 適合完備縮小距離の合同フィルトレーション特徴づけ（証明を統合）\n\n**定理**。$N$ を満たす上記の有界整可換剰余束について次は同値。\n\n1. AMC（従って uAMC）。\n2. 非様相還元 $A^-$ の合同 $\\theta_0\\supseteq\\theta_1\\supseteq\\cdots$ が存在し、$\\theta_0=\\nabla$、$\\bigcap_n\\theta_n=\\Delta$、$x\\equiv_{\\theta_n}y\\implies\\Box x\\equiv_{\\theta_{n+1}}\\Box y$ を満たし、自然写像 $A\\to\\varprojlim_n A^-/\\theta_n$ が全単射となる。\n\n**(2)⇒(1)**。$x\\ne y$ に対して $k(x,y)=\\max\\{n:x\\equiv_{\\theta_n}y\\}$ は有限の非負整数で、$d(x,y)=2^{-k(x,y)}$、$d(x,x)=0$ と置く。$\\theta_n$ は合同なので $d$ は超距離、非様相演算は max-非拡大。シフト条件から $d(\\Box x,\\Box y)\\le d(x,y)/2$。逆極限の全単射性はこの超距離の完備性と同値である。\n\n**(1)⇒(2)**。N11-01 により AMC の証人は有界超距離。$D=\\mathrm{diam}(A)$ とし、縮小率 $q<1$ を取り、$q<c<1$ に対して $\\theta_n=\\{(x,y):d(x,y)\\le Dc^n\\}$ と置けば、$\\theta_0=\\nabla$、非様相合同、分離、$\\Box$ の次段へのシフトが成立する。完備性より各整合剰余類列が一点の極限として実現される。□\n\n**正準塔との区別**：$\\Phi(\\theta)=\\mathrm{Cg}_{A^-}\\{(\\Box x,\\Box y):(x,y)\\in\\theta\\}$、$\\theta^\\Phi_n=\\Phi^n(\\nabla)$ は上の **存在する何らかの塔** と異なる。$\\Phi\\mathrm{Sep}+\\Phi\\mathrm{Comp}\\Rightarrow\\mathrm{AMC}$ は成立するが、$\\mathrm{AMC}\\Rightarrow\\Phi\\mathrm{Comp}$ や $\\Phi\\mathrm{Sep}\\Rightarrow\\Phi\\mathrm{Comp}$ は自明ではない。後者は反例がある。\n"
+    },
+    {
+      "id": "N11-03",
+      "key": "S005:proof:N11-03",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1041,
+      "end_line": 1060,
+      "text": "## N11-03. 不動点作用素の非拡大性と精密な残差等式（本稿証明）\n\n**定理**。AMC の証人 $d$ を固定し、$t(p,\\vec a)$ が各 $p$ 出現に $\\Box$ のガードを持つ有限項とする。$f_{\\vec a}(p)=t(p,\\vec a)$ の唯一不動点を $u(\\vec a)$ とし、$q<1$ を $\\Box$ の縮小率とする。このとき\n\n$$\\boxed{d\\bigl(x,u(\\vec a)\\bigr)=d\\bigl(x,f_{\\vec a}(x)\\bigr)}$$\n\nおよび\n\n$$\\boxed{d\\bigl(u(\\vec a),u(\\vec b)\\bigr)\\le\\max_i d(a_i,b_i).}$$\n\nさらに全 $n$ について $d(f_{\\vec a}^n(x),u(\\vec a))\\le q^n d(x,u(\\vec a))$ であり、$A$ の有界性により $f_{\\vec a}^n(0)$ はパラメータ全体で一様に $u$ へ収束する。\n\n**証明**。$d$ は N11-01 により超距離であり、$f_{\\vec a}$ は未知変数について $q$-縮小、パラメータについて max-非拡大である。超距離三角不等式より\n\n$$d(x,u)\\le\\max\\{d(x,f(x)),q d(x,u)\\}$$\n\nで、$q<1$ から $d(x,u)\\le d(x,f(x))$。逆向きは $d(x,f(x))\\le\\max\\{d(x,u),q d(x,u)\\}=d(x,u)$。パラメータについては、$u(\\vec a)=f_{\\vec a}(u(\\vec a))$、$u(\\vec b)=f_{\\vec b}(u(\\vec b))$ を用い、超距離三角と $q$-縮小から同様に導く。□\n\n**限定**：$d(x,u)=d(x,f(x))$ は任意の通常距離の Banach 縮小で成立するわけではなく、この証明は超距離性を利用する。旧 v10 の「通常距離 AMC の解選択は $1/(1-q)$-Lipschitz に留まる」という説明はこの剰余束言語に関して最適でなく、上の 1-Lipschitz が成り立つ。\n"
+    },
+    {
+      "id": "N11-04",
+      "key": "S005:proof:N11-04",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1061,
+      "end_line": 1068,
+      "text": "## N11-04. 一様項近似と一様項構成の差（本稿証明）\n\nAMC なら、任意の有限ガード付き連立項系 $T(\\vec p,\\vec a)$ に対し、反復 $T^n(\\vec 0,\\vec a)$ はパラメータ項からなる列で、その解演算 $\\operatorname{Fix}_T(\\vec a)$ へパラメータ一様に収束する。特に、対象のパラメータ arity に対する **項関数集合が上限距離の下で一様閉** なら、$\\operatorname{Fix}_T$ は項関数であり、$gTFPP$（有限系版）を得る。\n\n**証明**。$A$ は有界完備超距離、$T$ は座標上限距離で $q$-縮小。初期値 $\\vec0$ からの距離は一様に $\\le D$ なので反復項の誤差は $\\le q^nD$。各座標の項関数が一様閉なら極限は項関数。□\n\n**意義**：`AMC⇒gTFPP` は一般には証明できない。距離による極限と **有限項での正確な表示** の間に、明示的な項関数の閉性障害がある。\n"
+    },
+    {
+      "id": "N11-05",
+      "key": "S005:proof:N11-05",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1069,
+      "end_line": 1088,
+      "text": "## N11-05. 強い反例：FinCof(N) で FLöb と任意濃度 UF を保ち、AMC を否定する（本稿証明）\n\n$B=\\mathrm{FinCof}(\\mathbb N)$ を有限または余有限の自然数集合の Boolean 代数とする。積は共通部分、$X\\to Y=(\\mathbb N\\setminus X)\\cup Y$、\n\n$$\\Box X=\\{n\\in\\mathbb N:\\{0,\\ldots,n-1\\}\\subseteq X\\}.$$\n\n**主張**：$N,K,4,\\mathrm{FL\\ddot{o}b},\\mathrm{gTFPP},\\mathrm{gU},\\Phi\\mathrm{Sep}$ が成立し、**任意濃度 $\\kappa$ の有限支持ガード付き連立系が唯一解を持つ**。しかし $\\neg\\Phi\\mathrm{Comp}\\land\\neg\\mathrm{AMC}$。ここで任意濃度系に対する「有限支持」は、各方程式の右辺が有限項であり、全未知変数出現がガードされること。\n\n**証明**。\n\n(a) $\\Box$ は厳密前駆 $<$ による Kripke の箱であり、$N,K,4$ を満たす。FLöb は有限下降の最小欠落点法で示す：$k\\in\\Box(\\Box X\\to X)$ だが $k\\notin\\Box X$ とすると、$j<k$ で最小の $j\\notin X$ が存在する。$\\Box X$ は $j$ を含むから $j\\notin\\Box X\\to X$、矛盾。\n\n(b) 任意のガード付き連立系 $p_i=t_i((p_j)_{j<\\kappa};\\vec a_i)$ を $\\mathcal P(\\mathbb N)$ 内で解く。各座標 $n$ の値は、ガードされた $\\Box p_j$ が $0,\\ldots,n-1$ の値にしか依存しないため、$n$ に関する帰納法で一意に定まる（同時に全 $i<\\kappa$ の第 $n$ 成分を決める）。各 $\\Box p_j$ は必ず有限の初期区間または $\\mathbb N$ そのものである。ゆえに、変数の全出現が $\\Box$ に覆われている各 $t_i$ の値は、有限個の finite/cofinite パラメータと有限初期区間／全体の集合の Boolean 結合から成り、必ず $B$ に属する。帰納法で構成した $\\mathcal P(\\mathbb N)$ 内の一意解は $B^\\kappa$ にも属する。\n\n(c) 正準 $\\Phi$ 塔は「最初の $n$ 座標で一致する」合同 $\\theta_n$ に等しく、$\\bigcap\\theta_n=\\Delta$。一方 $\\varprojlim B/\\theta_n\\cong\\mathcal P(\\mathbb N)$ に対し $B$ は真部分代数だから $\\Phi\\mathrm{Comp}$ は失敗する。\n\n(d) **$\\neg$AMC の独立した証明（Baire カテゴリーを利用）**。$B$ は可算集合で、Boolean 対称差 $x\\triangle y$ は非様相項で表される。もし AMC の完備距離 $d$ があれば、N11-01 により有界超距離となる。対称差の max-非拡大性により各平行移動 $x\\mapsto x\\triangle a$ は 1-Lipschitz で、自己逆でもあるため等長写像。従って $(B,d)$ は可算な完備距離位相群である。Baire の定理より $B$ は離散位相群（可算個の閉単点の和であり、内部を持つ単点が存在する；群の移動で単位元も孤立）。平行移動の等長性から正の一様最小距離 $\\delta>0$ が存在する。$d$ の直径を $D$、$\\Box$ の縮小率を $q<1$ とすると、$q^nD<\\delta$ なる $n$ で $\\Box^n[B]$ は一点となり、N によりその一点は $1$。ところが $\\Box^n\\varnothing=\\{0,\\ldots,n-1\\}\\ne1$ である。矛盾。ゆえに AMC は不成立。□\n\n**強さ**：これは $\\mathrm{FL\\ddot{o}b}+\\forall\\kappa\\,\\mathrm{UF}^\\kappa\\not\\Rightarrow \\mathrm{AMC}$、および $\\Phi\\mathrm{Sep}\\not\\Rightarrow\\Phi\\mathrm{Comp}$ の同時証人。**固定点の可解性の強さでは、標準塔が欠く完備性を復元できない**。$\\neg\\Phi\\mathrm{Comp}$ だけから $\\neg\\mathrm{AMC}$ を結論したわけではないことに注意する。\n"
+    },
+    {
+      "id": "N11-06",
+      "key": "S005:proof:N11-06",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1089,
+      "end_line": 1100,
+      "text": "## N11-06. 正準 Φ 塔の「分離」と「完備性」の厳密な区別（本稿証明）\n\n$\\theta^\\Phi_0=\\nabla$、$\\theta^\\Phi_{n+1}=\\Phi(\\theta^\\Phi_n)$ は降下合同列。$\\Phi\\mathrm{Sep}$ なら $\\mathrm{ImgSep}:\\bigcap_n\\Box^n[A]=\\{1\\}$（$N$ の下）。非様相還元の合同束が DCC、または劣直既約であれば、$\\Phi\\mathrm{Sep}\\Rightarrow\\Phi\\mathrm{Nil}$（ある有限段で $\\theta_n^\\Phi=\\Delta$）。これから $\\Box^n\\equiv 1$ の有限停止を得る。$\\Phi\\mathrm{Sep}+\\Phi\\mathrm{Comp}\\Rightarrow\\mathrm{AMC}$ は N11-02。\n\n**注意**：FinCof の反例により $\\Phi\\mathrm{Sep}\\Rightarrow\\Phi\\mathrm{Comp}$ は否定される。**一般の $\\mathrm{AMC}\\Rightarrow\\Phi\\mathrm{Comp}$ は未証明**。AMC 距離で $\\theta_n^\\Phi$ に属する対の直径が $q^nD$ 以下と評価できても、$\\Phi$-合同類が距離位相で閉であるとは限らない。従って距離の完備性から正準合同塔の全整合剰余類列の実現性を無条件に導いてはならない。$\\Phi$-各合同類が閉、または $\\theta_n^\\Phi$ が開閉合同である等の追加条件なら、ネストした閉集合と直径 $\\to0$ により $\\Phi\\mathrm{Comp}$ が従う。\n\nなお AMC から分離的・完備な **何らかの** 合同塔が存在することは N11-02 で確定している。したがって、\n\n$$\\boxed{\\mathrm{AMC}\\iff\\text{適合し分離的で逆極限完備な合同列が存在}}$$\n\nは成立するが、同じ式で「合同列」を「正準 $\\Phi$-塔」に置き換えることは現段階では認めない。\n"
+    },
+    {
+      "id": "N11-07",
+      "key": "S005:proof:N11-07",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1101,
+      "end_line": 1106,
+      "text": "## N11-07. アフィン MV と prefix MV の二種類の強い分離（旧草稿との対応）\n\n1. $([0,1]_\\mathrm{\\L},\\Box x=(1+x)/2)$ は $N,K,4,CP,L\\mathrm{\\ddot{o}}b,\\mathrm{bMC}$。非様相 MV 還元は単純、かつ $\\Box$ は非定数。AMC が成立すれば超距離球は合同であり、単純性からすべての非零距離が等しくなるので、縮小 $\\Box$ は定数でなければならない。矛盾。従って $\\mathrm{MC}\\not\\Rightarrow\\mathrm{AMC}$ の強い反例。\n2. 有限 prefix MV $A_h$（$h\\ge3$、有理 MV 座標、$\\Box x$ は過去座標の meet）は $N,K,4,\\mathrm{AMC},gUTFPP,\\neg\\mathrm{FL\\ddot{o}b}$。$D_n$ の成立は $n\\ge h-1$、$H_n$ は $2n\\ge h$。これは距離原理と FLöb の非含意、標準解の D/H 階層を示す。モデルの細かい座標計算は v8 付録に依存。\n3. $C_m$ 系列は $gFPP$ と $gU$ の厳密な $P_n$ 階層、$\\mathbb Q(\\varepsilon)$ 局所化は $F_{k,h}$ の全隣接段階、$R_-$ は $\\mathrm{SC}\\not\\Rightarrow F_{1,1}$ の証人。**各モデルは異なる目的に必要であり、すべてを一つの表に盲目的に統合しない。**\n"
+    },
+    {
+      "id": "N11-08",
+      "key": "S005:proof:N11-08",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1107,
+      "end_line": 1110,
+      "text": "## N11-08. 算術的・言語的接続（研究候補、未定理化）\n\n11月の関連議論として、(i) 閉定理語の文法複雑度と $\\Box^h0=1$ という有限停止、(ii) 有限／無限の厳密前駆 Kripke 意味論、(iii) 証明木・循環証明・代入を圏論的に整理する CAAL/Tarski モナド、(iv) nonclassical arithmetic の Lindenbaum 代数上の RAMS 化がある。ただし本稿の **中心固定点階層とは記号と主定理が異なる**ので、それらを本論の証明済み新定理に格上げしない。独立の研究課題としてのみリストする。\n"
+    },
+    {
+      "id": "R10-1",
+      "key": "S005:proof:R10-1",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1139,
+      "end_line": 1148,
+      "text": "## R10-1. 局所吸収による Santa Claus 方程式の特徴づけ [P10]\n\n**定義**: `SC(a): ∃p[p=□p→a]`、`FLöb(a): □(□a→a)≤□a`、`IA□: ∀x □(x·□x)=□x` とする。`IA_SC(a)` は **当該方程式の解 p** についてだけ `□(p·□p)=□p` を要求する局所条件。\n\n**定理**（M を仮定）。`FLöb(a) ⇒ SC(a)`。さらに `SC(a)+IA_SC(a) ⇒ FLöb(a)`。従って `M+IA□` の下で全称の `SC ⇔ FLöb`。`N,K,IA□` の下ではこの同値と FLöb の既存有限連立項解定理を合わせ、`SC ⇒ gUTFPP` および `SC ⇒ gU` を得る。\n\n**証明**: FLöb(a) の下で `s=□a→a` を置く。整性から `a≤s`。単調性で `□a≤□s`、一方 `□s≤□a` は FLöb(a) である。ゆえに `s=□s→a`。逆に SC(a) の解 p に対し `a≤p` と `p□p≤a`。単調性から `□a≤□p` かつ `□(p□p)≤□a`、局所 IA から `□p≤□a`。したがって `□p=□a`、`p=□a→a`、`□(□a→a)=□a`。□\n\n**注意**: 当該 a だけでの局所同値から `Löb` 全体を推論しない。`gUTFPP` の帰結は `N,K` と既存 FLöb 主定理の検証を必要とする。\n"
+    },
+    {
+      "id": "R10-2",
+      "key": "S005:proof:R10-2",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1149,
+      "end_line": 1160,
+      "text": "## R10-2. Mix を厳密に弱める [P10, CM]\n\n`Mix□: □x≤□x·□□x` から `IA□` が従う。実際 `K⇒C: □x□y≤□(xy)` なので `□x≤□x□□x≤□(x□x)≤□x`。最後は `x□x≤x` と M から。\n\n**厳密性の証人**: 3元 Łukasiewicz MV 鎖 `A={0,1/2,1}`, `x·y=max(0,x+y−1)`, `x→y=min(1,1−x+y)`, `□x=max(1/2,x)` は `N,K,4,IA□` を満たすが `Mix□` を満たさない。`x=0` で `□0=1/2`, `□²0=1/2`, `□0·□²0=0`。K, IA は全3×3通りの有限検査により確認（付属スクリプト）。ここでは `SC` は a=1/2 で失敗し、したがって IA の単独仮定から FLöb は従わない。\n\n**重要な含意**（ただし「単独の原理同士の矢印」でなく公理の弱化）:\n\n`N+K+Mix+SC ⇒ N+K+IA+SC ⇒ FLöb ⇒ gUTFPP ⇒ gUFPP`。\n\n`IA_SC` の一般形および IA_SC と IA□ の厳密な分離は、証人の条件・変数束縛を揃えて追加検算する。[N]\n"
+    },
+    {
+      "id": "R10-3",
+      "key": "S005:proof:R10-3",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1161,
+      "end_line": 1178,
+      "text": "## R10-3. schematic consistency と Löb／不動点原理の衝突 [P10]\n\n`¬x=x→0`, `◇x=¬□¬x` とし、`Con_L: □0≤0`、`Con_S: ∀a(□a≤◇a)` とする。\n\n**定理**: `N+K ⊨ Con_L ⇔ Con_S`。\n\n**証明**: Con_S に a=0 を代入し、`¬0=1, □1=1, ¬1=0` から `□0≤0`。逆に `□0=0` なら、`a·¬a≤0`, K から得られる M,C により `□a·□¬a≤□(a¬a)≤□0=0`。剰余律より `□a≤□¬a→0=◇a`。□\n\n**定理（正しい非存在の範囲）**: 非自明な `0≠1` の整可換剰余代数で `N+Con_L` を仮定すれば、`¬gTFPP` かつ `¬gU`。前者は **K 不要**。\n\n**証明**: N と □0=0 から、言語 `{∧,∨,·,→,0,1,□}` の閉項が表す元は必ず 0 または 1（構文帰納法）。ガード付き項 `t(p)=¬□p` に対し `t(0)=1`, `t(1)=0`。従って閉項 s による `s=t(s)` は不可能で、gTFPP は成立しない。また `p=□p` は 0,1 という二つの異なる解を持つため gU も成立しない。□\n\n**さらに**: 非自明な N+Con_L と FLöb は両立しない。x=0 を FLöb に代入すると `□(□0→0)=□1=1≤□0=0` となる。Con_L と `IA_SC(0)+SC(0)` も両立しない（R10-1 の点別証明）。\n\n**反例・対照**: 標準 Łukasiewicz MV 区間 `[0,1]` に `□=id` を置くと `N,K,4,CP,Con_S,SC,FPP` が成立する。SC の解は `p=(1+a)/2`、一方 `□p=p` は全元を解とするので gU は失敗する。**gTFPP も失敗する**（定理による）。従来の「Con_S+SC+gTFPP がこのモデルで成立」という主張は撤回する。[ERR]\n\n**非自明な研究課題**: `Con_S` を gTFPP と両立させるなら、(i) N を外す、(ii) `Con_S` の定義自体を変える、(iii) p-free な閉項として解を要求しない弱い選択原理を使う、のいずれかが必要。これらは同じ命題の反例にはならない。\n"
+    },
+    {
+      "id": "R10-4",
+      "key": "S005:proof:R10-4",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1179,
+      "end_line": 1184,
+      "text": "## R10-4. SC は F_{1,1} を含意しない：旧草稿の具体証人を再固定 [D27; 直接計算]\n\n正の無限小 ε を持つ `Q(ε)` の順序で `R_−=Q[ε,(1+ε)^{−1}]`、`A=R_−∩[0,1]` の Łukasiewicz MV 鎖に `□x=1−ε+εx` を置く。全 `a∈A` に対して `p=(a+ε)/(1+ε)` が `p=□p→a` を満たし、従って SC は成立する。一方 `p=a·□p` に `a=1/2` を代入すると実区間での唯一解は `p=(1/2−ε)/(1−ε)` である。これは ε=1 に極を持ち、`R_−` には属さない。ゆえに `SC⇏SC^+`、特に `SC⇏F_{1,1}`。\n\n**注意**: 2026-10-29〜30 の対話には `SC⇒F_{1,1}` を再び「未決着」と呼ぶ記録があるが、**一般 bicRAMS に関する命題ならこの具体証人が否定する**。追加公理を明示した別の問いであれば、その背景クラスを付して再登録する。\n"
+    },
+    {
+      "id": "R10-5",
+      "key": "S005:proof:R10-5",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1185,
+      "end_line": 1190,
+      "text": "## R10-5. gTFPP の保存性と gTFPP⇒gU の位置 [E9-1 / N]\n\nv9 の定理 `gTFPP(A) ⇔ HSP(A)⊨gFPP ⇔ SP(A)⊨gFPP` を保持。これは一般 gTFPP⇒gU の証明ではない。反例候補 `gTFPP∧¬gU` は非自明 `N+□0=0` の構造では作れない（R10-3）。`IA□+SC` のクラスでも作れない（R10-1）。よって探すなら `□0≠0` かつ IA 局所条件を破るモデルから出発すること。\n\n**その他の検討**: 線形順序以外の Lindenbaum／自由代数、CP の有無、Mix を弱める局所吸収、代数的な有限項選択、項による構成と高々一意性の分離。有限 Ł 鎖およびアフィン MV 族の反例排除は従来の研究ノートにあるが、全係数の分類定理としては未確定。[N]\n"
+    },
+    {
+      "id": "R10-6",
+      "key": "S005:proof:R10-6",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1191,
+      "end_line": 1200,
+      "text": "## R10-6. 距離・連続性・項縮小性：要件の階層 [P10]\n\n`TermCont(τ)`（全基本演算が積位相で連続）ならガード付き項も連続。ただし `GuardCont_p(τ)`（パラメータを固定したとき、**未知変数 p に関する**全ガード付き項写像が連続）から `TermCont(τ)` は従わない。\n\n**証人**: `[0,1]` の Gödel（min）積と Gödel 残余 `x→y=1 (x≤y), =y (x>y)` に通常の実数位相を入れ、`□x=1` とする。すべてのガード付き項は p に独立となるから `GuardCont_p` が成立する。しかし剰余 `→` は対角上 `(t,t)` (`0<t<1`) で不連続。N,K,4 も満たす。\n\n**区別**: これは全引数に関するガード付き項の *共同連続性* の反例ではない。`□=1` としても、パラメータとして出現する `→` の不連続性は残る。\n\n`GMC`（全ガード付き項が同一完備距離で適切に縮小）／`AMC`（□縮小かつ非様相基本演算すべて max-非拡大）／`MC`（□のみ縮小）を別項にする。`AMC⇒GMC⇒gUFPP` はガード項が各有限出現で q-縮小するという意味で成立。逆は一般に未検証。`AMC⇒uAMC` の過去の超距離化スケッチは証明が一致しておらず、正式な成立矢印には **入れない**。\n"
+    },
+    {
+      "id": "R10-7",
+      "key": "S005:proof:R10-7",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1201,
+      "end_line": 1204,
+      "text": "## R10-7. 完備束・超限反復・scattered locale [N / 標準事実]\n\n完備束で単調な □ に対する超限反復 `b_0=0, b_{α+1}=□b_α, b_λ=∨_{β<λ}b_β` は最小不動点へ停止する。N の下で `Löb` が成立することは「□ の唯一の不動点が 1」という主張より一般に強いかどうか、超限停止との関係は証明の仮定（単調性・4・complete lattice・軌道連続性）を付けて扱う。Cantor–Bendixson 派生作用素に由来する scattered 空間は、閉包順序数を具体化する意味論的モデルとして別扱い。\n"
+    },
+    {
+      "id": "R10-8",
+      "key": "S005:proof:R10-8",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1205,
+      "end_line": 1208,
+      "text": "## R10-8. 算術的・資源的モデル、G2-Zoo への接続 [N]\n\n非古典算術の Lindenbaum 代数での N,K,4,FLöb や対角化の妥当範囲を検討する。非古典算術からの `gFPP` は得られても、**同じ言語のパラメータ項による一様解** `gTFPP` が従うと即断しない。`Con_S/Con_L` は `Con_H,Con_IG,Con_EG,non-Ros` などの異なる言語・量化を必要とする整合性概念から区別する。\n"
+    },
+    {
+      "id": "R10-9",
+      "key": "S005:proof:R10-9",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1209,
+      "end_line": 1217,
+      "text": "## R10-9. 明示的な訂正・撤回 [ERR]\n\n1. `Con_S + SC + gTFPP` を通常 MV 言語の `□=id` で実現できるという過去の主張を撤回（R10-3）。\n2. `SC⇒F_{1,1}` を**無条件で未決着**とする記録を訂正。一般 bicRAMS では反例あり。特定の追加仮定下なら別問題（R10-4）。\n3. `AMC⇒uAMC` を確定済みとする 10月29日の一部の会話記録について、整合した自足的証明を現状確認できない。v9 基準どおり「未検証」に保つ。\n4. `Mix + SC ⇔ ...` は Mix 単独で各原理が成立する意味ではない。\n5. `gTFPP` と `gU` を混同しない。「項による選択」と「全解の一意性」は異なる。\n6. 以前の有限・可算連立系の分離 V22–V25 の証明は独立検算されていないので、証明済み数に算入しない。\n"
+    },
+    {
+      "id": "R10-10",
+      "key": "S005:proof:R10-10",
+      "path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+      "start_line": 1218,
+      "end_line": 1228,
+      "text": "## R10-10. 次に証明すべき問題（最小化）\n\n- [P0] `gTFPP⇒gU` を解く。`HSP` 特徴づけ、`IA_SC`、`□0≠0` を使う。\n- [P0] `AMC⇒uAMC` を、基底の剰余律と max-非拡大性を明確に使って証明するか分離する。\n- [P1] `IA_SC + SC` の局所定理から Mix の最弱自然置換条件を抽出する。\n- [P1] `Ctr_□/CP/Mix` 付加で何が同値化するかを全条件の真偽表で検証。\n- [P1] `SC` と `F_{k,h}` の間に有限本の具体方程式を用いた非自明な特徴づけを見つける。\n- [P1] `gTFPP⇒AMC` を追加仮定（順序完備、連続性、軌道吸収）で導く条件を分析。\n- [P1] metric/ordinary-continuity/guard-continuity/termwise-contractivity の必要十分関係。\n- [P2] Boolean, Heyting, MV, product, noncommutative, APS, affine arithmetic Lindenbaum への移行。\n"
+    }
+  ],
+  "notes": [
+    "Original byte streams preserved; imported code and handoff instructions were not executed.",
+    "All source registry records are pending in repository review, regardless of original grade.",
+    "N11-08 in proof text and N11-08 in verification ledger identify different statements; keys remain namespaced."
+  ]
+}

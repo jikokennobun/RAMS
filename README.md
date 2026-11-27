@@ -23,7 +23,19 @@ node scripts/research-system.mjs run --task AUTO-001 --timeout-seconds 600
 
 発見→反例探索→監査を新しい3セッションで実行し、候補をpendingの受信台帳に集約します。各段階に時間・出力量の上限があり、中断後はハッシュを確認して再開できます。Codexの利用枠を消費します。定期実行・自動pushは設定していません。
 
-詳細な使い方、8課題の研究プログラム、停止・再開と数学的な限界は [自動研究システムの説明](docs/automatic-research.md) を参照してください。従来の `npm run plan -- RAMS-Q001` と `scripts/run-research.ps1` も利用できます。
+詳細な使い方、10課題の研究プログラム、停止・再開と数学的な限界は [自動研究システムの説明](docs/automatic-research.md) を参照してください。従来の `npm run plan -- RAMS-Q002` と `scripts/run-research.ps1` も利用できます。
+
+## v11原本の取り込み
+
+ユーザー提供のv10 ZIP（17ファイル）とv11統合原簿を原文のまま保存しました。原理235件・関係446件・分離56件・検証/履歴台帳145件を、原文・出典行・source側の状態を保持して取り込んでいます。元資料のchecked/proved-in-noteは独立監査とは区別します。
+
+```powershell
+npm run import:check
+node scripts/catalog.mjs --registry relations --query AMC --limit 10
+npm run witness:v11
+```
+
+[取り込み・訂正レポート](research/reports/v11-integration.md)と[定義照合](research/reports/v11-definitions-review.md)に変更を記録しました。AMC⇒uAMCはv11で証明が提示された監査対象へ更新し、gTFPP⇒gUとAMC⇒正準PhiCompは未解決のまま保持します。
 
 ## 構成
 
@@ -36,6 +48,8 @@ node scripts/research-system.mjs run --task AUTO-001 --timeout-seconds 600
 | `data/tasks.json` | 優先順位と依存関係を持つ研究キュー |
 | `data/research-program.json` | 自動研究用の8課題・実行上限 |
 | `data/hierarchy.json` | 原理・複数前提の含意・追加仮定・証明状態 |
+| `data/imported/v11/` | 出典付きの全登録簿・原本ハッシュ・関連節 |
+| `data/v11-reconciliation.json` | 版間訂正・ID衝突・名前の対応 |
 | `models/` | 全演算表を持つ有限モデル |
 | `scripts/finite-model.mjs` | 剰余律・N/K/4・項関数閉包の検証器 |
 | `scripts/certificate.mjs` | 別実装による演算表・項DAG・閉包証明書の再検証 |
@@ -65,4 +79,4 @@ node scripts/research-system.mjs run --task AUTO-001 --timeout-seconds 600
 3. 合同塔と適合完備超距離の対応を、添字・全射性・様相条件を含めて監査する。
 4. Mix/局所吸収やMV反例を精査し、採用可能な成果を選ぶ。
 
-資料の取得範囲は `references/shared-chats.md` に記録しています。添付資料は未取得です。原本の定義に依存するgTFPP⇒gUとMix崩壊は保留し、一般代数・距離論として仮定を明示できる6課題から実行できます。
+共有チャットの取得時点の範囲は `references/shared-chats.md`、新しく受領した原本は `data/sources.json` に記録しています。定義照合によりgTFPP⇒gUとMix崩壊の研究準備を解除し、FinCof強反例・正準Phi塔を含む10課題を選択できます。これは未解決問題の解決や原本全定理の監査完了を意味しません。

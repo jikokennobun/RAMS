@@ -1,0 +1,884 @@
+{
+  "format": "rams-finite-v1",
+  "profile": "working-bicrl-v1",
+  "scope": "finite_instance",
+  "model": {
+    "id": "mv-three-threshold",
+    "description": "S004 check_IA_3MV.py / S005 R10-2から演算表を独立に構成。台集合{0,1/2,1}、box(x)=max(1/2,x)。",
+    "elements": [
+      "0",
+      "1/2",
+      "1"
+    ],
+    "bottom": 0,
+    "top": 2,
+    "meet": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "join": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "product": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "residual": [
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "box": [
+      1,
+      1,
+      2
+    ]
+  },
+  "model_hash": "f5e2af66d544cccf401f6dd7164ec47633bfd2ddee2ee570b3efc71e66927a44",
+  "complete": true,
+  "entries": [
+    {
+      "values": [
+        0,
+        0,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "constant": 0
+      }
+    },
+    {
+      "values": [
+        1,
+        1,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "constant": 1
+      }
+    },
+    {
+      "values": [
+        2,
+        2,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "constant": 2
+      }
+    },
+    {
+      "values": [
+        0,
+        1,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "variable": "x"
+      }
+    },
+    {
+      "values": [
+        1,
+        1,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "op": "box",
+        "args": [
+          3
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        0,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "meet",
+        "args": [
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        1,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        2,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        1,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "meet",
+        "args": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        1,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "op": "join",
+        "args": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        0,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "product",
+        "args": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        2,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        2,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        0,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "op": "product",
+        "args": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        1,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "op": "residual",
+        "args": [
+          4,
+          0
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        0,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          4,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        2,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "op": "residual",
+        "args": [
+          4,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        0,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        1,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "join",
+        "args": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        1,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        1,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "op": "box",
+        "args": [
+          6
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        1,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "join",
+        "args": [
+          6,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        0,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "product",
+        "args": [
+          6,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        1,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "meet",
+        "args": [
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        1,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "op": "join",
+        "args": [
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        2,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        2,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        0,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "product",
+        "args": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        2,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          4,
+          8
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        2,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "op": "box",
+        "args": [
+          12
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        0,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          12,
+          10
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        0,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        2,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "op": "residual",
+        "args": [
+          4,
+          14
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        1,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "op": "residual",
+        "args": [
+          20,
+          0
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        0,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          20,
+          1
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        1,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "op": "join",
+        "args": [
+          20,
+          4
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        0,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          20,
+          4
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        2,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "op": "residual",
+        "args": [
+          20,
+          14
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        1,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "op": "residual",
+        "args": [
+          20,
+          15
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        1,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          20,
+          16
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        0,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          20,
+          20
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        2,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          4,
+          23
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        2,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          20,
+          23
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        0,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "product",
+        "args": [
+          24,
+          20
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        2,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          24,
+          23
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        0,
+        2
+      ],
+      "guarded": false,
+      "term": {
+        "op": "product",
+        "args": [
+          24,
+          24
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        1,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          29,
+          14
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        0,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "op": "residual",
+        "args": [
+          29,
+          17
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        2,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          29,
+          29
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        2,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "op": "meet",
+        "args": [
+          32,
+          29
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        0,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          35,
+          20
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        2,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "op": "residual",
+        "args": [
+          35,
+          33
+        ]
+      }
+    },
+    {
+      "values": [
+        2,
+        0,
+        2
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          35,
+          35
+        ]
+      }
+    },
+    {
+      "values": [
+        0,
+        2,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "op": "product",
+        "args": [
+          37,
+          37
+        ]
+      }
+    }
+  ]
+}

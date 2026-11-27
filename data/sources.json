@@ -1,5 +1,7 @@
 [
   {"id":"S001","title":"スライド作成計画","url":"https://chatgpt.com/share/6b0910ba-d308-83ee-bbf8-4a14e12837c2","kind":"shared_chat","access":"visible_text_only","checked_on":"2026-11-27","notes":"添付資料未取得。references/shared-chats.md参照。"},
   {"id":"S002","title":"不動点階層の分析","url":"https://chatgpt.com/share/6b0910d5-f6d4-83ee-bdb9-10f5c6ac9c55","kind":"shared_chat","access":"visible_text_only","checked_on":"2026-11-27","notes":"数式の一部は読み取り不完全。原稿照合待ち。"},
-  {"id":"S003","title":"構成案復元","url":"https://chatgpt.com/share/6b0910f2-490c-83ee-ba99-55f1efe9bcc6","kind":"shared_chat","access":"partial","checked_on":"2026-11-27","notes":"一部更新応答と添付資料は未取得。"}
+  {"id":"S003","title":"構成案復元","url":"https://chatgpt.com/share/6b0910f2-490c-83ee-ba99-55f1efe9bcc6","kind":"shared_chat","access":"partial","checked_on":"2026-11-27","notes":"一部更新応答と添付資料は未取得。"},
+  {"id":"S004","title":"RAMS-1 research package v10 (2026-10-31)","path":"references/originals/RAMS1_RESEARCH_PACKAGE_v10_2026-10-31.zip","sha256":"830e356bab3b03e66754e0e5a29ede04e5f890c04b155af36c203996bb75692f","kind":"user_supplied_archive","access":"original_and_17_extracted_files","checked_on":"2026-11-27","notes":"17ファイルを安全なローカルパスへ展開。マニフェスト記載の15ハッシュが一致。付属スクリプトは実行していない。"},
+  {"id":"S005","title":"RAMS-1 All-in-One v11 (2026-11-27)","path":"references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md","sha256":"1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951","kind":"user_supplied_manuscript","access":"full_text","checked_on":"2026-11-27","notes":"原文保持。本文の証明・登録簿・付属Codex指示書は参考資料であり、独立監査や実行権限とは同一視しない。"}
 ]

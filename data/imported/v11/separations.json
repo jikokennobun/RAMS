@@ -1,0 +1,917 @@
+{
+  "format": "rams-source-registry-v1",
+  "source_id": "S005",
+  "source_path": "references/originals/RAMS1_ALL_IN_ONE_v11_2026-11-27.md",
+  "source_sha256": "1b1271172241cbfc4510841bb72bc3950bb543f5e35d6849771b69896de50951",
+  "part": 7,
+  "columns": [
+    "id",
+    "source",
+    "target",
+    "witness",
+    "witness_id",
+    "scope",
+    "note",
+    "reference",
+    "grade"
+  ],
+  "count": 56,
+  "records": [
+    {
+      "key": "S005:separations:s0",
+      "source_line": 2150,
+      "raw": {
+        "id": "s0",
+        "source": "gFPP",
+        "target": "gU",
+        "witness": "Łukasiewicz affine □_q",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "gFPP と Löb,CP を保って多数の不動点",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s1",
+      "source_line": 2151,
+      "raw": {
+        "id": "s1",
+        "source": "gFPP",
+        "target": "gTFPP",
+        "witness": "Łukasiewicz affine □_1/2",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "Santa Claus 解関数の傾き 2/3 は項にならない",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s2",
+      "source_line": 2152,
+      "raw": {
+        "id": "s2",
+        "source": "gFPP",
+        "target": "FLob",
+        "witness": "Łukasiewicz affine □_q",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "形式化 Löb は失敗",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s3",
+      "source_line": 2153,
+      "raw": {
+        "id": "s3",
+        "source": "gU",
+        "target": "gFPP",
+        "witness": "Z[ε]∩[0,1] affine □",
+        "witness_id": "w-polynomial",
+        "scope": "Γ",
+        "note": "gU は成立、SC の解 ε/(1+ε) は代数外",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s4",
+      "source_line": 2154,
+      "raw": {
+        "id": "s4",
+        "source": "gUFPP",
+        "target": "gTFPP",
+        "witness": "Q(ε)∩[0,1] affine □",
+        "witness_id": "w-field",
+        "scope": "Γ",
+        "note": "唯一解はあるが一様な項解は存在しない",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s5",
+      "source_line": 2155,
+      "raw": {
+        "id": "s5",
+        "source": "gUTFPP",
+        "target": "FLob",
+        "witness": "finite prefix Gödel/Product",
+        "witness_id": "w-prefix-finite",
+        "scope": "Γ",
+        "note": "有限段階唯一項解を持つが FLöb 失敗",
+        "reference": "3-coordinate strict-prefix product algebra: explicit computations",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s6",
+      "source_line": 2156,
+      "raw": {
+        "id": "s6",
+        "source": "SC",
+        "target": "gFPP",
+        "witness": "局所化MV / 存在階層",
+        "witness_id": "w-localization",
+        "scope": "Γ",
+        "note": "SC を満たして全ガード付きには不足",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s7",
+      "source_line": 2157,
+      "raw": {
+        "id": "s7",
+        "source": "F11",
+        "target": "E1",
+        "witness": "Fₖ,ₕ 分離用MV",
+        "witness_id": "w-localization",
+        "scope": "Γ",
+        "note": "存在階層の逆含意は草稿で厳密性主張",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s8",
+      "source_line": 2158,
+      "raw": {
+        "id": "s8",
+        "source": "L2",
+        "target": "L3",
+        "witness": "標準 MV affine q=1/3",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "L₂ 成立・L₃ 失敗",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s9",
+      "source_line": 2159,
+      "raw": {
+        "id": "s9",
+        "source": "L3",
+        "target": "L4",
+        "witness": "標準 MV affine q=1/4",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "L₃ 成立・L₄ 失敗",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s10",
+      "source_line": 2160,
+      "raw": {
+        "id": "s10",
+        "source": "gTFPP",
+        "target": "Fomega",
+        "witness": "自由 GL/無限後退方程式",
+        "witness_id": "w-unverified-s10",
+        "scope": "Γ",
+        "note": "有限の項構成から可算連立存在は従わない",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s11",
+      "source_line": 2161,
+      "raw": {
+        "id": "s11",
+        "source": "UFomega",
+        "target": "TFomega",
+        "witness": "可算 powerset 等",
+        "witness_id": "w-unverified-s11",
+        "scope": "Γ",
+        "note": "可算唯一存在でも可算項構成には不足",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s12",
+      "source_line": 2162,
+      "raw": {
+        "id": "s12",
+        "source": "RComega",
+        "target": "gTFPP",
+        "witness": "Laurent 級数モデル",
+        "witness_id": "w-residual",
+        "scope": "Γ",
+        "note": "残余完備でも項による一様構成には不足",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s13",
+      "source_line": 2163,
+      "raw": {
+        "id": "s13",
+        "source": "FC3",
+        "target": "FLob",
+        "witness": "3-step prefix model",
+        "witness_id": "w-prefix-finite",
+        "scope": "Γ",
+        "note": "有限停止は FLöb を要求しない",
+        "reference": "3-coordinate strict-prefix product algebra: explicit computations",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s14",
+      "source_line": 2164,
+      "raw": {
+        "id": "s14",
+        "source": "FLob",
+        "target": "Fomega",
+        "witness": "無限ガード連立系",
+        "witness_id": "w-unverified-s14",
+        "scope": "Γ",
+        "note": "FLöb から可算連立存在は従わない",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s15",
+      "source_line": 2165,
+      "raw": {
+        "id": "s15",
+        "source": "FLob",
+        "target": "RComega",
+        "witness": "non-residually-complete FLöb algebra",
+        "witness_id": "w-unverified-s15",
+        "scope": "Γ",
+        "note": "項構成でも残余完備である必要はない",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s16",
+      "source_line": 2166,
+      "raw": {
+        "id": "s16",
+        "source": "gFPP",
+        "target": "bFPP",
+        "witness": "2元 Boolean 代数、□x≡1",
+        "witness_id": "w-boolean",
+        "scope": "Γ",
+        "note": "全ガード付き項は未知変数に依存しないが、非様相項 p=¬p は不動点を持たない。",
+        "reference": "working atlas, separation register",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s17",
+      "source_line": 2167,
+      "raw": {
+        "id": "s17",
+        "source": "SC",
+        "target": "F11",
+        "witness": "SC<ω + gU でも F₁,₁ が失敗する局所化モデル",
+        "witness_id": "w-localization",
+        "scope": "Γ",
+        "note": "既存アトラス第2面：SC（さらにSC<ω）だけでは一回出現・深度1の全項へ拡張不可",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s18",
+      "source_line": 2168,
+      "raw": {
+        "id": "s18",
+        "source": "gU",
+        "target": "SC",
+        "witness": "Z[ε] の無限小 affine モデル",
+        "witness_id": "w-polynomial",
+        "scope": "Γ",
+        "note": "高々一意性のみで Santa Claus 解の存在は従わない",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s19",
+      "source_line": 2169,
+      "raw": {
+        "id": "s19",
+        "source": "gTFPP",
+        "target": "bFPP",
+        "witness": "2元 Boolean、□≡1",
+        "witness_id": "w-boolean",
+        "scope": "Γ",
+        "note": "guarded 項は全て一様項解を持つが p=¬p は解なし",
+        "reference": "working atlas, separation register",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s20",
+      "source_line": 2170,
+      "raw": {
+        "id": "s20",
+        "source": "FLob",
+        "target": "FPP",
+        "witness": "2元 Boolean、□≡1",
+        "witness_id": "w-boolean",
+        "scope": "Γ",
+        "note": "FLöb が成立しても非ガード p=¬p は解なし",
+        "reference": "working atlas, separation register",
+        "grade": "logical"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s21",
+      "source_line": 2171,
+      "raw": {
+        "id": "s21",
+        "source": "FPP",
+        "target": "gU",
+        "witness": "[0,1] Łukasiewicz affine",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "全項の不動点存在はあるが gU が失敗",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s22",
+      "source_line": 2172,
+      "raw": {
+        "id": "s22",
+        "source": "Fomega",
+        "target": "gU",
+        "witness": "標準 MV 区間、連続 □_q",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "コンパクト凸性で可算系にも存在、しかし一意性は失敗",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s23",
+      "source_line": 2173,
+      "raw": {
+        "id": "s23",
+        "source": "Lob",
+        "target": "SC",
+        "witness": "Z[ε] affine □",
+        "witness_id": "w-polynomial",
+        "scope": "Γ",
+        "note": "基礎 Löb は成立するが Santa Claus 解が代数の外",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s24",
+      "source_line": 2174,
+      "raw": {
+        "id": "s24",
+        "source": "gUFPP",
+        "target": "FLob",
+        "witness": "Q(ε) affine □",
+        "witness_id": "w-field",
+        "scope": "Γ",
+        "note": "一意存在は成立するが FLöb 失敗",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s25",
+      "source_line": 2175,
+      "raw": {
+        "id": "s25",
+        "source": "gTFPP",
+        "target": "FLob",
+        "witness": "3-step prefix",
+        "witness_id": "w-prefix-finite",
+        "scope": "Γ",
+        "note": "一様な項解を持つが FLöb は失敗",
+        "reference": "3-coordinate strict-prefix product algebra: explicit computations",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s26",
+      "source_line": 2176,
+      "raw": {
+        "id": "s26",
+        "source": "gFPP",
+        "target": "uAMC",
+        "witness": "[0,1] Łukasiewicz affine",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "uAMC なら gU が成立するが、このモデルでは gU が失敗",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s27",
+      "source_line": 2177,
+      "raw": {
+        "id": "s27",
+        "source": "RSomega",
+        "target": "RComega",
+        "witness": "Q(ε) 系モデル",
+        "witness_id": "w-field",
+        "scope": "Γ",
+        "note": "分離だけでは逆極限の実現は従わない",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s28",
+      "source_line": 2178,
+      "raw": {
+        "id": "s28",
+        "source": "RComega",
+        "target": "FCsome",
+        "witness": "Laurent 級数型残余完備モデル",
+        "witness_id": "w-residual",
+        "scope": "Γ",
+        "note": "残余完備から有限停止は従わない",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s29",
+      "source_line": 2179,
+      "raw": {
+        "id": "s29",
+        "source": "FLob",
+        "target": "FCsome",
+        "witness": "可算 Gödel 鎖の連続型 □",
+        "witness_id": "w-unverified-s29",
+        "scope": "Γ",
+        "note": "FLöb 成立、□^n0<1 が任意有限 n に対して成立",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s30",
+      "source_line": 2180,
+      "raw": {
+        "id": "s30",
+        "source": "SC",
+        "target": "SCplus",
+        "witness": "独立な Santa Claus 派生条件モデル",
+        "witness_id": "w-unverified-s30",
+        "scope": "Γ",
+        "note": "SC と SC⁺ は独立と草稿アトラスに記載",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s31",
+      "source_line": 2181,
+      "raw": {
+        "id": "s31",
+        "source": "gFPP",
+        "target": "FCsome",
+        "witness": "標準 Łukasiewicz MV、□_q x=1-q+qx (0<q<1)",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "全ガード付き項に存在するが、□^n0=1-q^n<1 が任意有限nで成立",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s32",
+      "source_line": 2182,
+      "raw": {
+        "id": "s32",
+        "source": "Fomega",
+        "target": "TFomega",
+        "witness": "UFω∧¬TFω を実現する powerset 系モデル",
+        "witness_id": "w-unverified-s32",
+        "scope": "Γ",
+        "note": "可算連立で唯一存在があっても可算項構成は保証されない",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s33",
+      "source_line": 2183,
+      "raw": {
+        "id": "s33",
+        "source": "CP",
+        "target": "SC",
+        "witness": "Z[ε] affine □",
+        "witness_id": "w-polynomial",
+        "scope": "Γ",
+        "note": "CP,Löb は成立するが p=¬□p は代数内に解を持たない",
+        "reference": "working atlas, separation register",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s34",
+      "source_line": 2184,
+      "raw": {
+        "id": "s34",
+        "source": "uAMC",
+        "target": "FLob",
+        "witness": "3-step prefix product residuated-chain",
+        "witness_id": "w-prefix-finite",
+        "scope": "Γ",
+        "note": "完備超距離でBox縮約・他演算非拡大でも FLöb は失敗",
+        "reference": "3-coordinate strict-prefix product algebra: explicit computations",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s35",
+      "source_line": 2185,
+      "raw": {
+        "id": "s35",
+        "source": "uAMC",
+        "target": "gTFPP",
+        "witness": "無限 prefix product chain",
+        "witness_id": "w-prefix-finite",
+        "scope": "Γ",
+        "note": "超距離Banachで唯一解がある一方、一様項による解は存在しない",
+        "reference": "working atlas, separation register",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v3-sep-SC-Lob",
+      "source_line": 2186,
+      "raw": {
+        "id": "v3-sep-SC-Lob",
+        "source": "SC",
+        "target": "Lob",
+        "witness": "[0,1] Łukasiewicz with □=id; p=(1+a)/2",
+        "witness_id": "w-sc-not-lob",
+        "scope": "N,K,4",
+        "note": "SC! さえ成立するが Löb は失敗。Γ0=N+K+4 に限る反例。Γ=N+K+4+Löb での非含意とは扱わない。",
+        "reference": "直接計算",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v3s-F11-L2",
+      "source_line": 2187,
+      "raw": {
+        "id": "v3s-F11-L2",
+        "source": "F11",
+        "target": "L2",
+        "witness": "Standard Łukasiewicz affine",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "gFPP成立ゆえF₁,₁成立、q=1/2で L₂ は失敗 (2q<1が偽)。",
+        "reference": "draft v0.10 §4; logical propagation",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v3s-gU-FLob",
+      "source_line": 2188,
+      "raw": {
+        "id": "v3s-gU-FLob",
+        "source": "gU",
+        "target": "FLob",
+        "witness": "Infinitesimal polynomial MV",
+        "witness_id": "w-polynomial",
+        "scope": "Γ",
+        "note": "Q[ε]例はgUを満たすがSCが失敗し、FLöb⇒SCからFLöbは失敗。",
+        "reference": "draft v0.10 §4; logical propagation",
+        "grade": "draft"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v3s-SC-E1",
+      "source_line": 2189,
+      "raw": {
+        "id": "v3s-SC-E1",
+        "source": "SC",
+        "target": "E1",
+        "witness": "Localized MV examples",
+        "witness_id": "w-localization",
+        "scope": "Γ",
+        "note": "既存 SC↛F₁,₁ の証人から、E₁⇒F₁,₁ を介して導かれる（元反例の監査待ち）。",
+        "reference": "draft v0.10 §4; logical propagation",
+        "grade": "reported"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v3s-FPP-TFung",
+      "source_line": 2190,
+      "raw": {
+        "id": "v3s-FPP-TFung",
+        "source": "FPP",
+        "target": "TFung",
+        "witness": "[0,1] Łukasiewicz, □≡1; t(p,a)=p→a has solution (1+a)/2, non-term-definable",
+        "witness_id": "w-mv-verum",
+        "scope": "Γ",
+        "note": "全項連続なのでFPP。項関数は区分的整数係数アフィンで、平均 (1+a)/2 を項で定義できない。",
+        "reference": "IVT, McNaughton theorem",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v3s-FC-Ctr",
+      "source_line": 2191,
+      "raw": {
+        "id": "v3s-FC-Ctr",
+        "source": "FCsome",
+        "target": "CtrBox",
+        "witness": "3-coordinate strict-prefix product algebra",
+        "witness_id": "w-prefix-finite",
+        "scope": "Γ",
+        "note": "□³0=1、しかし a=(1/2,0,0) について □a=(1,1/2,0) が積冪等でない。",
+        "reference": "explicit prefix model",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v3s-Fomega-UFomega",
+      "source_line": 2192,
+      "raw": {
+        "id": "v3s-Fomega-UFomega",
+        "source": "Fomega",
+        "target": "UFomega",
+        "witness": "[0,1] Łukasiewicz □_1/2 and compact-convex fixed point theorem",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "各可算連立の項写像は連続な [0,1]^ω→[0,1]^ω で可解。p=(□p)² は全点を固定し、一意性失敗。",
+        "reference": "Schauder–Tychonoff + explicit equation",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:rank2_gUFPP_bMC",
+      "source_line": 2193,
+      "raw": {
+        "id": "rank2_gUFPP_bMC",
+        "source": "gUFPP",
+        "target": "bMC",
+        "witness": "二階無限小 MV 鎖（有界縮小距離の不存在）",
+        "witness_id": "w-rank2mv",
+        "scope": "NK4",
+        "note": "gUFPP は有界縮小距離を保証しない。η≪εⁿ を用いた上記モデル。",
+        "reference": "RAMS-1 v9 独立構成・証明概要",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:rank2_gUFPP_buMC",
+      "source_line": 2194,
+      "raw": {
+        "id": "rank2_gUFPP_buMC",
+        "source": "gUFPP",
+        "target": "buMC",
+        "witness": "二階無限小 MV 鎖（有界縮小距離の不存在）",
+        "witness_id": "w-rank2mv",
+        "scope": "NK4",
+        "note": "有界完備超距離も保証しない。η≪εⁿ を用いた上記モデル。",
+        "reference": "RAMS-1 v9 独立構成・証明概要",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:rank2_gUFPP_ImgSep",
+      "source_line": 2195,
+      "raw": {
+        "id": "rank2_gUFPP_ImgSep",
+        "source": "gUFPP",
+        "target": "ImgSep",
+        "witness": "二階無限小 MV 鎖（有界縮小距離の不存在）",
+        "witness_id": "w-rank2mv",
+        "scope": "NK4",
+        "note": "全像の交叉が非自明。η≪εⁿ を用いた上記モデル。",
+        "reference": "RAMS-1 v9 独立構成・証明概要",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:rank2_Lob_bMC",
+      "source_line": 2196,
+      "raw": {
+        "id": "rank2_Lob_bMC",
+        "source": "Lob",
+        "target": "bMC",
+        "witness": "二階無限小 MV 鎖（有界縮小距離の不存在）",
+        "witness_id": "w-rank2mv",
+        "scope": "NK4",
+        "note": "Löb から有界縮小距離は従わない。η≪εⁿ を用いた上記モデル。",
+        "reference": "RAMS-1 v9 独立構成・証明概要",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:rank2_MC_bMC",
+      "source_line": 2197,
+      "raw": {
+        "id": "rank2_MC_bMC",
+        "source": "MC",
+        "target": "bMC",
+        "witness": "二階無限小 MV 鎖（有界縮小距離の不存在）",
+        "witness_id": "w-rank2mv",
+        "scope": "NK4",
+        "note": "完備縮小距離から有界版は従わない。η≪εⁿ を用いた上記モデル。",
+        "reference": "RAMS-1 v9 独立構成・証明概要",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s-v11-phiseparator",
+      "source_line": 2198,
+      "raw": {
+        "id": "s-v11-phiseparator",
+        "source": "PhiSep",
+        "target": "PhiComp",
+        "witness": "FinCof(N), strict-prefix □",
+        "witness_id": "w-fincoprefix",
+        "scope": "Γ",
+        "note": "正準合同 θ_n は先頭 n 座標の一致; ∩θ_n=Δだが逆極限には偶数集合の coherent prefix があり実現されない。",
+        "reference": "v11 note §5",
+        "grade": "proved"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:s-v11-bmc-not-uamc",
+      "source_line": 2199,
+      "raw": {
+        "id": "s-v11-bmc-not-uamc",
+        "source": "bMC",
+        "target": "uAMC",
+        "witness": "[0,1]_Ł, □x=(1+x)/2",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "通常のユークリッド距離は有界・完備で□が1/2縮小。一方、[0,1]_Łの非様相MV還元は単純、uAMCならSimple+uAMC⇒Verumとなるが□は非定数。",
+        "reference": "v11 note §4",
+        "grade": "proved"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v12-s50",
+      "source_line": 2200,
+      "raw": {
+        "id": "v12-s50",
+        "source": "bMC",
+        "target": "AMC",
+        "witness": "[0,1] Łukasiewicz affine □x=(1+x)/2",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "bMC holds with Euclidean distance; 1/2=□0 is nontrivial nilpotent, incompatible with AMC.",
+        "reference": "RAMS-1 v12 direct nilpotency obstruction",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:v12-s51",
+      "source_line": 2201,
+      "raw": {
+        "id": "v12-s51",
+        "source": "gFPP",
+        "target": "AMC",
+        "witness": "[0,1] Łukasiewicz affine □x=(1+x)/2",
+        "witness_id": "w-mv",
+        "scope": "Γ",
+        "note": "gFPP holds by continuity, but nilpotent image obstructs AMC.",
+        "reference": "RAMS-1 v12 direct nilpotency obstruction",
+        "grade": "checked"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:N11s1",
+      "source_line": 2202,
+      "raw": {
+        "id": "N11s1",
+        "source": "MC",
+        "target": "AMC",
+        "witness": "[0,1] MV with Box x=(1+x)/2",
+        "witness_id": "std-simple-MV",
+        "scope": "N,K,4,Lob,CP",
+        "note": "Simple nonmodal reduct + AMC forces Box=1; Box nonconstant",
+        "reference": "N11-07",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:N11s2",
+      "source_line": 2203,
+      "raw": {
+        "id": "N11s2",
+        "source": "PhiSep",
+        "target": "PhiComp",
+        "witness": "FinCof(N) Boolean strict-prefix",
+        "witness_id": "FinCof-prefix",
+        "scope": "N,K,4,FLob,∀κ UF^κ",
+        "note": "Canonical prefix congruence tower has inverse limit P(N)",
+        "reference": "N11-05",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:N11s3",
+      "source_line": 2204,
+      "raw": {
+        "id": "N11s3",
+        "source": "FLob and ∀κ UF^κ",
+        "target": "AMC",
+        "witness": "FinCof(N) Boolean strict-prefix",
+        "witness_id": "FinCof-prefix",
+        "scope": "N,K,4,Boolean,ΦSep",
+        "note": "Countable complete metrizable Boolean group would be discrete; non-terminating Box forbids AMC",
+        "reference": "N11-05",
+        "grade": "proved-in-note"
+      },
+      "repository_status": "pending"
+    },
+    {
+      "key": "S005:separations:N11s4",
+      "source_line": 2205,
+      "raw": {
+        "id": "N11s4",
+        "source": "AMC",
+        "target": "FLob",
+        "witness": "finite prefix MV algebra A_h h≥3",
+        "witness_id": "prefix-MV",
+        "scope": "N,K,4,gUTFPP",
+        "note": "Distance compatible but FLob inequality fails",
+        "reference": "v8 proof and N11-07",
+        "grade": "draft-source"
+      },
+      "repository_status": "pending"
+    }
+  ]
+}

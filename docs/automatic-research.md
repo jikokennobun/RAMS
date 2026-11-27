@@ -1,6 +1,6 @@
 # 不動点階層の自動研究システム
 
-このシステムは共有チャットS001〜S003の研究案を8課題に分け、有限モデル探索・階層計算と、Codexの発見・反例探索・監査をつなぎます。既存の正式原稿を取得済みとは仮定しません。
+このシステムは共有チャットS001〜S003、ユーザー提供原本S004〜S005をもとに10課題を登録し、有限モデル探索・階層計算と、Codexの発見・反例探索・監査をつなぎます。原文の取得、定義照合、独立した定理監査を分けて記録します。
 
 ## 起動
 
@@ -56,7 +56,7 @@ node scripts/research-system.mjs run --resume run-XXXXXXXX --timeout-seconds 600
 node scripts/hierarchy.mjs --seed=gFPP,gU --assume=N,K,4
 ```
 
-`data/hierarchy.json` は原理・前提・追加仮定・証明状態を別フィールドで保存します。閉包計算には `definition` と `audited` だけを使います。現在受理されているのは存在・一意性・一意存在の定義上の関係3件です。S001〜S003の数学的提案はpending/openです。
+`data/hierarchy.json` は原理・前提・追加仮定・証明状態を別フィールドで保存します。閉包計算には `definition` と `audited` だけを使います。現在受理されているのは存在・一意性・項定義可能性の定義上の関係7件です。原本に証明がある数学的提案も独立監査まではpendingとして保持し、原本のsource_statusを別に記録します。
 
 `research/generated/hierarchy.mmd` は受理済みの関係、`research-leads.mmd` は破線で候補も含む図です。複数前提をANDノードで表示し、`gFPP` 単独から `gUFPP` が従うような誤った図を作りません。追加仮定は同じ閉包内で導出されたものも使えます。全ての導出に使った規則IDを記録します。
 
@@ -75,11 +75,22 @@ npm run certificate -- research/generated/experiments/certificates/mv-2-box-11.j
 
 研究段階へ過去の実験結果を渡す際にも証明書を再検査し、保存されたサマリーとの一致を確認します。単なる古いJSONの値を無条件で利用しません。
 
-SC、FLob、Lob、IA_boxは `hierarchy.json` の作業用定式化でのみ計算します。gTFPP、gUTFPP、距離の存在、Mix、sLobは未対応であり、falseと取り違えません。無限有理構造の完備性や新規性を有限検査から結論しません。
+SC、FLob、Lob、IA_box、Mix、sLob、M/C/CP/Abs/Ctr/Ctr_boxはv11に照合した式で計算します。gTFPP、gUTFPP、距離の存在、正準Phi塔、全濃度連立唯一存在は未対応であり、falseと取り違えません。無限有理構造の完備性や新規性を有限検査から結論しません。
 
-## 未取得原本に依存する課題
+## v10/v11原本と課題別の引用
 
-AUTO-001〜006は仮定を本文に明示する独立した数学的課題です。元のRAMSへの適用は別途照合します。AUTO-007（gTFPP⇒gU）と008（Mix崩壊）は `needs_originals` により実行対象から除外しています。正式定義の証拠と監査を揃えて課題レコードをレビュー改訂してから実行してください。原本ディレクトリに何か置くだけでは解除しません。
+原文をreferences/originals/、6種類の全登録簿をdata/imported/v11/へ保存しています。`npm run import:check` は原本19ファイルのハッシュ、登録件数、各セル、引用節・行範囲を検査します。原本の指示書や付属コードは参考資料として保存するだけで、実行権限を与えません。
+
+AUTO-007（gTFPP⇒gU）と008（Mix崩壊）はv11の定義を原本で照合し、`v11-definitions-review.md` を根拠に実行ブロックを解除しました。原本ファイルが存在するだけで解除したわけではありません。AUTO-009はFinCof(N)強反例、010は正準PhiCompの回復条件です。
+
+各課題には `source_sections` があり、ランナーはN11/R10等の必要な節だけを出典SHA-256・元の行番号とともにプロンプトへ埋め込みます。原本全体と全登録簿はread-onlyで参照できます。古い記録のAMC⇒uAMC未解決扱いを新しい問題として再登録せず、N11-01の証明を独立監査します。
+
+```powershell
+node scripts/catalog.mjs --registry verification --query N11-08 --limit 10
+npm run witness:v11
+```
+
+本文N11-08と検証台帳N11-08は異なる主張なので、別名前空間で追跡します。v11で未証明とされるAMC⇒正準PhiCompは、ある適合合同塔の存在から無条件に導きません。
 
 ## 運用
 

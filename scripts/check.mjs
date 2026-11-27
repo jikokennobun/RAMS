@@ -1,6 +1,7 @@
 import {readFileSync,existsSync} from 'node:fs';
 import {resolve,relative,isAbsolute} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
 
 export const root = fileURLToPath(new URL('../', import.meta.url));
 export const readData = name => JSON.parse(readFileSync(resolve(root,`data/${name}.json`),'utf8'));
@@ -20,7 +21,13 @@ export function validateLedgers(sources,claims,tasks, evidenceExists = p => exis
     assert(!isAbsolute(p) && rel !== '..' && !rel.startsWith('../') && !rel.startsWith('..\\'),'Evidence must be inside repository');
     assert(evidenceExists(p),`Missing evidence: ${p}`);
   };
-  for(const s of sources) {assert(typeof s.title==='string','Missing source title');assert(/^https:\/\//.test(s.url),'Missing source URL');}
+  for(const s of sources) {
+    assert(typeof s.title==='string','Missing source title');
+    if(s.path) {
+      evidence(s.path);assert(/^[a-f0-9]{64}$/.test(s.sha256),'Missing source SHA-256');
+      assert(createHash('sha256').update(readFileSync(resolve(root,s.path))).digest('hex')===s.sha256,`Source hash mismatch: ${s.id}`);
+    } else assert(/^https:\/\//.test(s.url),'Missing source URL or local path');
+  }
   for(const c of claims) {
     assert(['pending','proved','finite_checked','sampled','refuted'].includes(c.status),`Invalid claim status: ${c.id}`);
     assert(typeof c.statement==='string' && c.statement.length>0,'Missing statement');

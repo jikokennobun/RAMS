@@ -1,6 +1,6 @@
 {
   "name": "rams-research",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "engines": { "node": ">=22" },
@@ -12,10 +12,14 @@
     "hierarchy": "node scripts/hierarchy.mjs",
     "experiments": "node scripts/experiments.mjs",
     "certificate": "node scripts/experiments.mjs verify",
+    "import:v11": "node scripts/import-v11.mjs",
+    "import:check": "node scripts/import-v11.mjs --check",
+    "witness:v11": "node scripts/verify-v11-witness.mjs --check",
+    "catalog": "node scripts/catalog.mjs",
     "research:status": "node scripts/research-system.mjs status",
     "research:plan": "node scripts/research-system.mjs plan",
     "research:run": "node scripts/research-system.mjs run",
     "research:cycle": "node scripts/research-system.mjs cycle",
-    "verify": "npm run check && node scripts/research-system.mjs check && npm test && npm run models"
+    "verify": "npm run check && npm run import:check && node scripts/research-system.mjs check && npm test && npm run models && npm run witness:v11"
   }
 }
