@@ -33,9 +33,11 @@ export function validateAlgebra(m) {
   return {axioms,witnesses};
 }
 
-export function guardedClosure(m, {maxFunctions = 10000} = {}) {
+export function guardedClosure(m, {maxFunctions = 10000, maxMs = 5000} = {}) {
   validateAlgebra(m);
   if (!Number.isInteger(maxFunctions) || maxFunctions < 1) throw Error('Invalid function bound');
+  if (!Number.isFinite(maxMs) || maxMs <= 0) throw Error('Invalid time bound');
+  const started=performance.now();
   const n = m.elements.length;
   const entries = [], seen = new Set();
   // A state tracks both its extensional function and syntactic guardedness.
@@ -51,9 +53,11 @@ export function guardedClosure(m, {maxFunctions = 10000} = {}) {
   // Every new state is combined with every earlier state in both orders.
   // Iterating the growing array is a worklist saturation, not a depth cutoff.
   for (let i = 0; i < entries.length; i++) {
+    if (performance.now()-started > maxMs) throw Error(`INCOMPLETE: time bound ${maxMs}ms reached`);
     const a = entries[i];
     add(a.values.map(x=>m.box[x]),true,{op:'box',args:[i]});
     for (let j = 0; j <= i; j++) {
+      if ((j & 15)===0 && performance.now()-started > maxMs) throw Error(`INCOMPLETE: time bound ${maxMs}ms reached`);
       const b = entries[j];
       for (const op of binary) {
         add(a.values.map((x,k)=>m[op][x][b.values[k]]),a.guarded && b.guarded,{op,args:[i,j]});

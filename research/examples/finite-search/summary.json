@@ -1,0 +1,1179 @@
+{
+  "scope": "enumerated finite chains and box tables only; not all finite RAMS",
+  "complete": true,
+  "considered": 62,
+  "eligible": 14,
+  "results": [
+    {
+      "model_id": "mv-2-box-01",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "7961685ca3a2f2891a923c9a25048823d5b21654480da19d94e5ecefe446b1ff",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": true,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 0
+          },
+          "FLob": {
+            "a": 0
+          },
+          "SC": {
+            "a": 0,
+            "solutions": []
+          },
+          "gU": {
+            "entry": 3,
+            "values": [
+              0,
+              1
+            ],
+            "fixed_points": [
+              0,
+              1
+            ]
+          },
+          "gFPP": {
+            "entry": 7,
+            "values": [
+              1,
+              0
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 7,
+            "values": [
+              1,
+              0
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 8
+      },
+      "certificate_path": "certificates/mv-2-box-01.json"
+    },
+    {
+      "model_id": "mv-2-box-11",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "4f231fef392af3d4eb70b57b99862776431f1ac9d618a7b1ef63bda37cfd9aa9",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": true,
+          "FLob": true,
+          "SC": true,
+          "IA_box": true,
+          "gFPP": true,
+          "gU": true,
+          "gUFPP": true
+        },
+        "failures": {},
+        "state_count": 6
+      },
+      "certificate_path": "certificates/mv-2-box-11.json"
+    },
+    {
+      "model_id": "godel-2-box-01",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "ee87737911d22465b634d56b3b74d569433f56962d975fa35567c2a26fc72231",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": true,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 0
+          },
+          "FLob": {
+            "a": 0
+          },
+          "SC": {
+            "a": 0,
+            "solutions": []
+          },
+          "gU": {
+            "entry": 3,
+            "values": [
+              0,
+              1
+            ],
+            "fixed_points": [
+              0,
+              1
+            ]
+          },
+          "gFPP": {
+            "entry": 7,
+            "values": [
+              1,
+              0
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 7,
+            "values": [
+              1,
+              0
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 8
+      },
+      "certificate_path": "certificates/godel-2-box-01.json"
+    },
+    {
+      "model_id": "godel-2-box-11",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "5d1132658df0c6a2cd792ab3dfe4c1b857293e684db240dcc01a8fa8fd920d1a",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": true,
+          "FLob": true,
+          "SC": true,
+          "IA_box": true,
+          "gFPP": true,
+          "gU": true,
+          "gUFPP": true
+        },
+        "failures": {},
+        "state_count": 6
+      },
+      "certificate_path": "certificates/godel-2-box-11.json"
+    },
+    {
+      "model_id": "mv-3-box-002",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "4421ac1448b693c5d0ee9a9cee51a4210f89159eca1955b388366407f2db84db",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": true,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 0
+          },
+          "FLob": {
+            "a": 0
+          },
+          "SC": {
+            "a": 0,
+            "solutions": []
+          },
+          "gU": {
+            "entry": 4,
+            "values": [
+              0,
+              0,
+              2
+            ],
+            "fixed_points": [
+              0,
+              2
+            ]
+          },
+          "gFPP": {
+            "entry": 14,
+            "values": [
+              2,
+              2,
+              0
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 14,
+            "values": [
+              2,
+              2,
+              0
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 54
+      },
+      "certificate_path": "certificates/mv-3-box-002.json"
+    },
+    {
+      "model_id": "mv-3-box-012",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "0d543d6f4d27b41b57972b1816aa0a178c712cdf68ccde88c5ce01fe91a19e66",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": false,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 0
+          },
+          "FLob": {
+            "a": 0
+          },
+          "SC": {
+            "a": 1,
+            "solutions": []
+          },
+          "IA_box": {
+            "a": 1
+          },
+          "gU": {
+            "entry": 4,
+            "values": [
+              0,
+              1,
+              2
+            ],
+            "fixed_points": [
+              0,
+              1,
+              2
+            ]
+          },
+          "gFPP": {
+            "entry": 18,
+            "values": [
+              2,
+              2,
+              1
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 18,
+            "values": [
+              2,
+              2,
+              1
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 54
+      },
+      "certificate_path": "certificates/mv-3-box-012.json"
+    },
+    {
+      "model_id": "mv-3-box-112",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "b26cb34f3c18c37bf9edffcacb088cb6e743b5830b2b502508bf6775f6992fe8",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": true,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 1
+          },
+          "FLob": {
+            "a": 1
+          },
+          "SC": {
+            "a": 1,
+            "solutions": []
+          },
+          "gU": {
+            "entry": 4,
+            "values": [
+              1,
+              1,
+              2
+            ],
+            "fixed_points": [
+              1,
+              2
+            ]
+          },
+          "gFPP": {
+            "entry": 16,
+            "values": [
+              2,
+              2,
+              1
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 16,
+            "values": [
+              2,
+              2,
+              1
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 54
+      },
+      "certificate_path": "certificates/mv-3-box-112.json"
+    },
+    {
+      "model_id": "mv-3-box-222",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "2c07e573a9c1c01c2942abdb85028a4791de41cb7d90447b7e61eb42c54844fb",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": true,
+          "FLob": true,
+          "SC": true,
+          "IA_box": true,
+          "gFPP": true,
+          "gU": true,
+          "gUFPP": true
+        },
+        "failures": {},
+        "state_count": 30
+      },
+      "certificate_path": "certificates/mv-3-box-222.json"
+    },
+    {
+      "model_id": "godel-3-box-002",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "dbefa74a57d3b47411784c7d2bdad7080c630627600614e8d671c674cfc1f90f",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": true,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 0
+          },
+          "FLob": {
+            "a": 0
+          },
+          "SC": {
+            "a": 0,
+            "solutions": []
+          },
+          "gU": {
+            "entry": 4,
+            "values": [
+              0,
+              0,
+              2
+            ],
+            "fixed_points": [
+              0,
+              2
+            ]
+          },
+          "gFPP": {
+            "entry": 12,
+            "values": [
+              2,
+              2,
+              0
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 12,
+            "values": [
+              2,
+              2,
+              0
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 54
+      },
+      "certificate_path": "certificates/godel-3-box-002.json"
+    },
+    {
+      "model_id": "godel-3-box-012",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "abab0e7cae009f28cc6ea3c661cd90fd58bbfe6c1da952c277633c22d7b667f5",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": true,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 0
+          },
+          "FLob": {
+            "a": 0
+          },
+          "SC": {
+            "a": 0,
+            "solutions": []
+          },
+          "gU": {
+            "entry": 4,
+            "values": [
+              0,
+              1,
+              2
+            ],
+            "fixed_points": [
+              0,
+              1,
+              2
+            ]
+          },
+          "gFPP": {
+            "entry": 12,
+            "values": [
+              2,
+              0,
+              0
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 12,
+            "values": [
+              2,
+              0,
+              0
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 30
+      },
+      "certificate_path": "certificates/godel-3-box-012.json"
+    },
+    {
+      "model_id": "godel-3-box-112",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "f74d2aea802a6fbe60bf1e944d6c3eb4e8549ae027b87aaa883f578b2ea476f8",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": true,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 1
+          },
+          "FLob": {
+            "a": 1
+          },
+          "SC": {
+            "a": 1,
+            "solutions": []
+          },
+          "gU": {
+            "entry": 4,
+            "values": [
+              1,
+              1,
+              2
+            ],
+            "fixed_points": [
+              1,
+              2
+            ]
+          },
+          "gFPP": {
+            "entry": 12,
+            "values": [
+              2,
+              2,
+              1
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 12,
+            "values": [
+              2,
+              2,
+              1
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 24
+      },
+      "certificate_path": "certificates/godel-3-box-112.json"
+    },
+    {
+      "model_id": "godel-3-box-022",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "17098c842ed037e93a4eab937f31f31dc94b67abe7e108d2f77f0497ced03ccd",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": false,
+          "FLob": false,
+          "SC": false,
+          "IA_box": true,
+          "gFPP": false,
+          "gU": false,
+          "gUFPP": false
+        },
+        "failures": {
+          "Lob": {
+            "a": 0
+          },
+          "FLob": {
+            "a": 0
+          },
+          "SC": {
+            "a": 0,
+            "solutions": []
+          },
+          "gU": {
+            "entry": 4,
+            "values": [
+              0,
+              2,
+              2
+            ],
+            "fixed_points": [
+              0,
+              2
+            ]
+          },
+          "gFPP": {
+            "entry": 12,
+            "values": [
+              2,
+              0,
+              0
+            ],
+            "fixed_points": []
+          },
+          "gUFPP": {
+            "entry": 12,
+            "values": [
+              2,
+              0,
+              0
+            ],
+            "fixed_points": []
+          }
+        },
+        "state_count": 24
+      },
+      "certificate_path": "certificates/godel-3-box-022.json"
+    },
+    {
+      "model_id": "godel-3-box-122",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "cc912224f6467d0df03252e0c0921f2cf0b10a2cdd5dd7e1625e6898e46c9a00",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": true,
+          "FLob": true,
+          "SC": true,
+          "IA_box": true,
+          "gFPP": true,
+          "gU": true,
+          "gUFPP": true
+        },
+        "failures": {},
+        "state_count": 20
+      },
+      "certificate_path": "certificates/godel-3-box-122.json"
+    },
+    {
+      "model_id": "godel-3-box-222",
+      "verified": {
+        "profile": "working-bicrl-v1",
+        "scope": "finite_instance",
+        "complete": true,
+        "model_hash": "72176de1d0e9091cf26c98ae904138dd7fad2f39a2f40df85a101adf293d1e96",
+        "properties": {
+          "4": true,
+          "N": true,
+          "K": true,
+          "Lob": true,
+          "FLob": true,
+          "SC": true,
+          "IA_box": true,
+          "gFPP": true,
+          "gU": true,
+          "gUFPP": true
+        },
+        "failures": {},
+        "state_count": 18
+      },
+      "certificate_path": "certificates/godel-3-box-222.json"
+    }
+  ],
+  "incomplete": [],
+  "separations": [
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "4"
+      ],
+      "failed": "Lob",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "4"
+      ],
+      "failed": "FLob",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "4"
+      ],
+      "failed": "SC",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0,
+        "solutions": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "4"
+      ],
+      "failed": "gFPP",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 7,
+        "values": [
+          1,
+          0
+        ],
+        "fixed_points": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "4"
+      ],
+      "failed": "gU",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 3,
+        "values": [
+          0,
+          1
+        ],
+        "fixed_points": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "4"
+      ],
+      "failed": "gUFPP",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 7,
+        "values": [
+          1,
+          0
+        ],
+        "fixed_points": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "N"
+      ],
+      "failed": "Lob",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "N"
+      ],
+      "failed": "FLob",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "N"
+      ],
+      "failed": "SC",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0,
+        "solutions": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "N"
+      ],
+      "failed": "gFPP",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 7,
+        "values": [
+          1,
+          0
+        ],
+        "fixed_points": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "N"
+      ],
+      "failed": "gU",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 3,
+        "values": [
+          0,
+          1
+        ],
+        "fixed_points": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "N"
+      ],
+      "failed": "gUFPP",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 7,
+        "values": [
+          1,
+          0
+        ],
+        "fixed_points": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "K"
+      ],
+      "failed": "Lob",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "K"
+      ],
+      "failed": "FLob",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "K"
+      ],
+      "failed": "SC",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0,
+        "solutions": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "K"
+      ],
+      "failed": "gFPP",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 7,
+        "values": [
+          1,
+          0
+        ],
+        "fixed_points": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "K"
+      ],
+      "failed": "gU",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 3,
+        "values": [
+          0,
+          1
+        ],
+        "fixed_points": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "K"
+      ],
+      "failed": "gUFPP",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 7,
+        "values": [
+          1,
+          0
+        ],
+        "fixed_points": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "IA_box"
+      ],
+      "failed": "Lob",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "IA_box"
+      ],
+      "failed": "FLob",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "IA_box"
+      ],
+      "failed": "SC",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 0,
+        "solutions": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "IA_box"
+      ],
+      "failed": "gFPP",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 7,
+        "values": [
+          1,
+          0
+        ],
+        "fixed_points": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "IA_box"
+      ],
+      "failed": "gU",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 3,
+        "values": [
+          0,
+          1
+        ],
+        "fixed_points": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "IA_box"
+      ],
+      "failed": "gUFPP",
+      "witness_model": "mv-2-box-01",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "entry": 7,
+        "values": [
+          1,
+          0
+        ],
+        "fixed_points": []
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "4"
+      ],
+      "failed": "IA_box",
+      "witness_model": "mv-3-box-012",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 1
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "N"
+      ],
+      "failed": "IA_box",
+      "witness_model": "mv-3-box-012",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 1
+      }
+    },
+    {
+      "premises": [
+        "N",
+        "K",
+        "4",
+        "K"
+      ],
+      "failed": "IA_box",
+      "witness_model": "mv-3-box-012",
+      "scope": "finite countermodel under working-bicrl-v1",
+      "witness": {
+        "a": 1
+      }
+    }
+  ],
+  "unsupported": [
+    "gTFPP",
+    "gUTFPP",
+    "MC",
+    "uMC",
+    "AMC",
+    "uAMC",
+    "Mix",
+    "sLob"
+  ]
+}

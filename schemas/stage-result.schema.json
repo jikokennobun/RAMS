@@ -1,0 +1,26 @@
+{
+  "type":"object",
+  "additionalProperties":false,
+  "properties":{
+    "role":{"type":"string","enum":["discovery","counterexample","audit"]},
+    "outcome":{"type":"string","enum":["candidate","inconclusive","blocked"]},
+    "summary":{"type":"string"},
+    "report_markdown":{"type":"string"},
+    "assumptions":{"type":"array","items":{"type":"string"}},
+    "missing_inputs":{"type":"array","items":{"type":"string"}},
+    "proposals":{"type":"array","items":{
+      "type":"object","additionalProperties":false,
+      "properties":{
+        "kind":{"type":"string","enum":["implication","nonimplication","question"]},
+        "statement":{"type":"string"},
+        "premises":{"type":"array","items":{"type":"string"}},
+        "conclusion":{"type":"string"},
+        "assumptions":{"type":"array","items":{"type":"string"}},
+        "evidence_summary":{"type":"string"}
+      },
+      "required":["kind","statement","premises","conclusion","assumptions","evidence_summary"]
+    }},
+    "next_questions":{"type":"array","items":{"type":"string"}}
+  },
+  "required":["role","outcome","summary","report_markdown","assumptions","missing_inputs","proposals","next_questions"]
+}

@@ -1,0 +1,31 @@
+flowchart LR
+  N["N"]
+  K["K"]
+  4["4"]
+  gFPP["gFPP"]
+  gU["gU"]
+  gUFPP["gUFPP"]
+  gTFPP["gTFPP"]
+  gUTFPP["gUTFPP"]
+  Lob["Lob"]
+  FLob["FLob"]
+  sLob["sLob"]
+  SC["SC"]
+  Mix["Mix"]
+  IA_box["IA_box"]
+  MC["MC"]
+  uMC["uMC"]
+  AMC["AMC"]
+  uAMC["uAMC"]
+  CongruenceTower["CongruenceTower"]
+  UniformApproximation["UniformApproximation"]
+  DEF_001{"DEF-001: AND (definition)"}
+  gUFPP --> DEF_001
+  DEF_001 --> gFPP
+  DEF_002{"DEF-002: AND (definition)"}
+  gUFPP --> DEF_002
+  DEF_002 --> gU
+  DEF_003{"DEF-003: AND (definition)"}
+  gFPP --> DEF_003
+  gU --> DEF_003
+  DEF_003 --> gUFPP

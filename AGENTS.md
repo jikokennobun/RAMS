@@ -18,6 +18,9 @@
 - Keep correctness and novelty separate. Cite primary sources with exact assumptions; never invent a reference.
 
 ## Workflow
+- The automatic research program is data/research-program.json. Standalone tasks may run under explicit working assumptions while original-dependent tasks stay blocked; this does not complete RAMS-Q001 or establish original RAMS definitions.
+- Read docs/automatic-research.md for the bounded sequential discovery/counterexample/audit pipeline. Every role uses a fresh session; all output goes into the pending inbox. Canonical mathematical statuses require separate deliberate review.
+- Hierarchy rules with multiple premises/assumptions are conjunctions. Only definition/audited rules may participate in verified closure. Never draw independent arrows for a conjunctive rule.
 - Pick a task with no unmet dependencies, prepare a prompt with npm run plan -- TASK-ID, then follow docs/workflow.md.
 - Keep speculative discovery and subsequent audit in separate reports. Review reports must identify exactly what was checked.
 - Preserve source IDs and stable claim IDs. Record negative results and unresolved steps.

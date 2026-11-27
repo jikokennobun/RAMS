@@ -1,0 +1,134 @@
+{
+  "format": "rams-finite-v1",
+  "profile": "working-bicrl-v1",
+  "scope": "finite_instance",
+  "model": {
+    "id": "mv-2-box-11",
+    "elements": [
+      "0",
+      "1"
+    ],
+    "bottom": 0,
+    "top": 1,
+    "meet": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "join": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "product": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "residual": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "box": [
+      1,
+      1
+    ]
+  },
+  "model_hash": "4f231fef392af3d4eb70b57b99862776431f1ac9d618a7b1ef63bda37cfd9aa9",
+  "complete": true,
+  "entries": [
+    {
+      "values": [
+        0,
+        0
+      ],
+      "guarded": true,
+      "term": {
+        "constant": 0
+      }
+    },
+    {
+      "values": [
+        1,
+        1
+      ],
+      "guarded": true,
+      "term": {
+        "constant": 1
+      }
+    },
+    {
+      "values": [
+        0,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "variable": "x"
+      }
+    },
+    {
+      "values": [
+        0,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "meet",
+        "args": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        0
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "values": [
+        1,
+        1
+      ],
+      "guarded": false,
+      "term": {
+        "op": "residual",
+        "args": [
+          0,
+          2
+        ]
+      }
+    }
+  ]
+}
